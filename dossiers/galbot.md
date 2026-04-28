@@ -57,3 +57,4 @@ Galbot homepage minimal English content; relies on press for details.
 - [https://www.galbot.com/en](https://www.galbot.com/en)
 - [https://www.linkedin.com/in/he-wang-58543770/](https://www.linkedin.com/in/he-wang-58543770/)
 - [https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/](https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/)
+- [https://www.therobotreport.com/galbot-picks-up-153m-commercialize-g1-semi-humanoid/](https://www.therobotreport.com/galbot-picks-up-153m-commercialize-g1-semi-humanoid/)

@@ -53,7 +53,10 @@ Massive seed; AMD Ventures investor signals GPU/AI compute commitment; HQ likely
 
 ## Sources
 
+- [https://gbionics.ai/downloads/PRESS_RELEASE.pdf](https://gbionics.ai/downloads/PRESS_RELEASE.pdf)
 - [https://github.com/gbionics](https://github.com/gbionics)
 - [https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/](https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/)
+- [https://www.eurekalert.org/news-releases/1109288](https://www.eurekalert.org/news-releases/1109288)
 - [https://www.linkedin.com/in/daniele-pucci-78428420/](https://www.linkedin.com/in/daniele-pucci-78428420/)
 - [https://www.linkedin.com/posts/wmf-we-make-future_daniele-pucci-generative-bionics-the-future-activity-7436031581607251968-9kCY](https://www.linkedin.com/posts/wmf-we-make-future_daniele-pucci-generative-bionics-the-future-activity-7436031581607251968-9kCY)
+- [https://www.therobotreport.com/from-icub-to-humanoids-generative-bionics-raises-81m/](https://www.therobotreport.com/from-icub-to-humanoids-generative-bionics-raises-81m/)

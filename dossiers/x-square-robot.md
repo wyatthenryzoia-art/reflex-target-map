@@ -48,8 +48,12 @@ no linkedin/in profile located for Wang Qian (CEO is Chinese-only public profile
 
 ## Risks / disqualifiers
 
-xsquare.ai redirects to xsquaretechnologies.com (different company - warehouse forklifts). True X Square Robot info from RobotReport.
+xsquare.ai redirects to xsquaretechnologies.com (different company - warehouse forklifts). True X Square Robot info from RobotReport. | corrected domain x2robot.com (not xsquare.ai which is unrelated company)
 
 ## Sources
 
+- [https://arxiv.org/abs/2509.20753](https://arxiv.org/abs/2509.20753)
+- [https://github.com/x-square-robot/wall-x](https://github.com/x-square-robot/wall-x)
+- [https://huggingface.co/x-square-robot/wall-oss-flow](https://huggingface.co/x-square-robot/wall-oss-flow)
 - [https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/](https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/)
+- [https://x2robot.com](https://x2robot.com)

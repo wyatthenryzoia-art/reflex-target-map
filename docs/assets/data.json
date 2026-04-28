@@ -14,16 +14,19 @@
     "one_line_description": "IIT-spinout humanoid-robotics startup, EUR70M seed",
     "dossier_url": "dossiers/generative-bionics.html",
     "source_urls": [
+      "https://gbionics.ai/downloads/PRESS_RELEASE.pdf",
       "https://github.com/gbionics",
       "https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/",
+      "https://www.eurekalert.org/news-releases/1109288",
       "https://www.linkedin.com/in/daniele-pucci-78428420/",
-      "https://www.linkedin.com/posts/wmf-we-make-future_daniele-pucci-generative-bionics-the-future-activity-7436031581607251968-9kCY"
+      "https://www.linkedin.com/posts/wmf-we-make-future_daniele-pucci-generative-bionics-the-future-activity-7436031581607251968-9kCY",
+      "https://www.therobotreport.com/from-icub-to-humanoids-generative-bionics-raises-81m/"
     ]
   },
   {
     "id": "c187",
     "company_name": "X Square Robot",
-    "domain": "xsquare.ai",
+    "domain": "x2robot.com",
     "vertical": "humanoid_general",
     "tier": 1,
     "score": 81,
@@ -35,7 +38,11 @@
     "one_line_description": "WALL-A VLA + world model robot foundation models, Shenzhen",
     "dossier_url": "dossiers/x-square-robot.html",
     "source_urls": [
-      "https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/"
+      "https://arxiv.org/abs/2509.20753",
+      "https://github.com/x-square-robot/wall-x",
+      "https://huggingface.co/x-square-robot/wall-oss-flow",
+      "https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/",
+      "https://x2robot.com"
     ]
   },
   {
@@ -56,7 +63,10 @@
       "https://arxiv.org/abs/2509.10771",
       "https://blogs.nvidia.com/blog/nvidia-investments/",
       "https://ch.linkedin.com/in/david-hoeller",
-      "https://flexion.ai/careers"
+      "https://flexion.ai/careers",
+      "https://news.crunchbase.com/venture/robotic-brain-building-startup-flexion-raise/",
+      "https://www.prosus.com/news-insights/2025/prosus-ventures-invests-in-flexion-robotics-to-build-the-intelligence-stack-for-humanoid-robots",
+      "https://www.therobotreport.com/flexion-raises-50m-build-ai-systems-power-humanoids/"
     ]
   },
   {
@@ -119,7 +129,8 @@
       "https://hughw19.github.io/",
       "https://www.galbot.com/en",
       "https://www.linkedin.com/in/he-wang-58543770/",
-      "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/"
+      "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/",
+      "https://www.therobotreport.com/galbot-picks-up-153m-commercialize-g1-semi-humanoid/"
     ]
   },
   {
@@ -183,7 +194,9 @@
       "https://ebots.com/company/",
       "https://github.com/ebots-inc",
       "https://www.businesswire.com/news/home/20250204184202/en/eBots-and-Foxconn-Collaboration-Sets-a-New-Record-in-Adaptive-Precision-Manufacturing-Embodied-AI-Robot-Successfully-Passes-Factory-Acceptance-Test-FAT",
-      "https://www.linkedin.com/in/zheng-xu-344a025/"
+      "https://www.linkedin.com/in/zheng-xu-344a025/",
+      "https://www.silicon.co.uk/press-release/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing-embodied-ai-robot-successfully-passes-factory-acceptance-test-fat",
+      "https://www.themachinenation.com/news/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing"
     ]
   },
   {

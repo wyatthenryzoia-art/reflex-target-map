@@ -57,3 +57,6 @@ Ex-Nvidia founders; explicit VLA language in CEO quote
 - [https://blogs.nvidia.com/blog/nvidia-investments/](https://blogs.nvidia.com/blog/nvidia-investments/)
 - [https://ch.linkedin.com/in/david-hoeller](https://ch.linkedin.com/in/david-hoeller)
 - [https://flexion.ai/careers](https://flexion.ai/careers)
+- [https://news.crunchbase.com/venture/robotic-brain-building-startup-flexion-raise/](https://news.crunchbase.com/venture/robotic-brain-building-startup-flexion-raise/)
+- [https://www.prosus.com/news-insights/2025/prosus-ventures-invests-in-flexion-robotics-to-build-the-intelligence-stack-for-humanoid-robots](https://www.prosus.com/news-insights/2025/prosus-ventures-invests-in-flexion-robotics-to-build-the-intelligence-stack-for-humanoid-robots)
+- [https://www.therobotreport.com/flexion-raises-50m-build-ai-systems-power-humanoids/](https://www.therobotreport.com/flexion-raises-50m-build-ai-systems-power-humanoids/)
