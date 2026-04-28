@@ -154,7 +154,10 @@
       markersById[r.id] = m;
       placed += 1;
     }
-    els.count.textContent = `${placed} of ${data.length} companies`;
+    // Denominator = total rows that COULD show on the map (have a geocode).
+    // Rows missing public HQ data are listed in the dataset but not on the map.
+    const mappable = data.filter((r) => lookup(r)).length;
+    els.count.textContent = `${placed} of ${mappable} on map`;
   }
 
   function makeIcon(r) {
