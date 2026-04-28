@@ -1,0 +1,75 @@
+hq_city,hq_country,lat,lon,source
+,China,35.0,103.0,country_centroid
+,Germany,51.2,10.45,country_centroid
+,Hungary,47.16,19.5,country_centroid
+,India,20.6,78.96,country_centroid
+,Japan,36.2,138.3,country_centroid
+,KR,36.5,127.8,country_centroid
+,Netherlands,52.13,5.29,country_centroid
+,Singapore,1.35,103.82,country_centroid
+,South Korea,36.5,127.8,country_centroid
+,USA,39.5,-98.5,country_centroid
+,United Kingdom,54.0,-2.0,country_centroid
+Abu Dhabi,UAE,24.4539,54.3773,hardcoded
+Austin,USA,30.2672,-97.7431,hardcoded
+Beijing,China,39.9042,116.4074,hardcoded
+Belgrade,Serbia,44.7866,20.4489,hardcoded
+Bengaluru,India,12.9716,77.5946,hardcoded
+Berkeley,USA,37.8716,-122.2727,hardcoded
+Berlin,Germany,52.52,13.405,hardcoded
+Bordeaux,France,44.8378,-0.5792,hardcoded
+Boston,USA,42.3601,-71.0589,hardcoded
+Bratislava,Slovakia,48.1486,17.1077,hardcoded
+Cambridge,USA,42.3736,-71.1097,hardcoded
+Downers Grove,USA,41.8089,-88.0112,hardcoded
+Dresden,Germany,51.0504,13.7373,hardcoded
+Fremont,USA,37.5485,-121.9886,hardcoded
+Gardena,USA,33.8884,-118.3089,hardcoded
+Geneva,CH,46.2044,6.1432,hardcoded
+Genoa,Italy,44.4056,8.9463,hardcoded
+Houston,USA,29.7604,-95.3698,hardcoded
+Irvine,USA,33.6846,-117.8265,hardcoded
+Karlsruhe,Germany,49.0069,8.4037,hardcoded
+Kirkland,USA,47.6815,-122.2087,hardcoded
+Kuala Lumpur,Malaysia,3.139,101.6869,hardcoded
+Lausanne,Switzerland,46.5197,6.6323,hardcoded
+Lille,France,50.6292,3.0573,hardcoded
+London,GB,51.5074,-0.1278,hardcoded
+London,United Kingdom,51.5074,-0.1278,hardcoded
+Los Angeles,USA,34.0522,-118.2437,hardcoded
+Martinez,USA,38.0194,-122.1341,hardcoded
+"Mountain View, CA",USA,37.3861,-122.0839,hardcoded
+Munich,Germany,48.1351,11.582,hardcoded
+Nashville,USA,36.1627,-86.7816,hardcoded
+New York,USA,40.7128,-74.006,hardcoded
+Noida,India,28.5355,77.391,hardcoded
+Oslo,Norway,59.9139,10.7522,hardcoded
+Oxford,United Kingdom,51.752,-1.2577,hardcoded
+Palo Alto,USA,37.4419,-122.143,hardcoded
+Paris,FR,48.8566,2.3522,hardcoded
+Paris,France,48.8566,2.3522,hardcoded
+Philadelphia,USA,39.9526,-75.1652,hardcoded
+Pittsburgh,USA,40.4406,-79.9959,hardcoded
+Reading,United Kingdom,51.4543,-0.9781,hardcoded
+Redwood City,USA,37.4852,-122.2364,hardcoded
+Salt Lake City,USA,40.7608,-111.891,hardcoded
+San Francisco,USA,37.7749,-122.4194,hardcoded
+"San Juan, PR",USA,18.4655,-66.1057,hardcoded
+San Mateo,USA,37.563,-122.3255,hardcoded
+Sejong-si,South Korea,36.4801,127.289,hardcoded
+Seoul,South Korea,37.5665,126.978,hardcoded
+Shanghai,China,31.2304,121.4737,hardcoded
+Shenzhen,CN,22.5431,114.0579,hardcoded
+Shenzhen,China,22.5431,114.0579,hardcoded
+Singapore,Singapore,1.3521,103.8198,hardcoded
+Stuttgart,Germany,48.7758,9.1829,hardcoded
+Sunnyvale,USA,37.3688,-122.0363,hardcoded
+"Sunnyvale, CA",USA,37.3688,-122.0363,hardcoded
+Suzhou,China,31.2989,120.5853,hardcoded
+Tokyo,Japan,35.6762,139.6503,hardcoded
+Warsaw,Poland,52.2297,21.0122,hardcoded
+Wilmington,USA,39.7391,-75.5398,hardcoded
+Winterthur,Switzerland,47.5022,8.7386,hardcoded
+Wuxi,China,31.4912,120.3119,hardcoded
+Zurich,CH,47.3769,8.5417,hardcoded
+Zurich,Switzerland,47.3769,8.5417,hardcoded
