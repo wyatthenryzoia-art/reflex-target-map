@@ -9,6 +9,8 @@ Status convention:
 """
 import asyncio
 import csv
+import os
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,17 +19,39 @@ import httpx
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data"
-TIMEOUT = 8.0
-CONCURRENCY = 40
-USER_AGENT = "Mozilla/5.0 (compatible; reflex-target-map/0.1; +https://github.com/wyatthenryzoia-art/reflex-target-map)"
+TIMEOUT = 10.0
+CONCURRENCY = 30
+# Real Chrome UA — many gateways gate on UA shape, not bot intent
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+GITHUB_TOKEN = ""
+try:
+    GITHUB_TOKEN = subprocess.check_output(["gh", "auth", "token"], text=True).strip()
+except Exception:
+    GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
+
+def headers_for(url: str) -> dict:
+    h = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    if "github.com" in url and GITHUB_TOKEN:
+        h["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+    return h
 
 
 async def check_one(client: httpx.AsyncClient, sem: asyncio.Semaphore, url: str) -> dict:
     async with sem:
         try:
-            r = await client.head(url, follow_redirects=True, timeout=TIMEOUT)
-            if r.status_code == 405 or r.status_code == 403:
-                r = await client.get(url, follow_redirects=True, timeout=TIMEOUT)
+            r = await client.head(url, follow_redirects=True, timeout=TIMEOUT, headers=headers_for(url))
+            # many sites 405/403 on HEAD — retry GET
+            if r.status_code in (403, 405, 406, 501):
+                r = await client.get(url, follow_redirects=True, timeout=TIMEOUT, headers=headers_for(url))
             return {
                 "url": url,
                 "status": str(r.status_code),

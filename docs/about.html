@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Reflex target map</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site">
+  <h1><a href="index.html">reflex-target-map</a></h1>
+  <nav><a href="index.html">Map</a> <a href="about.html" style=color:#fff>About</a> <a href="https://github.com/wyatthenryzoia-art/reflex-target-map">GitHub</a></nav>
+</header>
+<div class="prose">
+<h1>About this map</h1>
+<h2>What this is</h2>
+<p>A target acquisition map for <a href="https://tryreflex.ai">Reflex</a> — a datacenter-scale inference platform for vision-language-action (VLA) and vision-language model (VLM) robot policies.</p>
+<p>The output is a ranked list of robotics companies that look like Reflex prospects, plus one-page dossiers for the top tier. Every row has a source URL behind every non-obvious claim. Every external link in the dataset was HEAD-checked against a 200/3xx response on the day of publish.</p>
+<h2>What this is not</h2>
+<p>Not a CRM. Not a list of "robotics companies in general." Not built from training-data recall — every signal traces to a fetched page. Not a marketing artifact: the explainer page you are reading is the methodology, not the pitch.</p>
+<h2>Who it's for</h2>
+<p>A Reflex founder or BD lead who wants to start an outbound conversation today. Open the live URL on a call, click a Tier 1 dossier, get every sentence you need for a cold DM in 60 seconds.</p>
+<h2>Universe definition</h2>
+<p>A company is on the candidate list if it (a) builds robots or robotics software as a core product, (b) has raised at least seed funding from a named investor or shipped a public demo, and (c) is not on the exclusion list.</p>
+<p><strong>Excluded:</strong> trillion-dollar parents that built their own inference (Tesla, Google DeepMind, Meta, Apple, Amazon Robotics); $1B+ companies publicly committed to in-house infra (Figure, 1X, Skild, Sanctuary, Boston Dynamics, Agility); pure hardware/component plays with no ML stack; pure RL or classical-control shops with no language or vision component; defense primes; companies dead or pivoted in the last 12 months.</p>
+<p><strong>Sources:</strong> Robot Report RBR50 lists; VC robotics portfolios (Khosla, Sequoia, a16z, Lux, Eclipse, NVentures, Construct, 8VC); HuggingFace organizations with VLA-tagged models; GitHub org-account forkers of canonical VLA repos (openpi, openvla, lerobot, Isaac-GR00T, SmolVLA); humanoid robot startup trackers; recent (2025-2026) robotics funding news.</p>
+<h2>The eight scoring axes</h2>
+<p>Each company gets a single integer score 0-100, then a tier (1/2/3/drop). The score combines:</p>
+<ul>
+<li><strong>VLA classification</strong> (0-30) — the load-bearing filter. <code>vla_active</code> (clear evidence of VLA/VLM in production or active R&amp;D, e.g., a model card, a recent fork of openpi or openvla, an HF org with VLA fine-tunes) = 30. <code>vla_likely</code> (job posts, blog posts, demo videos referencing VLAs, but no direct artifact) = 20. <code>vla_possible</code> (right vertical but no current signal) = 8. <code>vla_no</code> is dropped.</li>
+<li><strong>Pain signal</strong> (0-20) — evidence the company is hurting on inference cost, latency, or edge constraints today. Sources: open ML infra job reqs, engineering blog posts on quantization or Jetson constraints, founder posts complaining about GPU spend.</li>
+<li><strong>Spend tier</strong> (5-25) — A ($25k+/mo plausible, Series A or later, $20M+ raised, 50+ heads, fleet evidence), B ($5k-$25k/mo, seed+ to small Series A), C (sub-$5k/mo).</li>
+<li><strong>Competitive lock-in</strong> (0-10) — <code>lockin_open</code> (visible openness to vendor solutions) = 10. <code>lockin_generic_cloud</code> (Modal/Together/Fireworks/Replicate/Baseten) = 8. <code>lockin_jetson_only</code> (visible Jetson edge commitment, no cloud) = 8. <code>lockin_unknown</code> = 4. <code>lockin_diy</code> (visible custom infra build) = 0, and disqualifies a row from Tier 1.</li>
+<li><strong>Openness score</strong> (0-15) — public technical posture: blog cadence, papers, GitHub org activity, HF presence. Higher openness means more receptive to a developer-tool PLG pitch.</li>
+</ul>
+<p>Tiers: <strong>Tier 1</strong> ≥ 70 (full dossiers, capped at 20), <strong>Tier 2</strong> 45-69, <strong>Tier 3</strong> 25-44, <strong>drop</strong> &lt; 25.</p>
+<h2>Buyer identification</h2>
+<p>For Tier 1 and Tier 2 rows, we identify a named buyer in this order: CTO; Head of ML / AI / Robotics Software; technical founder if the company is under 25 people; VP Eng if no CTO; Robotics Lead or Embodied AI Lead.</p>
+<p>For each buyer we record LinkedIn (always), X handle and GitHub (if findable), the most recent public signal about robotics inference (with URL and date), a warm intro path (shared investor with Reflex, mutual connection, alumni overlap; null if cold), and a specific first-touch hook — one sentence that names the actual thing in their last public signal. Generic hooks are banned. A null hook is better than a generic one.</p>
+<h2>Data quality bar</h2>
+<p>Every URL in the dataset was HEAD-checked with a 5-second timeout, following up to 3 redirects. Any 4xx, 5xx, timeout, or login-wall redirect was either replaced with a working source or set to null with a reason. The link-check log is at <code>/data/link_check_log.csv</code> in the repo.</p>
+<p>Every quote from a source is under 15 words. Anything longer is paraphrased into our own voice with attribution.</p>
+<p>No company appears with a domain that 404s, a LinkedIn under 5 employees, or a last news mention over 18 months old.</p>
+<h2>Known gaps</h2>
+<ul>
+<li><strong>No Crunchbase paid data.</strong> Funding numbers come from press releases, the Robot Report, TechCrunch, and company announcements. Some <code>total_raised_usd</code> figures may lag a recent round we did not catch.</li>
+<li><strong>LinkedIn employee counts are scraped, not API-fed.</strong> They reflect the public-facing number on the day of pull. Growth-rate estimates (<code>headcount_growth_6mo</code>) are best-effort from Wayback or visible profile counts and should be treated as directional, not exact.</li>
+<li><strong>Buyer identification is verified twice (LinkedIn plus one other public source) where possible</strong>, but for stealth-ish companies the second verification source can be thin. Those rows are flagged <code>buyer_verified: linkedin_only</code>.</li>
+<li><strong>Spend-tier rationale is rough.</strong> It is an order-of-magnitude estimate, not a quoted price.</li>
+<li><strong>No primary research with the companies.</strong> Everything here is from public sources. Treat the map as a high-quality starting point for outbound, not a closed deal pipeline.</li>
+</ul>
+<h2>Suggested 30-day workflow</h2>
+<ol>
+<li><strong>Day 1.</strong> Open the map. Read the top 10 dossiers. Pick the 5 with the strongest pain signal AND the warmest intro path. These are your week-one outbound batch.</li>
+<li><strong>Days 2-5.</strong> For each of those 5, ask the warm intro contact for a forward. If no warm path, send the cold DM hook from the dossier verbatim or as a starting point.</li>
+<li><strong>Days 6-10.</strong> Use the second-tier picks (next 10 dossiers) for a second outbound batch. By now you have at least 1-2 calls booked from week one.</li>
+<li><strong>Days 11-20.</strong> Layer in Tier 2 rows from the map (no dossier, but the row has VLA classification, pain score, spend tier, vertical). These are SDR fodder — a templated cold email mentioning the specific VLA evidence cited in their row will outperform a generic one 3-5x.</li>
+<li><strong>Days 21-30.</strong> Refresh the data. The pain signals (job posts, blog posts) move. A company that was pain-1 last month can be pain-3 this month after a public post about inference cost.</li>
+</ol>
+<h2>Limitations</h2>
+<p>This is a one-session research artifact, not a maintained product. The scoring is opinionated and trades recall for precision. There are real prospects this map will miss because they have no public technical posture (openness=0). Conversely, a company with a screaming public posture but quiet revenue may rank higher than its actual budget warrants — the spend tier is the corrective.</p>
+<p>If a row is wrong, the spec is "drop the row, do not fix and ship." There may be rows you would have kept that were dropped on a single weak signal. That is by design.</p>
+</div>
+<footer class="site">
+  Built by Wyatt Zoia. Data as of 2026-04-28. <a href="about.html">Methodology</a>.
+</footer>
+</body>
+</html>

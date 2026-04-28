@@ -1,0 +1,17 @@
+company_id,company_name,domain,tier,score,vla_classification,vla_evidence_url,vla_evidence_quote,one_line_description,vertical
+c031,Yaak.ai,yaak.ai,2,55,vla_likely,https://github.com/yaak-ai/rmind,Foundation models for spatial intelligence,Berlin spatial-intelligence platform for AV/agriculture data,mobile_manipulator_other
+c057,ZeroShot,zeroshotdata.com,2,55,vla_active,https://github.com/ZeroShotData/Isaac-GR00T,NVIDIA Isaac GR00T N1.5 generalized humanoid robot reasoning,US data shop on GR00T/EgoMimic for manipulation,research_only
+c011,Opentrons,opentrons.com,2,54,vla_likely,https://github.com/Opentrons/aloha,Aloha fork active July 2025,Lab automation liquid handling robots,surgical_medical
+c055,HCLTech Robotics,hcltech.com,2,54,vla_likely,https://github.com/hcltech-robotics,Active forks of trossen_arm star-arm-moveit2 pymycobot pushed 2026,HCLTech (large IT services) robotics R&D arm,research_only
+c018,Enfuse,enfuse.io,2,53,vla_active,https://huggingface.co/enfuse/edgevla-small-fmb,228M parameter edge-optimized Vision-Language-Action model 49% smaller than SmolVLA,"Edge-VLA models for Physical AI, sub-Jetson deployment",research_only
+c035,Binabik,binabik.ai,2,50,vla_likely,https://github.com/binabik-ai,Active Isaac-GR00T fork pushed Jan 2026 plus rosbag MCP tooling,"Swiss agentic OS for humanoid robots, pre-seed",humanoid_general
+c062,EmbodyX,embodyx.io,2,50,vla_active,https://github.com/embodyx,Active openvla openpi Unitree forks pushed Jan-Feb 2026,Stealth Physical-AI startup with active OpenVLA/openpi forks,humanoid_general
+c045,KinesthetIQ,kinesthetiq.com,2,50,vla_active,https://github.com/NavIQLabs,Active forks of openpi gr00t lerobot and Isaac-GR00T pushed 2025-2026,Indian foundation-model robotics shop forking openpi/GR00T,research_only
+c049,Menlo Research,menlo.ai,2,50,vla_likely,https://menlo.ai/products/asimov,Asimov open-source humanoid robot 1.2m 35kg DIY kit,Open-source humanoid Asimov DIY kit Singapore lab,humanoid_general
+c013,Tommoro Robotics,tommoro.ai,2,50,vla_active,https://github.com/Tommoro-AI,NVIDIA Isaac GR00T N1.5 fork humanoid foundation model,Korean humanoid foundation-model spinout from SNU,humanoid_general
+c020,Vizuara AI,vizuara.ai,2,50,vla_active,https://huggingface.co/Vizuara/dreamzero-so101-lora,DreamZero LoRA Models robotics-focused fine-tuning,Indian AI consultancy/training shop with SO-101 finetunes,research_only
+c021,Webstep,webstep.no,2,50,vla_active,https://huggingface.co/webstep/smolvla_single_orange_duplo_pickup,smolvla single orange DUPLO pickup model,Norwegian consultancy with smolvla finetunes,research_only
+c186,Lumos Robotics,lumosrobotics.ai,2,50,vla_active,https://kr-asia.com/touch-enabled-robots-inch-closer-to-reality-as-lumos-robotics-secures-new-funding,developed a vision-language-action (VLA) framework and is preparing to launch its first VTLA,"Tactile humanoid VLA platform, Shenzhen, ~$28M angel",humanoid_general
+c234,MagicLab,magiclab.top,2,50,vla_likely,https://x.com/XRoboHub/status/1924100325969170824,"funding will fuel iterative R&D of core embodied intelligence technology, build VLA models","China humanoid platform building VLA models, Wuxi, post-Series B",humanoid_general
+c019,VRFAI,,2,48,vla_active,https://huggingface.co/vrfai,Edge AI optimization GR00T N1.6 INT8 edge models,Edge VLA quantization non-profit,research_only
+c156,Brightpick,brightpick.com,2,47,vla_possible,https://brightpick.ai,Autopicker first commercially available AMR that picks,Slovak warehouse autopicker AMR fleet operator,mobile_manipulator_warehouse

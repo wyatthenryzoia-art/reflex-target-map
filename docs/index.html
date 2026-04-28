@@ -1,3 +1,73 @@
-<!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>reflex-target-map</title></head>
-<body><p>Building. Check back shortly.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflex target map</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site">
+  <h1><a href="index.html">reflex-target-map</a></h1>
+  <nav><a href="index.html" style=color:#fff>Map</a> <a href="about.html">About</a> <a href="https://github.com/wyatthenryzoia-art/reflex-target-map">GitHub</a></nav>
+</header>
+<div class="container">
+  <p class="lead">
+    A ranked list of <strong>84</strong> robotics companies that look like
+    <a href="https://tryreflex.ai" target="_blank" rel="noopener">Reflex</a> prospects, with
+    one-page dossiers for the top <strong>8</strong>. Every claim is sourced.
+    See <a href="about.html">methodology</a>.
+  </p>
+
+  <div class="controls">
+    <label>Tier
+      <select id="f-tier">
+        <option value="">All</option>
+        <option value="1">Tier 1</option>
+        <option value="2">Tier 2</option>
+        <option value="3">Tier 3</option>
+      </select>
+    </label>
+    <label>Vertical
+      <select id="f-vertical"><option value="">All</option></select>
+    </label>
+    <label>Spend
+      <select id="f-spend">
+        <option value="">All</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+      </select>
+    </label>
+    <label>Search
+      <input type="search" id="f-search" placeholder="company, buyer, vertical">
+    </label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="company_name">Company</th>
+        <th data-key="vertical">Vertical</th>
+        <th data-key="tier">Tier</th>
+        <th data-key="score">Score</th>
+        <th data-key="vla_classification">VLA</th>
+        <th data-key="pain_score">Pain</th>
+        <th data-key="spend_tier">Spend</th>
+        <th data-key="buyer_name">Buyer</th>
+        <th>Sources</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<div class="modal-bg" id="modal-bg"><div class="modal" id="modal-content"></div></div>
+
+<footer class="site">
+  Built by Wyatt Zoia. Data as of 2026-04-28. <a href="about.html">Methodology</a>.
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

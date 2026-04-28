@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "c040",
+    "company_name": "Generative Bionics",
+    "domain": "gbionics.ai",
+    "vertical": "humanoid_industrial",
+    "tier": 1,
+    "score": 85,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "IIT-spinout humanoid-robotics startup, EUR70M seed",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/gbionics",
+      "https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/"
+    ]
+  },
+  {
+    "id": "c187",
+    "company_name": "X Square Robot",
+    "domain": "xsquare.ai",
+    "vertical": "humanoid_general",
+    "tier": 1,
+    "score": 81,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "WALL-A VLA + world model robot foundation models, Shenzhen",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/"
+    ]
+  },
+  {
+    "id": "c117",
+    "company_name": "Flexion",
+    "domain": "flexion.ai",
+    "vertical": "humanoid_general",
+    "tier": 1,
+    "score": 79,
+    "vla_classification": "vla_active",
+    "pain_score": 3,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Synthetic-data humanoid autonomy software",
+    "dossier_url": "",
+    "source_urls": [
+      "https://blogs.nvidia.com/blog/nvidia-investments/",
+      "https://flexion.ai/careers"
+    ]
+  },
+  {
+    "id": "c027",
+    "company_name": "Genesis AI",
+    "domain": "genesis-ai.company",
+    "vertical": "humanoid_general",
+    "tier": 1,
+    "score": 79,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Generalist physical-AI lab with $105M seed, foundation-model focus",
+    "dossier_url": "",
+    "source_urls": [
+      "https://genesis-ai.company",
+      "https://genesis-ai.company/join-us/",
+      "https://github.com/Genesis-Embodied-AI",
+      "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots/"
+    ]
+  },
+  {
+    "id": "c056",
+    "company_name": "TII",
+    "domain": "tii.ae",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 75,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "UAE government AI research institute, openvla fork",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/tiiuae",
+      "https://github.com/tiiuae/openvla-internal"
+    ]
+  },
+  {
+    "id": "c178",
+    "company_name": "Galbot",
+    "domain": "galbot.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 1,
+    "score": 74,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "G1 mobile manipulator with embodied foundation models, Beijing",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.galbot.com/en",
+      "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/"
+    ]
+  },
+  {
+    "id": "c014",
+    "company_name": "RLWRLD",
+    "domain": "rlwrld.ai",
+    "vertical": "humanoid_industrial",
+    "tier": 2,
+    "score": 72,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean industrial robotics foundation model startup",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/RLWRLD",
+      "https://github.com/RLWRLD/launch-list",
+      "https://www.therobotreport.com/physical-ai-startup-rlwrld-raises-26m/"
+    ]
+  },
+  {
+    "id": "c228",
+    "company_name": "AgiBot",
+    "domain": "agibot.com",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Chinese humanoid mass-production leader (Zhiyuan Robotics)",
+    "dossier_url": "",
+    "source_urls": [
+      "https://mikekalil.com/blog/agibot-zhiyuan-robotics/",
+      "https://www.agibot.com/",
+      "https://www.scmp.com/tech/big-tech/article/3337477/chinas-agibot-targets-us142-million-revenue-march-humanoid-robots-gathers-pace",
+      "https://www.scmp.com/tech/tech-trends/article/3307356/chinas-humanoid-robot-sector-enters-mass-production-unitree-agibot-among-pack"
+    ]
+  },
+  {
+    "id": "c064",
+    "company_name": "Ebots",
+    "domain": "ebots.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 1,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Precision-assembly manipulator robotics with foundation-model push, Series A",
+    "dossier_url": "",
+    "source_urls": [
+      "https://ebots.com/company/",
+      "https://github.com/ebots-inc"
+    ]
+  },
+  {
+    "id": "c081",
+    "company_name": "FieldAI",
+    "domain": "fieldai.com",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Foundation models for embodied robot autonomy",
+    "dossier_url": "",
+    "source_urls": [
+      "https://fieldai.com/careers",
+      "https://techcrunch.com/2025/08/20/fieldai-raises-405m-to-build-universal-robot-brains/",
+      "https://www.khoslaventures.com/portfolio/"
+    ]
+  },
+  {
+    "id": "c058",
+    "company_name": "Nomagic",
+    "domain": "nomagic.ai",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 1,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Warehouse pick-and-place AI robotics",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/nomagiclab",
+      "https://github.com/nomagiclab/openvla",
+      "https://www.khoslaventures.com/portfolio/"
+    ]
+  },
+  {
+    "id": "c003",
+    "company_name": "Pollen Robotics",
+    "domain": "pollen-robotics.com",
+    "vertical": "humanoid_general",
+    "tier": 1,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Open-source Reachy humanoid acquired by Hugging Face April 2025",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/pollen-robotics",
+      "https://github.com/pollen-robotics/lerobot",
+      "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+      "https://www.pollen-robotics.com/"
+    ]
+  },
+  {
+    "id": "c172",
+    "company_name": "Sereact",
+    "domain": "sereact.ai",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 2,
+    "score": 69,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "VLA + world model warehouse picking platform",
+    "dossier_url": "",
+    "source_urls": [
+      "https://sereact.ai/careers",
+      "https://theaiinsider.tech/2026/04/27/sereact-raises-110m-in-series-b-funding-to-expand-warehouse-robotics-platform/",
+      "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c001",
+    "company_name": "D-Robotics",
+    "domain": "d-robotics.cc",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 65,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Edge AI dev kits with active openpi fork",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/D-Robotics/openpi",
+      "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/"
+    ]
+  },
+  {
+    "id": "c046",
+    "company_name": "General Robotics",
+    "domain": "generalrobotics.company",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 65,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "GRID unified robot intelligence platform; Accenture-backed",
+    "dossier_url": "",
+    "source_urls": [
+      "https://generalrobotics.company",
+      "https://generalrobotics.company/careers",
+      "https://github.com/GenRobo",
+      "https://newsroom.accenture.com/news/2026/accenture-invests-in-general-robotics-to-advance-physical-ai-powered-robotics-in-manufacturing-and-logistics"
+    ]
+  },
+  {
+    "id": "c133",
+    "company_name": "Hello Robot",
+    "domain": "hello-robot.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 65,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Stretch 3 open-source mobile manipulator for research/home",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/hello-robot/stretch_ai",
+      "https://hello-robot.com/careers",
+      "https://spectrum.ieee.org/hello-robot-stretch-3",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c139",
+    "company_name": "LimX Dynamics",
+    "domain": "limxdynamics.com",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 65,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Modular humanoid and biped robots with VLA stack",
+    "dossier_url": "",
+    "source_urls": [
+      "https://blog.robozaps.com/b/humanoid-robot-companies",
+      "https://github.com/limxdynamics",
+      "https://www.limxdynamics.com/en",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c012",
+    "company_name": "phospho",
+    "domain": "phospho.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 65,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC robotics SDK + low-cost hardware kits France",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/phospho-app",
+      "https://github.com/phospho-app/openpi",
+      "https://phospho.ai/",
+      "https://www.ycombinator.com/companies/phospho"
+    ]
+  },
+  {
+    "id": "c002",
+    "company_name": "Robotec.ai",
+    "domain": "robotec.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 60,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Polish ROS2 simulation and digital-twin services firm",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/RobotecAI",
+      "https://github.com/RobotecAI/openvla",
+      "https://www.robotec.ai/careers"
+    ]
+  },
+  {
+    "id": "c036",
+    "company_name": "Vassar Robotics",
+    "domain": "vassarrobotics.com",
+    "vertical": "consumer_home",
+    "tier": 2,
+    "score": 60,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC X25 $200 home humanoid arm dev kit",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/vassar-robotics",
+      "https://github.com/vassar-robotics/Shoebill-Leader-Follower-Robotic-Arms",
+      "https://www.workatastartup.com/companies/30511",
+      "https://www.ycombinator.com/companies/vassar-robotics"
+    ]
+  },
+  {
+    "id": "c140",
+    "company_name": "Locus Robotics",
+    "domain": "locusrobotics.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 2,
+    "score": 59,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Warehouse AMRs alongside human pickers, Series F unicorn",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.iotworldtoday.com/robotics/locus-robotics-latest-funding-round-values-company-at-nearly-2b-",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c249",
+    "company_name": "Foundation",
+    "domain": "foundation.bot",
+    "vertical": "humanoid_industrial",
+    "tier": 2,
+    "score": 57,
+    "vla_classification": "vla_likely",
+    "pain_score": 2,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Phantom humanoid + Cortex AI for industrial/defense work, SF",
+    "dossier_url": "",
+    "source_urls": [
+      "https://foundation.bot/",
+      "https://sfstandard.com/2025/08/13/humanoid-robots-military-foundation-terminator/",
+      "https://www.foundation.bot/careers"
+    ]
+  },
+  {
+    "id": "c026",
+    "company_name": "Almond",
+    "domain": "almond.bot",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Dual-arm manipulation robot for physical AI",
+    "dossier_url": "",
+    "source_urls": [
+      "https://almond.bot",
+      "https://github.com/almond-bot",
+      "https://github.com/almond-bot/lerobot"
+    ]
+  },
+  {
+    "id": "c025",
+    "company_name": "Cortex AI",
+    "domain": "cortexrobot.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Egocentric and robot data marketplace for embodied AI",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/cortexairobot",
+      "https://github.com/cortexairobot/Isaac-GR00T",
+      "https://huggingface.co/cortexairobot"
+    ]
+  },
+  {
+    "id": "c074",
+    "company_name": "IO-AI Tech",
+    "domain": "io-ai.tech",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied AI humanoid platform with active LeRobot fork",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/ioai-tech",
+      "https://github.com/ioai-tech/lerobot"
+    ]
+  },
+  {
+    "id": "c050",
+    "company_name": "Industrialnext",
+    "domain": "industrialnext.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI-autopilot for factory automation, YC-backed manufacturing",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/industrialnext",
+      "https://industrialnext.ai/",
+      "https://industrialnext.com",
+      "https://www.ycombinator.com/companies/industrial-next"
+    ]
+  },
+  {
+    "id": "c004",
+    "company_name": "Niryo Robotics",
+    "domain": "niryo.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Educational and industrial six-axis cobots France",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/NiryoRobotics",
+      "https://github.com/NiryoRobotics/lerobot",
+      "https://niryo.com/about-us/"
+    ]
+  },
+  {
+    "id": "c039",
+    "company_name": "Positronic Robotics",
+    "domain": "positronic.ro",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Python-native robotics ML stack with active VLA forks",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/Positronic-Robotics",
+      "https://github.com/Positronic-Robotics/openpi"
+    ]
+  },
+  {
+    "id": "c071",
+    "company_name": "Qrafty AI",
+    "domain": "qrafty-ai.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "US LeRobot integrator small team teleop and openarm",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/qrafty-ai",
+      "https://github.com/qrafty-ai/lerobot"
+    ]
+  },
+  {
+    "id": "c037",
+    "company_name": "SatiNav Robotics",
+    "domain": "satinavrobotics.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Hungarian outdoor mobile robotics modular stack",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/satinavrobotics",
+      "https://github.com/satinavrobotics/openpi"
+    ]
+  },
+  {
+    "id": "c070",
+    "company_name": "Servo Develop / Fashion Star",
+    "domain": "fashionrobo.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Chinese servo vendor pivoting to LeRobot kits",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/servodevelop",
+      "https://github.com/servodevelop/lerobot"
+    ]
+  },
+  {
+    "id": "c047",
+    "company_name": "Solo Tech",
+    "domain": "getsolo.tech",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Privacy-first on-device robot intelligence platform",
+    "dossier_url": "",
+    "source_urls": [
+      "https://getsolo.tech/",
+      "https://github.com/GetSoloTech",
+      "https://github.com/GetSoloTech/solo-robotics"
+    ]
+  },
+  {
+    "id": "c009",
+    "company_name": "Wandelbots",
+    "domain": "wandelbots.com",
+    "vertical": "humanoid_industrial",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "German industrial robot OS NOVA platform",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/wandelbotsgmbh",
+      "https://wandelbots.com"
+    ]
+  },
+  {
+    "id": "c031",
+    "company_name": "Yaak.ai",
+    "domain": "yaak.ai",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Berlin spatial-intelligence platform for AV/agriculture data",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/yaak-ai",
+      "https://github.com/yaak-ai/rmind",
+      "https://yaak.ai"
+    ]
+  },
+  {
+    "id": "c057",
+    "company_name": "ZeroShot",
+    "domain": "zeroshotdata.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "US data shop on GR00T/EgoMimic for manipulation",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/ZeroShotData",
+      "https://github.com/ZeroShotData/Isaac-GR00T"
+    ]
+  },
+  {
+    "id": "c029",
+    "company_name": "mbodi ai",
+    "domain": "mbodi.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied AI agents teach industrial robots",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/mbodiai",
+      "https://github.com/mbodiai/embodied-agents",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c055",
+    "company_name": "HCLTech Robotics",
+    "domain": "hcltech.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 54,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "HCLTech (large IT services) robotics R&D arm",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/hcltech-robotics"
+    ]
+  },
+  {
+    "id": "c011",
+    "company_name": "Opentrons",
+    "domain": "opentrons.com",
+    "vertical": "surgical_medical",
+    "tier": 2,
+    "score": 54,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Lab automation liquid handling robots",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/Opentrons",
+      "https://github.com/Opentrons/aloha",
+      "https://www.khoslaventures.com/portfolio/"
+    ]
+  },
+  {
+    "id": "c018",
+    "company_name": "Enfuse",
+    "domain": "enfuse.io",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 53,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Edge-VLA models for Physical AI, sub-Jetson deployment",
+    "dossier_url": "",
+    "source_urls": [
+      "https://huggingface.co/enfuse/edgevla-small-fmb"
+    ]
+  },
+  {
+    "id": "c035",
+    "company_name": "Binabik",
+    "domain": "binabik.ai",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Swiss agentic OS for humanoid robots, pre-seed",
+    "dossier_url": "",
+    "source_urls": [
+      "https://binabik.ai",
+      "https://binabik.ai/open-positions",
+      "https://github.com/binabik-ai",
+      "https://www.venturekick.ch/Binabik-AI-receives-CHF-40000-from-Venture-Kick-to-accelerate-humanoid-deployment-across-industries"
+    ]
+  },
+  {
+    "id": "c062",
+    "company_name": "EmbodyX",
+    "domain": "embodyx.io",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Stealth Physical-AI startup with active OpenVLA/openpi forks",
+    "dossier_url": "",
+    "source_urls": [
+      "https://embodyx.io",
+      "https://github.com/embodyx"
+    ]
+  },
+  {
+    "id": "c045",
+    "company_name": "KinesthetIQ",
+    "domain": "kinesthetiq.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Indian foundation-model robotics shop forking openpi/GR00T",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/NavIQLabs"
+    ]
+  },
+  {
+    "id": "c186",
+    "company_name": "Lumos Robotics",
+    "domain": "lumosrobotics.ai",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Tactile humanoid VLA platform, Shenzhen, ~$28M angel",
+    "dossier_url": "",
+    "source_urls": [
+      "https://humanoidroboticstechnology.com/articles/humanoid-funding-rounds-in-2025/",
+      "https://humanoids.dev/p/lumos-robotics-deep-dive",
+      "https://kr-asia.com/touch-enabled-robots-inch-closer-to-reality-as-lumos-robotics-secures-new-funding",
+      "https://www.linkedin.com/company/lumos-robotics"
+    ]
+  },
+  {
+    "id": "c234",
+    "company_name": "MagicLab",
+    "domain": "magiclab.top",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "China humanoid platform building VLA models, Wuxi, post-Series B",
+    "dossier_url": "",
+    "source_urls": [
+      "https://autonews.gasgoo.com/articles/icv/seeds-magiclab-officially-announces-500-million-yuan-new-funding-2031616054575349761",
+      "https://blog.robozaps.com/b/humanoid-robot-companies",
+      "https://magiclab.top",
+      "https://www.linkedin.com/company/magiclabrobotics",
+      "https://www.magiclab.top/en/",
+      "https://x.com/XRoboHub/status/1924100325969170824"
+    ]
+  },
+  {
+    "id": "c049",
+    "company_name": "Menlo Research",
+    "domain": "menlo.ai",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Open-source humanoid Asimov DIY kit Singapore lab",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/menloresearch",
+      "https://menlo.ai/products/asimov"
+    ]
+  },
+  {
+    "id": "c013",
+    "company_name": "Tommoro Robotics",
+    "domain": "tommoro.ai",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean humanoid foundation-model spinout from SNU",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/Tommoro-AI"
+    ]
+  },
+  {
+    "id": "c020",
+    "company_name": "Vizuara AI",
+    "domain": "vizuara.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Indian AI consultancy/training shop with SO-101 finetunes",
+    "dossier_url": "",
+    "source_urls": [
+      "https://huggingface.co/Vizuara",
+      "https://huggingface.co/Vizuara/dreamzero-so101-lora"
+    ]
+  },
+  {
+    "id": "c021",
+    "company_name": "Webstep",
+    "domain": "webstep.no",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 50,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Norwegian consultancy with smolvla finetunes",
+    "dossier_url": "",
+    "source_urls": [
+      "https://huggingface.co/webstep",
+      "https://huggingface.co/webstep/smolvla_single_orange_duplo_pickup"
+    ]
+  },
+  {
+    "id": "c019",
+    "company_name": "VRFAI",
+    "domain": "",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 48,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Edge VLA quantization non-profit",
+    "dossier_url": "",
+    "source_urls": [
+      "https://huggingface.co/vrfai"
+    ]
+  },
+  {
+    "id": "c156",
+    "company_name": "Brightpick",
+    "domain": "brightpick.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 2,
+    "score": 47,
+    "vla_classification": "vla_possible",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Slovak warehouse autopicker AMR fleet operator",
+    "dossier_url": "",
+    "source_urls": [
+      "https://brightpick.ai",
+      "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c072",
+    "company_name": "AI Foundry",
+    "domain": "aifoundry.org",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Open ecosystem for AI hardware and inference",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/aifoundry-org",
+      "https://github.com/aifoundry-org/lerobot"
+    ]
+  },
+  {
+    "id": "c032",
+    "company_name": "Dustland",
+    "domain": "dustland.ai",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied intelligence framework org, broad agentic AI",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/dustland"
+    ]
+  },
+  {
+    "id": "c242",
+    "company_name": "Embodied AI",
+    "domain": "embodiedai.ch",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Soft-arm Helix manipulator with in-house VLA models, Lausanne",
+    "dossier_url": "",
+    "source_urls": [
+      "https://embodiedai.ch/"
+    ]
+  },
+  {
+    "id": "c065",
+    "company_name": "Enactic",
+    "domain": "enactic.ai",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_possible",
+    "pain_score": 2,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Tokyo humanoid care-robot startup, OpenArm hardware platform",
+    "dossier_url": "",
+    "source_urls": [
+      "https://enactic.ai",
+      "https://enactic.ai/careers/",
+      "https://github.com/enactic"
+    ]
+  },
+  {
+    "id": "c043",
+    "company_name": "Extend Robotics",
+    "domain": "extendrobotics.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "UK VR-teleop platform for robot arms, seed-funded",
+    "dossier_url": "",
+    "source_urls": [
+      "https://extendrobotics.com",
+      "https://github.com/Extend-Robotics"
+    ]
+  },
+  {
+    "id": "c048",
+    "company_name": "FrodoBots",
+    "domain": "frodobots.com",
+    "vertical": "last_mile_delivery",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Sidewalk-rover gaming platform crowdsourcing embodied-AI data",
+    "dossier_url": "",
+    "source_urls": [
+      "https://frodobots.ai/",
+      "https://github.com/frodobots-org"
+    ]
+  },
+  {
+    "id": "c028",
+    "company_name": "Lucky Robots",
+    "domain": "luckyrobots.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Synthetic data and simulation for robotics AI",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/luckyrobots",
+      "https://github.com/luckyrobots/lerobot"
+    ]
+  },
+  {
+    "id": "c148",
+    "company_name": "Shadow Robot",
+    "domain": "shadowrobot.com",
+    "vertical": "humanoid_general",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Dexterous robotic hands and teleoperation, London",
+    "dossier_url": "",
+    "source_urls": [
+      "https://humanoidroboticstechnology.com/news/shadow-robot-unveils-the-worlds-most-robust-dexterous-hand-developed-with-google-deepmind/",
+      "https://shadowrobot.com/",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c038",
+    "company_name": "Spes Robotics",
+    "domain": "spes.ai",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Belgrade R&D shop for cobots and AMRs",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/SpesRobotics",
+      "https://github.com/SpesRobotics/lerobot"
+    ]
+  },
+  {
+    "id": "c006",
+    "company_name": "Trossen Robotics",
+    "domain": "trossenrobotics.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "US robotic-arm vendor with LeRobot integrations",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/TrossenRobotics",
+      "https://github.com/TrossenRobotics/lerobot_trossen"
+    ]
+  },
+  {
+    "id": "c008",
+    "company_name": "UFACTORY",
+    "domain": "ufactory.cc",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Chinese xArm collaborative robot manufacturer",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/xArm-Developer",
+      "https://github.com/xArm-Developer/lerobot"
+    ]
+  },
+  {
+    "id": "c051",
+    "company_name": "WeGo Robotics",
+    "domain": "wego-robotics.com",
+    "vertical": "research_only",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean LeRobot integrator for Unitree G1 and Piper",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/WeGo-Robotics",
+      "https://github.com/WeGo-Robotics/lerobot_robot_piper"
+    ]
+  },
+  {
+    "id": "c042",
+    "company_name": "ugo",
+    "domain": "ugo.plus",
+    "vertical": "mobile_manipulator_other",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Japanese service-robot company with LeRobot integration",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/ugo-plus"
+    ]
+  },
+  {
+    "id": "c118",
+    "company_name": "Moon Surgical",
+    "domain": "moonsurgical.com",
+    "vertical": "surgical_medical",
+    "tier": 3,
+    "score": 44,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Maestro laparoscopy assistant robot, NVIDIA-backed",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.feedtheai.com/nventures-portfolio-ai-startups-backed-by-nvidia/",
+      "https://www.therobotreport.com/moon-surgical-raises-55-4m-to-support-surgical-robot-platform/"
+    ]
+  },
+  {
+    "id": "c107",
+    "company_name": "Dexterity",
+    "domain": "dexterity.ai",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 3,
+    "score": 43,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Warehouse manipulation Physical AI platform",
+    "dossier_url": "",
+    "source_urls": [
+      "https://a16z.com/portfolio/",
+      "https://www.dexterity.ai/blog",
+      "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c091",
+    "company_name": "Bedrock Robotics",
+    "domain": "bedrockrobotics.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Construction equipment autonomy retrofit",
+    "dossier_url": "",
+    "source_urls": [
+      "https://8vc.com/companies",
+      "https://bedrockrobotics.com/careers",
+      "https://www.constructiondive.com/news/bedrock-robotics-raise-ai-automation-funding/811982/"
+    ]
+  },
+  {
+    "id": "c099",
+    "company_name": "Collaborative Robotics",
+    "domain": "co.bot",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Mobile cobot maker founded by ex-Amazon Robotics VP",
+    "dossier_url": "",
+    "source_urls": [
+      "https://co.bot/careers",
+      "https://www.sequoiacap.com/our-companies/",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c114",
+    "company_name": "Mind Robotics",
+    "domain": "mindrobotics.com",
+    "vertical": "humanoid_industrial",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Industrial AI robots Rivian spinout",
+    "dossier_url": "",
+    "source_urls": [
+      "https://a16z.com/announcement/investing-in-mind-robotics/",
+      "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+      "https://www.mindrobotics.com/careers"
+    ]
+  },
+  {
+    "id": "c144",
+    "company_name": "Pickle Robot",
+    "domain": "picklerobot.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Trailer unloading manipulation robots",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.globenewswire.com/news-release/2025/06/24/3104110/0/en/Pickle-Robot-Hires-New-VP-of-Engineering-Adding-50-New-Engineers-by-September-as-Warehouse-Robotics-Demand-Surges.html",
+      "https://www.picklerobot.com/careers",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c069",
+    "company_name": "Eastworld Labs",
+    "domain": "",
+    "vertical": "humanoid_general",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Virtuals Protocol humanoid accelerator with 30+ Unitree G1 fleet",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/Eastworld-Labs",
+      "https://www.prnewswire.com/news-releases/virtuals-protocol-launches-eastworld-labs-to-accelerate-real-world-deployment-of-humanoid-robots-302694292.html"
+    ]
+  },
+  {
+    "id": "c079",
+    "company_name": "General Intelligence Labs",
+    "domain": "",
+    "vertical": "humanoid_general",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Stealth perception-action stack; lerobot+openpi forks",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/General-Intelligence-Labs"
+    ]
+  },
+  {
+    "id": "c005",
+    "company_name": "HEBI Robotics",
+    "domain": "hebirobotics.com",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Modular robotics components and SDKs",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/HebiRobotics",
+      "https://github.com/HebiRobotics/lerobot",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c059",
+    "company_name": "IntBot",
+    "domain": "intbot.ai",
+    "vertical": "humanoid_general",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Sunnyvale humanoid service-robot (Nylo) startup, NVIDIA Cosmos based",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/intbotinc",
+      "https://intbot.ai"
+    ]
+  },
+  {
+    "id": "c076",
+    "company_name": "NeuroGrip",
+    "domain": "",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Solo VLA-fork project for robotic manipulation",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/NeuroGrip"
+    ]
+  },
+  {
+    "id": "c066",
+    "company_name": "TeamGRIT",
+    "domain": "teamgrit.kr",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean teleop and quadruped challenges firm",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/teamgrit-lab",
+      "https://github.com/teamgrit-lab/tg-lerobot"
+    ]
+  },
+  {
+    "id": "c044",
+    "company_name": "Transistor Robotics",
+    "domain": "",
+    "vertical": "humanoid_general",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Japanese humanoid AI fork of openpi for VLA training",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/transistor-robotics",
+      "https://github.com/transistor-robotics/openpi"
+    ]
+  },
+  {
+    "id": "c073",
+    "company_name": "Tuul AI",
+    "domain": "tuul.ai",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "German LeRobot-based robotics education startup",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/tuul-ai"
+    ]
+  },
+  {
+    "id": "c052",
+    "company_name": "WestonRobot",
+    "domain": "westonrobot.com",
+    "vertical": "mobile_manipulator_other",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Singapore mobile-robot platform vendor",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/westonrobot"
+    ]
+  },
+  {
+    "id": "c075",
+    "company_name": "ZenBotix",
+    "domain": "",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "LeRobot LeKiwi mobile manipulator hobbyist org",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/zenbotix",
+      "https://github.com/zenbotix/lerobot_dex"
+    ]
+  },
+  {
+    "id": "c155",
+    "company_name": "Ambi Robotics",
+    "domain": "ambirobotics.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Parcel sortation manipulation robots, Berkeley spinout",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.ambirobotics.com/careers",
+      "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c088",
+    "company_name": "Chef Robotics",
+    "domain": "chefrobotics.ai",
+    "vertical": "mobile_manipulator_other",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Food assembly robotics for production lines",
+    "dossier_url": "",
+    "source_urls": [
+      "https://www.chefrobotics.ai/careers",
+      "https://www.chefrobotics.ai/post/weve-raised-43-1m-to-accelerate-our-ai-enabled-robot-deployments",
+      "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c111",
+    "company_name": "Osaro",
+    "domain": "osaro.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "SF piece-picking software for warehouse automation",
+    "dossier_url": "",
+    "source_urls": [
+      "https://a16z.com/portfolio/",
+      "https://osaro.com"
+    ]
+  },
+  {
+    "id": "c063",
+    "company_name": "DART Labs",
+    "domain": "",
+    "vertical": "humanoid_general",
+    "tier": 3,
+    "score": 29,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Single Isaac-GR00T fork; barely-active GH org",
+    "dossier_url": "",
+    "source_urls": [
+      "https://github.com/dart-labs-inc"
+    ]
+  },
+  {
+    "id": "c034",
+    "company_name": "Cybernetic Physics",
+    "domain": "cyberneticphysics.com",
+    "vertical": "research_only",
+    "tier": 3,
+    "score": 28,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Cloud Isaac Lab simulation platform for robotics policy training",
+    "dossier_url": "",
+    "source_urls": [
+      "https://cyberneticphysics.com",
+      "https://github.com/cybernetic-physics"
+    ]
+  }
+]
