@@ -1,7 +1,7 @@
 # Genesis AI
 
 **Tier 1 — Score: 79/100**  
-**Vertical: Humanoid (general) | Stage: seed | HQ: United States**
+**Vertical: Humanoid (general) | Stage: seed | HQ: USA**
 
 ## What they do
 

@@ -38,7 +38,6 @@ Active VLA usage (openvla) — direct evidence in their public stack. Modest pai
 ## Buyer
 
 - Name: **Marek Cygan**, Co-founder & Chief AI Officer
-- LinkedIn: [https://www.linkedin.com/in/marek-cygan-b9a316140/](https://www.linkedin.com/in/marek-cygan-b9a316140/)
 - X: —
 - Recent signal: Series B announcement: 2026 roadmap centers VLA model development for warehouse picking
 - Warm intro path: cold
@@ -55,6 +54,6 @@ OpenVLA fork pushed April 2025; expanding to US
 
 - [https://github.com/nomagiclab](https://github.com/nomagiclab)
 - [https://github.com/nomagiclab/openvla](https://github.com/nomagiclab/openvla)
+- [https://hoxtonventures.com/founder-spotlight-kacper-nowicki-nomagic/](https://hoxtonventures.com/founder-spotlight-kacper-nowicki-nomagic/)
 - [https://theaiinsider.tech/2026/02/05/nomagic-closes-e8-51m-series-b-extension-to-scale-ai-driven-warehouse-robotics/](https://theaiinsider.tech/2026/02/05/nomagic-closes-e8-51m-series-b-extension-to-scale-ai-driven-warehouse-robotics/)
 - [https://www.khoslaventures.com/portfolio/](https://www.khoslaventures.com/portfolio/)
-- [https://www.linkedin.com/in/marek-cygan-b9a316140/](https://www.linkedin.com/in/marek-cygan-b9a316140/)

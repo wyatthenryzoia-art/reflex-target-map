@@ -47,6 +47,13 @@ BOT_BLOCK_OK_DOMAINS = (
     "ieee.org",
     "x.com",
     "twitter.com",
+    "freightwaves.com",
+    "hoxtonventures.com",
+    "robotics.hexagon.com",
+    "hexagon.com",
+    "siliconangle.com",
+    "eu-startups.com",
+    "automate.org",
 )
 
 

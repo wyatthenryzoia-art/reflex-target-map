@@ -1,7 +1,7 @@
 # Ebots
 
 **Tier 1 — Score: 70/100**  
-**Vertical: Mobile manipulator (other) | Stage: series_a | HQ: Fremont, United States**
+**Vertical: Mobile manipulator (other) | Stage: series_a | HQ: Fremont, USA**
 
 ## What they do
 
@@ -56,6 +56,5 @@ Active 2026 forks of openpi+Cosmos+GR00T strongly indicate VLA stack adoption
 - [https://ebots.com/company/](https://ebots.com/company/)
 - [https://github.com/ebots-inc](https://github.com/ebots-inc)
 - [https://www.businesswire.com/news/home/20250204184202/en/eBots-and-Foxconn-Collaboration-Sets-a-New-Record-in-Adaptive-Precision-Manufacturing-Embodied-AI-Robot-Successfully-Passes-Factory-Acceptance-Test-FAT](https://www.businesswire.com/news/home/20250204184202/en/eBots-and-Foxconn-Collaboration-Sets-a-New-Record-in-Adaptive-Precision-Manufacturing-Embodied-AI-Robot-Successfully-Passes-Factory-Acceptance-Test-FAT)
-- [https://www.linkedin.com/in/zheng-xu-344a025/](https://www.linkedin.com/in/zheng-xu-344a025/)
 - [https://www.silicon.co.uk/press-release/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing-embodied-ai-robot-successfully-passes-factory-acceptance-test-fat](https://www.silicon.co.uk/press-release/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing-embodied-ai-robot-successfully-passes-factory-acceptance-test-fat)
 - [https://www.themachinenation.com/news/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing](https://www.themachinenation.com/news/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing)

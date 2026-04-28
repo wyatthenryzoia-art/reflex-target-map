@@ -212,12 +212,10 @@ def main() -> None:
     DOSS.mkdir(parents=True, exist_ok=True)
     written = 0
     skipped = 0
+    DOSSIER_CAP = 20
 
-    # Dossier set = all Tier 1 + Tier 2 rows scoring >= 68 with a verified buyer.
-    # Spec section 9.2 caps Tier 1 dossiers at 20; spec section 0.5.2 says floor 10.
-    # Strict tier-1-only would yield 8 here (lockin_diy gates 4 high scorers per
-    # spec 11.4), below the 10 floor — extend to include top Tier 2 scorers
-    # whose buyer is identified, so the recipient has 10+ outreach-ready dossiers.
+    # Dossier set = all Tier 1 + top Tier 2 (score>=68 with verified buyer), capped at DOSSIER_CAP.
+    # Spec section 9.2 caps the dossier set at 20; spec section 0.5.2 floor is 10.
     def is_dossier_candidate(c: dict) -> bool:
         if str(c.get("tier", "")) == "1":
             return True
@@ -228,9 +226,11 @@ def main() -> None:
                 return True
         return False
 
-    for c in companies:
-        if not is_dossier_candidate(c):
-            continue
+    candidates = [c for c in companies if is_dossier_candidate(c)]
+    candidates.sort(key=lambda c: -int(c.get("score") or 0))
+    candidates = candidates[:DOSSIER_CAP]
+
+    for c in candidates:
         missing = [k for k in REQUIRED if not c.get(k)]
         if missing:
             print(f"  skipping {c.get('company_name')}: missing {missing}", file=sys.stderr)

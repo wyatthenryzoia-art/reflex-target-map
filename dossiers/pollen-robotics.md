@@ -38,7 +38,6 @@ Active VLA usage (lerobot|smolvla) — direct evidence in their public stack. Pa
 ## Buyer
 
 - Name: **Pierre Rouanet**, Co-founder & CTO Software
-- LinkedIn: [https://www.linkedin.com/in/pierrerouanet/](https://www.linkedin.com/in/pierrerouanet/)
 - X: —
 - Recent signal: Hugging Face acquisition blog: Pierre joined LeRobot to ship online RL on real-world affordable robots
 - Warm intro path: Anthropic adjacency (Hugging Face / open-source ML stack overlap with Reflex's Claude-Code-in-the-loop dev model)
@@ -55,6 +54,6 @@ Acquired by Hugging Face April 2025; Reachy 2 sells at $70K
 
 - [https://github.com/pollen-robotics](https://github.com/pollen-robotics)
 - [https://github.com/pollen-robotics/lerobot](https://github.com/pollen-robotics/lerobot)
-- [https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition)
-- [https://www.linkedin.com/in/pierrerouanet/](https://www.linkedin.com/in/pierrerouanet/)
+- [https://huggingface.co/pollen-robotics](https://huggingface.co/pollen-robotics)
+- [https://techcrunch.com/2025/04/14/hugging-face-buys-a-humanoid-robotics-startup/](https://techcrunch.com/2025/04/14/hugging-face-buys-a-humanoid-robotics-startup/)
 - [https://www.pollen-robotics.com/](https://www.pollen-robotics.com/)

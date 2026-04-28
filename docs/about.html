@@ -19,7 +19,17 @@
 <h2>Universe</h2>
 <p>A robotics company is included if (a) it builds robots or robotics software as a core product, (b) it has raised at least seed from a named investor or shipped a public demo, and (c) it is not on the exclusion list.</p>
 <p>Excluded: trillion-dollar parents that built their own inference (Tesla, Google DeepMind, Meta, Apple, Amazon Robotics); $1B+ companies publicly committed to in-house infra (Figure, 1X, Skild, Sanctuary, Boston Dynamics, Agility, Apptronik); pure hardware/component plays with no ML stack; pure RL or classical-control shops with no language or vision component; defense primes; companies dead or pivoted in the last 12 months. PRC-state-funded research labs and hyperscalers are also dropped — outreach friction is the gating reason.</p>
-<p>Sources: Robot Report RBR50 (last 3 years); VC robotics portfolios (Khosla, Sequoia, a16z, Lux, Eclipse, NVentures, Construct, 8VC); HuggingFace organizations with VLA-tagged models; GitHub org-account forkers of openpi, openvla, lerobot, Isaac-GR00T, SmolVLA; humanoid-robot-startup trackers; robotics funding news Jan 2025 – Apr 2026. 280 raw rows pre-dedup → 84 in the published map.</p>
+<p>Sources, in 15+ streams:</p>
+<ul>
+<li><strong>Lists &amp; rankings:</strong> Robot Report RBR50 (last 3 years), humanoid-robot-startup trackers.</li>
+<li><strong>VC portfolios:</strong> Khosla, Sequoia, a16z, Lux, Eclipse, NVentures, Construct Capital, 8VC, Bessemer, Greylock, GV, Founders Fund, Boldstart.</li>
+<li><strong>Accelerators:</strong> Y Combinator robotics batches (W23–W26), HAX (SOSV), MassRobotics residents.</li>
+<li><strong>Open-source signal:</strong> GitHub org-account forkers of <code>physical-intelligence/openpi</code>, <code>openvla/openvla</code>, <code>huggingface/lerobot</code>, <code>NVIDIA/Isaac-GR00T</code>, <code>lerobot/SmolVLA</code>, <code>octo-models/octo</code>, <code>tonyzhaozh/aloha</code>, <code>MarkFzp/mobile-aloha</code>, <code>google-deepmind/open_x_embodiment</code>, RT-2/PaLM-E variants. HuggingFace orgs with VLA-tagged or robotics-tagged models.</li>
+<li><strong>News (2025–2026):</strong> TechCrunch, The Robot Report, Sifted, Tech.eu, EU-Startups, Hacker News Show HN, FreightWaves, ConstructionDive, AgFunder, MedTech Innovator.</li>
+<li><strong>International press:</strong> 36Kr (China), KED Global / KoreaTechBlog (Korea), Bridge Tokyo / TechBlitz (Japan), Sifted / EU-Startups (Europe), Calcalist (Israel), YourStory / Inc42 (India).</li>
+<li><strong>Vertical deep-dives:</strong> surgical/medical robotics, AI agriculture, construction, last-mile delivery, cleaning, drone autonomy, warehouse, industrial assembly.</li>
+</ul>
+<p>530+ raw rows pre-dedup across two expansion passes → 155 in the published map after exclusions, vla_no drops, and score thresholds.</p>
 <h2>Scoring</h2>
 <p>Each company gets an integer 0-100, combining five axes:</p>
 <ul>

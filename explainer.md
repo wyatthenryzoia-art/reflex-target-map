@@ -6,7 +6,17 @@ A robotics company is included if (a) it builds robots or robotics software as a
 
 Excluded: trillion-dollar parents that built their own inference (Tesla, Google DeepMind, Meta, Apple, Amazon Robotics); $1B+ companies publicly committed to in-house infra (Figure, 1X, Skild, Sanctuary, Boston Dynamics, Agility, Apptronik); pure hardware/component plays with no ML stack; pure RL or classical-control shops with no language or vision component; defense primes; companies dead or pivoted in the last 12 months. PRC-state-funded research labs and hyperscalers are also dropped — outreach friction is the gating reason.
 
-Sources: Robot Report RBR50 (last 3 years); VC robotics portfolios (Khosla, Sequoia, a16z, Lux, Eclipse, NVentures, Construct, 8VC); HuggingFace organizations with VLA-tagged models; GitHub org-account forkers of openpi, openvla, lerobot, Isaac-GR00T, SmolVLA; humanoid-robot-startup trackers; robotics funding news Jan 2025 – Apr 2026. 280 raw rows pre-dedup → 84 in the published map.
+Sources, in 15+ streams:
+
+- **Lists & rankings:** Robot Report RBR50 (last 3 years), humanoid-robot-startup trackers.
+- **VC portfolios:** Khosla, Sequoia, a16z, Lux, Eclipse, NVentures, Construct Capital, 8VC, Bessemer, Greylock, GV, Founders Fund, Boldstart.
+- **Accelerators:** Y Combinator robotics batches (W23–W26), HAX (SOSV), MassRobotics residents.
+- **Open-source signal:** GitHub org-account forkers of `physical-intelligence/openpi`, `openvla/openvla`, `huggingface/lerobot`, `NVIDIA/Isaac-GR00T`, `lerobot/SmolVLA`, `octo-models/octo`, `tonyzhaozh/aloha`, `MarkFzp/mobile-aloha`, `google-deepmind/open_x_embodiment`, RT-2/PaLM-E variants. HuggingFace orgs with VLA-tagged or robotics-tagged models.
+- **News (2025–2026):** TechCrunch, The Robot Report, Sifted, Tech.eu, EU-Startups, Hacker News Show HN, FreightWaves, ConstructionDive, AgFunder, MedTech Innovator.
+- **International press:** 36Kr (China), KED Global / KoreaTechBlog (Korea), Bridge Tokyo / TechBlitz (Japan), Sifted / EU-Startups (Europe), Calcalist (Israel), YourStory / Inc42 (India).
+- **Vertical deep-dives:** surgical/medical robotics, AI agriculture, construction, last-mile delivery, cleaning, drone autonomy, warehouse, industrial assembly.
+
+530+ raw rows pre-dedup across two expansion passes → 155 in the published map after exclusions, vla_no drops, and score thresholds.
 
 ## Scoring
 

@@ -1,5 +1,114 @@
 [
   {
+    "id": "c377",
+    "company_name": "GEN-0 / Generalist AI",
+    "domain": "generalistai.com",
+    "vertical": "humanoid_general",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "hq_display": "San Francisco, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 85,
+    "vla_classification": "vla_active",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "Andrew Barry",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/andy-barry/",
+    "one_line_description": "Embodied foundation model trained on 270k hours manipulation",
+    "dossier_url": "dossiers/gen-0-generalist-ai.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://boldstart.vc/companies/generalist/",
+      "https://generalistai.com/blog/nov-04-2025-GEN-0",
+      "https://generalistai.com/careers",
+      "https://techcrunch.com/2025/03/19/a-key-deepmind-robotics-researcher-left-google-and-nvidia-has-already-backed-his-stealth-startup/",
+      "https://www.linkedin.com/in/andy-barry/",
+      "https://www.linkedin.com/in/andyzenglinked/"
+    ]
+  },
+  {
+    "id": "c442",
+    "company_name": "The Bot Company",
+    "domain": "thebotcompany.com",
+    "vertical": "consumer_home",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "hq_display": "San Francisco, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 85,
+    "vla_classification": "vla_active",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "Paril Jain",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/pariljain/",
+    "one_line_description": "Kyle Vogt home robot startup, multimodal foundation models",
+    "dossier_url": "dossiers/the-bot-company.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://simplify.jobs/p/2a6c8b48-2eff-425a-8d6e-7cd518a4ed80/Machine-Learning-Whole-Body-Control",
+      "https://simplify.jobs/p/504abd6f-8852-4194-8f8d-20d7fd845e0f/Machine-Learning-Multimodal-Foundation-Models",
+      "https://techcrunch.com/2025/03/23/former-cruise-ceo-kyle-vogts-new-robotics-startup-reportedly-raises-another-150m/",
+      "https://www.linkedin.com/in/pariljain/",
+      "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/"
+    ]
+  },
+  {
+    "id": "c437",
+    "company_name": "Humble Robotics",
+    "domain": "humblerobotics.ai",
+    "vertical": "last_mile_delivery",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "hq_display": "San Francisco, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 77,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "Eyal Cohen",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/eyal-cohen-humble/",
+    "one_line_description": "Cabless autonomous electric freight hauler running VLA models, SF",
+    "dossier_url": "dossiers/humble-robotics.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://humblerobotics.ai",
+      "https://humblerobotics.ai/careers",
+      "https://theaiinsider.tech/2026/04/22/humble-emerges-from-stealth-with-24m-in-seed-funding-for-autonomous-cabless-electric-freight-hauling/",
+      "https://www.freightwaves.com/news/humble-hauler-cabless-autonomous-truck",
+      "https://www.linkedin.com/in/eyal-cohen-humble/"
+    ]
+  },
+  {
+    "id": "c449",
+    "company_name": "Periodic Labs",
+    "domain": "periodic.com",
+    "vertical": "research_only",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "hq_display": "San Francisco, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 75,
+    "vla_classification": "vla_likely",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "William (Liam) Fedus",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/william-liam-fedus-26547811/",
+    "one_line_description": "AI scientists plus autonomous wet-lab for materials discovery, $300M seed",
+    "dossier_url": "dossiers/periodic-labs.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://jobs.ashbyhq.com/periodic-labs",
+      "https://periodic.com/",
+      "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/",
+      "https://www.linkedin.com/in/william-liam-fedus-26547811/",
+      "https://www.linkedin.com/posts/william-liam-fedus-26547811_today-ekin-dogus-cubuk-and-i-are-excited-activity-7378821113667227649-v8QQ"
+    ]
+  },
+  {
     "id": "c064",
     "company_name": "Ebots",
     "domain": "ebots.com",
@@ -22,7 +131,6 @@
       "https://ebots.com/company/",
       "https://github.com/ebots-inc",
       "https://www.businesswire.com/news/home/20250204184202/en/eBots-and-Foxconn-Collaboration-Sets-a-New-Record-in-Adaptive-Precision-Manufacturing-Embodied-AI-Robot-Successfully-Passes-Factory-Acceptance-Test-FAT",
-      "https://www.linkedin.com/in/zheng-xu-344a025/",
       "https://www.silicon.co.uk/press-release/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing-embodied-ai-robot-successfully-passes-factory-acceptance-test-fat",
       "https://www.themachinenation.com/news/ebots-and-foxconn-collaboration-sets-a-new-record-in-adaptive-precision-manufacturing"
     ]
@@ -52,6 +160,32 @@
       "https://www.khoslaventures.com/portfolio/",
       "https://www.linkedin.com/in/ali-agha-7aa5212a",
       "https://www.therobotreport.com/fieldai-founder-ceo-discuss-building-risk-aware-ai-models-robobusiness/"
+    ]
+  },
+  {
+    "id": "c351",
+    "company_name": "Trener Robotics",
+    "domain": "trenerrobotics.com",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "hq_display": "San Francisco, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 60,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "Lars Tingelstad",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/lars-tingelstad-9b45674/",
+    "one_line_description": "Norway/SF physical-AI skill platform for industrial robots, Series A",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://finance.yahoo.com/news/trener-robotics-raises-32m-series-150000495.html",
+      "https://newmarketpitch.com/blogs/news/robotics-funding-news",
+      "https://www.businesswire.com/news/home/20260210315522/en/Trener-Robotics-raises-$32M-Series-A-to-bring-Physical-Intelligence-to-Industrial-Automation-Providing-a-Foundational-Intelligence-Layer-that-Enables-Software-Defined-Control-of-Robots",
+      "https://www.linkedin.com/in/lars-tingelstad-9b45674/"
     ]
   },
   {
@@ -156,9 +290,32 @@
     "source_urls": [
       "https://github.com/industrialnext",
       "https://industrialnext.ai/",
-      "https://industrialnext.com",
       "https://www.linkedin.com/in/lukas-pankau-16672185561660",
       "https://www.ycombinator.com/companies/industrial-next"
+    ]
+  },
+  {
+    "id": "c395",
+    "company_name": "Theator",
+    "domain": "theator.io",
+    "vertical": "surgical_medical",
+    "hq_city": "San Mateo",
+    "hq_country": "USA",
+    "hq_display": "San Mateo, USA",
+    "region": "california",
+    "tier": 2,
+    "score": 54,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "Dotan Asselmann",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/dotan-asselmann/",
+    "one_line_description": "Surgical intelligence platform, large vision-language models, San Mateo/Israel",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://theator.io/",
+      "https://www.linkedin.com/in/dotan-asselmann/"
     ]
   },
   {
@@ -212,6 +369,29 @@
     ]
   },
   {
+    "id": "c414",
+    "company_name": "Coco Robotics",
+    "domain": "cocodelivery.com",
+    "vertical": "last_mile_delivery",
+    "hq_city": "Los Angeles",
+    "hq_country": "USA",
+    "hq_display": "Los Angeles, USA",
+    "region": "california",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Sidewalk delivery bots with Coco 2 autonomy",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.therobotreport.com/coco-robotics-raises-80m-to-scale-sidewalk-delivery-robots/"
+    ]
+  },
+  {
     "id": "c059",
     "company_name": "IntBot",
     "domain": "intbot.ai",
@@ -233,6 +413,31 @@
     "source_urls": [
       "https://github.com/intbotinc",
       "https://intbot.ai"
+    ]
+  },
+  {
+    "id": "c259",
+    "company_name": "HABIT Robotics",
+    "domain": "habitrobotics.com",
+    "vertical": "cleaning_janitorial",
+    "hq_city": "Los Angeles",
+    "hq_country": "USA",
+    "hq_display": "Los Angeles, USA",
+    "region": "california",
+    "tier": 3,
+    "score": 39,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC X25 conversational service robots for retail and detailing",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://habitrobotics.com",
+      "https://www.extruct.ai/ycombinator-companies/x25/",
+      "https://www.ycombinator.com/companies/habit"
     ]
   },
   {
@@ -306,6 +511,58 @@
     "source_urls": [
       "https://a16z.com/portfolio/",
       "https://osaro.com"
+    ]
+  },
+  {
+    "id": "c251",
+    "company_name": "Proception",
+    "domain": "proception.ai",
+    "vertical": "humanoid_general",
+    "hq_city": "Palo Alto",
+    "hq_country": "USA",
+    "hq_display": "Palo Alto, USA",
+    "region": "california",
+    "tier": 3,
+    "score": 28,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC W25 dexterous robotic hand for humanoids, ex-Tesla Optimus founders",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://proception.ai",
+      "https://www.extruct.ai/ycombinator-companies/w25/",
+      "https://www.ycombinator.com/companies/proception-inc"
+    ]
+  },
+  {
+    "id": "c332",
+    "company_name": "Nuro",
+    "domain": "nuro.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "Mountain View, CA",
+    "hq_country": "USA",
+    "hq_display": "Mountain View, CA, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 80,
+    "vla_classification": "vla_likely",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "Dave Ferguson",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/dave-ferguson-565b974",
+    "one_line_description": "Autonomous driving licensing platform, $2.3B raised, Series E",
+    "dossier_url": "dossiers/nuro.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://greylock.com/portfolio/",
+      "https://nuro.ai/",
+      "https://nuro.ai/careers",
+      "https://techcrunch.com/2024/09/11/nuro-pivots-to-license-self-driving-tech-to-carmakers-mobility-companies/",
+      "https://www.linkedin.com/in/dave-ferguson-565b974"
     ]
   },
   {
@@ -392,6 +649,57 @@
     ]
   },
   {
+    "id": "c402",
+    "company_name": "Aigen",
+    "domain": "aigen.io",
+    "vertical": "agriculture",
+    "hq_city": "Kirkland",
+    "hq_country": "USA",
+    "hq_display": "Kirkland, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 63,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "Richard Wurden",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/richard-wurden/",
+    "one_line_description": "Solar-powered weeding rover with NVIDIA Cosmos post-training",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://aws.amazon.com/blogs/architecture/how-aigen-transformed-agricultural-robotics-for-sustainable-farming-with-amazon-sagemaker-ai/",
+      "https://jobs.lever.co/aigen/",
+      "https://www.aigen.io/",
+      "https://www.linkedin.com/in/richard-wurden/"
+    ]
+  },
+  {
+    "id": "c403",
+    "company_name": "Burro",
+    "domain": "burro.ai",
+    "vertical": "agriculture",
+    "hq_city": "Philadelphia",
+    "hq_country": "USA",
+    "hq_display": "Philadelphia, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 61,
+    "vla_classification": "vla_likely",
+    "pain_score": 2,
+    "spend_tier": "b",
+    "buyer_name": "Vibhor Sood",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/vibhorsood/",
+    "one_line_description": "Autonomous carts for specialty-crop ag, Pennsylvania",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://agfundernews.com/the-7-biggest-farm-robotics-deals-of-2024-so-far",
+      "https://burro.ai/careers",
+      "https://www.linkedin.com/in/vibhorsood/"
+    ]
+  },
+  {
     "id": "c036",
     "company_name": "Vassar Robotics",
     "domain": "vassarrobotics.com",
@@ -441,6 +749,53 @@
       "https://www.iotworldtoday.com/robotics/locus-robotics-latest-funding-round-values-company-at-nearly-2b-",
       "https://www.linkedin.com/in/seanbjohnson/",
       "https://www.therobotreport.com/rbr50-2025/"
+    ]
+  },
+  {
+    "id": "c398",
+    "company_name": "EndoQuest",
+    "domain": "endoquestrobotics.com",
+    "vertical": "surgical_medical",
+    "hq_city": "Houston",
+    "hq_country": "USA",
+    "hq_display": "Houston, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 58,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Endoluminal flexible surgical robot integrating Nvidia IGX Thor",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://endoquestrobotics.com"
+    ]
+  },
+  {
+    "id": "c446",
+    "company_name": "Nomadic AI",
+    "domain": "nomadic.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 55,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "Varun Krishnan",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/varun-krishnan-653139a4/",
+    "one_line_description": "AV/robotics fleet data analysis platform, $8.4M seed",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
+      "https://www.linkedin.com/in/varun-krishnan-653139a4/"
     ]
   },
   {
@@ -572,6 +927,59 @@
     ]
   },
   {
+    "id": "c254",
+    "company_name": "General Trajectory",
+    "domain": "generaltrajectory.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 52,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "c",
+    "buyer_name": "Joshua Belofsky",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/joshua-belofsky-25328523b/",
+    "one_line_description": "YC W25 reasoning + VLM foundation model for dexterous robot manipulation",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=46515259",
+      "https://www.extruct.ai/ycombinator-companies/w25/",
+      "https://www.linkedin.com/in/joshua-belofsky-25328523b/",
+      "https://www.linkedin.com/posts/joshua-belofsky-25328523b_general-trajectory-update-3-introducing-activity-7442624690684153856-0BGx",
+      "https://www.ycombinator.com/companies/general-trajectory",
+      "https://www.ycombinator.com/launches/MyN-general-trajectory-reasoning-models-for-robotics"
+    ]
+  },
+  {
+    "id": "c428",
+    "company_name": "Red Cat Holdings (Teal)",
+    "domain": "redcatholdings.com",
+    "vertical": "defense_dual_use",
+    "hq_city": "San Juan, PR",
+    "hq_country": "USA",
+    "hq_display": "San Juan, PR, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 51,
+    "vla_classification": "vla_possible",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "US Army-approved soldier-portable Black Widow drone maker",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://redcat.red/",
+      "https://redcat.red/careers",
+      "https://www.lantronix.com/newsroom/press-releases/lantronix-solution-powers-u-s-army-approved-teal-drones-a-red-cat-holdings-co-unlocking-secure-edge-ai-growth-opportunity/"
+    ]
+  },
+  {
     "id": "c062",
     "company_name": "EmbodyX",
     "domain": "embodyx.io",
@@ -596,6 +1004,30 @@
     ]
   },
   {
+    "id": "c435",
+    "company_name": "Noble Machines",
+    "domain": "noblemachines.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Sunnyvale, CA",
+    "hq_country": "USA",
+    "hq_display": "Sunnyvale, CA, USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 49,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "General-purpose industrial humanoid Moby, Sunnyvale stealth-exit",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.noblemachines.ai/",
+      "https://www.therobotreport.com/noble-machines-exits-stealth-with-moby-humanoid/"
+    ]
+  },
+  {
     "id": "c072",
     "company_name": "AI Foundry",
     "domain": "aifoundry.org",
@@ -617,6 +1049,54 @@
     "source_urls": [
       "https://github.com/aifoundry-org",
       "https://github.com/aifoundry-org/lerobot"
+    ]
+  },
+  {
+    "id": "c257",
+    "company_name": "Boost Robotics",
+    "domain": "boostrobotics.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Physical agents for datacenter inspection, YC X25",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.boostrobotics.ai",
+      "https://www.extruct.ai/ycombinator-companies/x25/"
+    ]
+  },
+  {
+    "id": "c272",
+    "company_name": "Congruent",
+    "domain": "congruent.io",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Radar for end-to-end autonomy, YC W26",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://congruent.io",
+      "https://congruent.io/"
     ]
   },
   {
@@ -665,6 +1145,53 @@
     "source_urls": [
       "https://github.com/TrossenRobotics",
       "https://github.com/TrossenRobotics/lerobot_trossen"
+    ]
+  },
+  {
+    "id": "c444",
+    "company_name": "Eka Robotics",
+    "domain": "eka.com",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "Cambridge",
+    "hq_country": "USA",
+    "hq_display": "Cambridge, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 44,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Self-supervised-learning manipulation startup, Cambridge MA",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://pitchbook.com/profiles/company/1326584-71"
+    ]
+  },
+  {
+    "id": "c331",
+    "company_name": "Breaker",
+    "domain": "breakerindustries.com",
+    "vertical": "defense_dual_use",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 43,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Voice-driven multi-robot agent for defense, AVALON",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.breakerindustries.com",
+      "https://www.bvp.com/portfolio"
     ]
   },
   {
@@ -791,6 +1318,339 @@
     ]
   },
   {
+    "id": "c399",
+    "company_name": "Virtuoso Surgical",
+    "domain": "virtuososurgical.net",
+    "vertical": "surgical_medical",
+    "hq_city": "Nashville",
+    "hq_country": "USA",
+    "hq_display": "Nashville, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Endoscopic surgical robotics, ARPA-H AI demonstration learning project",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://virtuososurgical.net/2025/01/13/virtuoso-surgical-robot-helps-enable-innovative-arpa-h-project-on-artificial-intelligence/"
+    ]
+  },
+  {
+    "id": "c283",
+    "company_name": "Ultra",
+    "domain": "ultra.tech",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "New York",
+    "hq_country": "USA",
+    "hq_display": "New York, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 39,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI-powered ecommerce packaging robot for warehouses, NYC, YC S24",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2024/09/25/13-companies-from-yc-demo-day-1-that-are-worth-paying-attention-to/",
+      "https://ultra.tech/"
+    ]
+  },
+  {
+    "id": "c282",
+    "company_name": "Yondu",
+    "domain": "yondu.ai",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "Gardena",
+    "hq_country": "USA",
+    "hq_display": "Gardena, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 39,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied AI for warehouse bin-picking, Gardena CA, YC W24",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2024/09/25/13-companies-from-yc-demo-day-1-that-are-worth-paying-attention-to/",
+      "https://yondu.ai/"
+    ]
+  },
+  {
+    "id": "c431",
+    "company_name": "Palladyne AI",
+    "domain": "palladyneai.com",
+    "vertical": "drone_aerial",
+    "hq_city": "Salt Lake City",
+    "hq_country": "USA",
+    "hq_display": "Salt Lake City, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 37,
+    "vla_classification": "vla_possible",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied AI software for multi-drone autonomy, public on Nasdaq",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": []
+  },
+  {
+    "id": "c281",
+    "company_name": "Adagy Robotics",
+    "domain": "",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Remote intervention service for autonomous robots labels foundation-model data",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.wing.vc/content/yc-w24-demo-day-the-implications-for-enterprise-tech",
+      "https://www.workatastartup.com/companies/adagy-robotics",
+      "https://www.ycombinator.com/companies/adagy-robotics"
+    ]
+  },
+  {
+    "id": "c309",
+    "company_name": "LabyrinthAI",
+    "domain": "labyrinthai.co",
+    "vertical": "humanoid_general",
+    "hq_city": "Boston",
+    "hq_country": "USA",
+    "hq_display": "Boston, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Foundation models for robot task learning, MassRobotics resident",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://labyrinthai.co/",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/"
+    ]
+  },
+  {
+    "id": "c265",
+    "company_name": "One Robot",
+    "domain": "onerobot.io",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "World models for VLA evals and training simulation",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.onerobot.io/",
+      "https://yctierlist.com/w26/one-robot/"
+    ]
+  },
+  {
+    "id": "c321",
+    "company_name": "Synthium",
+    "domain": "synthium.xyz",
+    "vertical": "research_only",
+    "hq_city": "Boston",
+    "hq_country": "USA",
+    "hq_display": "Boston, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Crowdsourced gameplay data for humanoid policy training",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://synthium.xyz/",
+      "https://synthium.xyz/careers",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/"
+    ]
+  },
+  {
+    "id": "c323",
+    "company_name": "TP7 AI Robotics",
+    "domain": "tp7.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Dual-arm mobile robots learning by observation, Harvard/MIT founders",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/",
+      "https://www.tp7.ai/"
+    ]
+  },
+  {
+    "id": "c322",
+    "company_name": "Thinking Robots",
+    "domain": "thinkingrobots.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "Boston",
+    "hq_country": "USA",
+    "hq_display": "Boston, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Custom robotics software, Boston, natural-language instruction",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/",
+      "https://www.thinkingrobots.ai/"
+    ]
+  },
+  {
+    "id": "c280",
+    "company_name": "Asimov",
+    "domain": "tryasimov.ai",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 33,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Robotics training-data marketplace, YC W26",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
+      "https://tryasimov.ai"
+    ]
+  },
+  {
+    "id": "c303",
+    "company_name": "Endox",
+    "domain": "endoxai.com",
+    "vertical": "defense_dual_use",
+    "hq_city": "Boston",
+    "hq_country": "USA",
+    "hq_display": "Boston, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 30,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Physical-AI robotics for defense and supply chain reshoring, Boston seed",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://endoxai.com",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/"
+    ]
+  },
+  {
+    "id": "c285",
+    "company_name": "Sensei",
+    "domain": "",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "USA",
+    "hq_display": "USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 29,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC S24 robotics training-data startup",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2024/09/25/13-companies-from-yc-demo-day-1-that-are-worth-paying-attention-to/"
+    ]
+  },
+  {
+    "id": "c418",
+    "company_name": "Avride",
+    "domain": "avride.ai",
+    "vertical": "last_mile_delivery",
+    "hq_city": "Austin",
+    "hq_country": "USA",
+    "hq_display": "Austin, USA",
+    "region": "us_other",
+    "tier": 3,
+    "score": 28,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Yandex spinout autonomous delivery bots and AVs",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://avride.ai",
+      "https://global.rakuten.com/corp/news/press/2025/0226_01.html"
+    ]
+  },
+  {
     "id": "c040",
     "company_name": "Generative Bionics",
     "domain": "gbionics.ai",
@@ -820,6 +1680,33 @@
     ]
   },
   {
+    "id": "c439",
+    "company_name": "Hexagon Robotics",
+    "domain": "hexagon-robotics.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Zurich",
+    "hq_country": "CH",
+    "hq_display": "Zurich, CH",
+    "region": "international",
+    "tier": 1,
+    "score": 85,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "Enno de Lange",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/ekdelange/",
+    "one_line_description": "AEON wheeled humanoid for industrial use, Zurich; BMW deployed",
+    "dossier_url": "dossiers/hexagon-robotics.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
+      "https://robotics.hexagon.com/bmw-deploys-aeon-hexagon-robotics-humanoid/",
+      "https://www.linkedin.com/in/ekdelange/",
+      "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/",
+      "https://www.therobotreport.com/top-10-robotics-developments-march-2026/"
+    ]
+  },
+  {
     "id": "c187",
     "company_name": "X Square Robot",
     "domain": "x2robot.com",
@@ -844,6 +1731,58 @@
       "https://huggingface.co/x-square-robot/wall-oss-flow",
       "https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/",
       "https://x2robot.com"
+    ]
+  },
+  {
+    "id": "c354",
+    "company_name": "AI2 Robotics",
+    "domain": "ai2robotics.com",
+    "vertical": "humanoid_general",
+    "hq_city": "Shenzhen",
+    "hq_country": "China",
+    "hq_display": "Shenzhen, China",
+    "region": "international",
+    "tier": 2,
+    "score": 80,
+    "vla_classification": "vla_active",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied foundation model robots AlphaBot China",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://ai2robotics.com/en/about/",
+      "https://newmarketpitch.com/blogs/news/robotics-funding-news",
+      "https://www.therobotreport.com/ai2-robotics-raises-series-b-funding-advance-alphabot-embodied-ai/"
+    ]
+  },
+  {
+    "id": "c353",
+    "company_name": "Rhoda AI",
+    "domain": "rhoda.ai",
+    "vertical": "humanoid_general",
+    "hq_city": "Singapore",
+    "hq_country": "Singapore",
+    "hq_display": "Singapore, Singapore",
+    "region": "international",
+    "tier": 2,
+    "score": 80,
+    "vla_classification": "vla_active",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "Jagdeep Singh",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/jagdeep-singh-3b2a9222",
+    "one_line_description": "FutureVision video-predictive control foundation model robotics",
+    "dossier_url": "dossiers/rhoda-ai.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://siliconangle.com/2026/03/10/rhoda-ai-raises-450m-build-foundational-robotics-models-learn-internet-videos/",
+      "https://technode.global/2026/03/11/temasek-backed-rhoda-ai-raises-450m-series-a-funding-to-accelerate-robotics-development/",
+      "https://www.businesswire.com/news/home/20260310715139/en/Rhoda-AI-Exits-Stealth-with-$450-Million-Series-A-to-Bring-Robots-Out-of-the-Lab-and-Into-the-Real-World",
+      "https://www.linkedin.com/in/jagdeep-singh-3b2a9222",
+      "https://www.therobotreport.com/rhoda-ai-exits-stealth-with-450m-to-train-robots-from-video/"
     ]
   },
   {
@@ -876,6 +1815,33 @@
     ]
   },
   {
+    "id": "c390",
+    "company_name": "Humanoid (UK)",
+    "domain": "thehumanoid.ai",
+    "vertical": "humanoid_general",
+    "hq_city": "London",
+    "hq_country": "GB",
+    "hq_display": "London, GB",
+    "region": "international",
+    "tier": 2,
+    "score": 77,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "Jarad Cannon",
+    "buyer_linkedin_url": "https://uk.linkedin.com/in/jarad-cannon",
+    "one_line_description": "London general-purpose humanoid HMND 01 with VLA-based KinetIQ stack",
+    "dossier_url": "dossiers/humanoid-uk.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://thehumanoid.ai",
+      "https://thehumanoid.ai/about-us/",
+      "https://thehumanoid.ai/careers",
+      "https://uk.linkedin.com/in/jarad-cannon",
+      "https://www.therobotreport.com/u-k-based-startup-humanoid-unveils-hmnd-01-alpha-mobile-manipulator/"
+    ]
+  },
+  {
     "id": "c056",
     "company_name": "TII",
     "domain": "tii.ae",
@@ -897,6 +1863,33 @@
     "source_urls": [
       "https://github.com/tiiuae",
       "https://github.com/tiiuae/openvla-internal"
+    ]
+  },
+  {
+    "id": "c364",
+    "company_name": "Telexistence",
+    "domain": "tx-inc.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Tokyo",
+    "hq_country": "Japan",
+    "hq_display": "Tokyo, Japan",
+    "region": "international",
+    "tier": 1,
+    "score": 75,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "Genki Sano",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/genkisano/",
+    "one_line_description": "Japan retail humanoid with VLA foundation model, Seven-Eleven partnership",
+    "dossier_url": "dossiers/telexistence.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://news.crunchbase.com/robotics/softbank-venture-artificial-intelligence-telexistence/",
+      "https://techcrunch.com/2023/07/06/softbank-backs-japanese-robotics-startup-telexistence-in-170m-funding-round/",
+      "https://tx-inc.com/en/blog/2023/07/06/12082/",
+      "https://tx-inc.com/en/blog/2025/09/30/12542/",
+      "https://www.linkedin.com/in/genkisano/"
     ]
   },
   {
@@ -927,6 +1920,34 @@
     ]
   },
   {
+    "id": "c340",
+    "company_name": "Mimic Robotics",
+    "domain": "mimicrobotics.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Zurich",
+    "hq_country": "Switzerland",
+    "hq_display": "Zurich, Switzerland",
+    "region": "international",
+    "tier": 2,
+    "score": 72,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "b",
+    "buyer_name": "Elvis Nava",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/elvisnava/",
+    "one_line_description": "ETH spinout dexterous-hand foundation models, Zurich seed $16M",
+    "dossier_url": "dossiers/mimic-robotics.html",
+    "has_dossier": true,
+    "source_urls": [
+      "https://mimic-video.github.io/",
+      "https://sifted.eu/articles/eth-robotics-spinout-mimic-raises-16m-seed",
+      "https://www.elvisnava.com/posts/2026_01_06_video_backbones/",
+      "https://www.linkedin.com/in/elvisnava/",
+      "https://www.mimicrobotics.com/",
+      "https://www.mimicrobotics.com/careers"
+    ]
+  },
+  {
     "id": "c014",
     "company_name": "RLWRLD",
     "domain": "rlwrld.ai",
@@ -951,6 +1972,29 @@
       "https://www.linkedin.com/in/jung-hee-ryu-5376623/",
       "https://www.linkedin.com/posts/jung-hee-ryu-5376623_rlwrld-defining-the-future-of-physical-ai-activity-7379709270189277185-Nu1l",
       "https://www.therobotreport.com/physical-ai-startup-rlwrld-raises-26m/"
+    ]
+  },
+  {
+    "id": "c352",
+    "company_name": "AMI",
+    "domain": "",
+    "vertical": "research_only",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "hq_display": "Paris, France",
+    "region": "international",
+    "tier": 2,
+    "score": 70,
+    "vla_classification": "vla_likely",
+    "pain_score": 3,
+    "spend_tier": "a",
+    "buyer_name": "Saining Xie",
+    "buyer_linkedin_url": "https://www.sainingxie.com/",
+    "one_line_description": "World models AI for physical environments Paris",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.sainingxie.com/"
     ]
   },
   {
@@ -980,6 +2024,30 @@
     ]
   },
   {
+    "id": "c381",
+    "company_name": "General Intuition",
+    "domain": "generalintuition.com",
+    "vertical": "research_only",
+    "hq_city": "Geneva",
+    "hq_country": "CH",
+    "hq_display": "Geneva, CH",
+    "region": "international",
+    "tier": 2,
+    "score": 70,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "a",
+    "buyer_name": "Pim de Witte",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/pimdw",
+    "one_line_description": "Spatial-reasoning world-model startup for games, robotics and drones",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2025/10/16/general-intuition-lands-134m-seed-to-teach-agents-spatial-reasoning-using-video-game-clips/",
+      "https://www.linkedin.com/in/pimdw"
+    ]
+  },
+  {
     "id": "c058",
     "company_name": "Nomagic",
     "domain": "nomagic.ai",
@@ -994,16 +2062,16 @@
     "pain_score": 1,
     "spend_tier": "b",
     "buyer_name": "Marek Cygan",
-    "buyer_linkedin_url": "https://www.linkedin.com/in/marek-cygan-b9a316140/",
+    "buyer_linkedin_url": "",
     "one_line_description": "Warehouse pick-and-place AI robotics",
     "dossier_url": "dossiers/nomagic.html",
     "has_dossier": true,
     "source_urls": [
       "https://github.com/nomagiclab",
       "https://github.com/nomagiclab/openvla",
+      "https://hoxtonventures.com/founder-spotlight-kacper-nowicki-nomagic/",
       "https://theaiinsider.tech/2026/02/05/nomagic-closes-e8-51m-series-b-extension-to-scale-ai-driven-warehouse-robotics/",
-      "https://www.khoslaventures.com/portfolio/",
-      "https://www.linkedin.com/in/marek-cygan-b9a316140/"
+      "https://www.khoslaventures.com/portfolio/"
     ]
   },
   {
@@ -1021,15 +2089,15 @@
     "pain_score": 0,
     "spend_tier": "b",
     "buyer_name": "Pierre Rouanet",
-    "buyer_linkedin_url": "https://www.linkedin.com/in/pierrerouanet/",
+    "buyer_linkedin_url": "",
     "one_line_description": "Open-source Reachy humanoid acquired by Hugging Face April 2025",
     "dossier_url": "dossiers/pollen-robotics.html",
     "has_dossier": true,
     "source_urls": [
       "https://github.com/pollen-robotics",
       "https://github.com/pollen-robotics/lerobot",
-      "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
-      "https://www.linkedin.com/in/pierrerouanet/",
+      "https://huggingface.co/pollen-robotics",
+      "https://techcrunch.com/2025/04/14/hugging-face-buys-a-humanoid-robotics-startup/",
       "https://www.pollen-robotics.com/"
     ]
   },
@@ -1048,16 +2116,93 @@
     "pain_score": 0,
     "spend_tier": "a",
     "buyer_name": "Marc Tuscher",
-    "buyer_linkedin_url": "https://www.linkedin.com/in/marc-tuscher-3b4048149/",
+    "buyer_linkedin_url": "",
     "one_line_description": "VLA + world model warehouse picking platform",
-    "dossier_url": "dossiers/sereact.html",
-    "has_dossier": true,
+    "dossier_url": "",
+    "has_dossier": false,
     "source_urls": [
       "https://sereact.ai/careers",
       "https://sereact.ai/posts/cortex-2",
       "https://theaiinsider.tech/2026/04/27/sereact-raises-110m-in-series-b-funding-to-expand-warehouse-robotics-platform/",
-      "https://www.linkedin.com/in/marc-tuscher-3b4048149/",
       "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c382",
+    "company_name": "Sharpa",
+    "domain": "sharpa.com",
+    "vertical": "humanoid_general",
+    "hq_city": "Singapore",
+    "hq_country": "Singapore",
+    "hq_display": "Singapore, Singapore",
+    "region": "international",
+    "tier": 2,
+    "score": 67,
+    "vla_classification": "vla_active",
+    "pain_score": 2,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Singapore VTLA dexterous hand and humanoid (CES 2026 winner)",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.prnewswire.com/news-releases/sharpa-aims-to-manufacture-time-via-its-craftnet-vtla-model-and-stuns-ces-2026-with-live-autonomous-demos-for-fine-manipulation-302664262.html",
+      "https://www.sharpa.com",
+      "https://www.sharpa.com/blogs/news/sharpa-aims-to-manufacture-time-via-its-craftnet-vtla-model-and-stuns-ces-2026-with-live-autonomous-demos-for-fine-manipulation",
+      "https://www.sharpa.com/blogs/news/singapores-sharpa-wins-ces-2026-innovation-award-for-groundbreak-ai-robotic-hand-sharpawave",
+      "https://www.sharpa.com/pages/careers"
+    ]
+  },
+  {
+    "id": "c385",
+    "company_name": "Addverb Technologies",
+    "domain": "addverb.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Noida",
+    "hq_country": "India",
+    "hq_display": "Noida, India",
+    "region": "international",
+    "tier": 2,
+    "score": 66,
+    "vla_classification": "vla_likely",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Warehouse automation and humanoid Reliance-backed Noida",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://addverb.com/",
+      "https://careers.addverb.com/",
+      "https://inc42.com/features/addverbs-humanoid-bet-how-this-noida-robotics-startup-is-building-physical-ai/"
+    ]
+  },
+  {
+    "id": "c376",
+    "company_name": "Agile Robots",
+    "domain": "agile-robots.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Munich",
+    "hq_country": "Germany",
+    "hq_display": "Munich, Germany",
+    "region": "international",
+    "tier": 2,
+    "score": 66,
+    "vla_classification": "vla_likely",
+    "pain_score": 2,
+    "spend_tier": "a",
+    "buyer_name": "Zhaopeng Chen",
+    "buyer_linkedin_url": "https://de.linkedin.com/in/zhaopeng-chen-b82804100",
+    "one_line_description": "Industrial humanoid robotics Munich DLR spinout",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://de.linkedin.com/in/zhaopeng-chen-b82804100",
+      "https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/",
+      "https://www.agile-robots.com/en/news/detail/agile-robots-and-google-deepmind-partner-to-bring-intelligence-to-robotics/",
+      "https://www.therobotreport.com/agile-robots-launches-agile-one-industrial-humanoid/"
     ]
   },
   {
@@ -1139,6 +2284,31 @@
     ]
   },
   {
+    "id": "c360",
+    "company_name": "Holiday Robotics",
+    "domain": "",
+    "vertical": "humanoid_industrial",
+    "hq_city": "",
+    "hq_country": "KR",
+    "hq_display": "KR",
+    "region": "international",
+    "tier": 2,
+    "score": 63,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "Kiyoung Song",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/kiyoung-song-769605b3/",
+    "one_line_description": "Korean manufacturing humanoid platform using NVIDIA GR00T",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://en.wowtale.net/2025/07/13/231588/",
+      "https://www.humanoidsdaily.com/feed/holiday-robotics-unveils-friday-a-wheeled-humanoid-that-prioritizes-hands-over-legs",
+      "https://www.linkedin.com/in/kiyoung-song-769605b3/"
+    ]
+  },
+  {
     "id": "c002",
     "company_name": "Robotec.ai",
     "domain": "robotec.ai",
@@ -1162,6 +2332,56 @@
       "https://github.com/RobotecAI/openvla",
       "https://www.linkedin.com/in/dabrowskiadam/",
       "https://www.robotec.ai/careers"
+    ]
+  },
+  {
+    "id": "c368",
+    "company_name": "Spirit AI (Qianxun)",
+    "domain": "qianxun-ai.com",
+    "vertical": "humanoid_general",
+    "hq_city": "",
+    "hq_country": "China",
+    "hq_display": "China",
+    "region": "international",
+    "tier": 2,
+    "score": 60,
+    "vla_classification": "vla_active",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Chinese humanoid foundry, self-developed Spirit VLA model, Pre-A+",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://eu.36kr.com/en/p/3701216103281408"
+    ]
+  },
+  {
+    "id": "c380",
+    "company_name": "Neuracore",
+    "domain": "neuracore.com",
+    "vertical": "research_only",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "hq_display": "London, United Kingdom",
+    "region": "international",
+    "tier": 2,
+    "score": 57,
+    "vla_classification": "vla_likely",
+    "pain_score": 2,
+    "spend_tier": "c",
+    "buyer_name": "Stephen James",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/stepjam/",
+    "one_line_description": "London cloud-native robot learning platform, \u20ac2.5M pre-seed",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://huggingface.co/NeuraCore",
+      "https://neuracore.com/careers",
+      "https://www.linkedin.com/in/stepjam/",
+      "https://www.neuracore.com/",
+      "https://x.com/stepjamUK/status/2036825869117772238"
     ]
   },
   {
@@ -1546,6 +2766,29 @@
     ]
   },
   {
+    "id": "c359",
+    "company_name": "AeiROBOT",
+    "domain": "",
+    "vertical": "humanoid_general",
+    "hq_city": "Seoul",
+    "hq_country": "South Korea",
+    "hq_display": "Seoul, South Korea",
+    "region": "international",
+    "tier": 2,
+    "score": 49,
+    "vla_classification": "vla_active",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean humanoid leveraging Isaac GR00T platform",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://en.wowtale.net/2025/07/13/231588/"
+    ]
+  },
+  {
     "id": "c156",
     "company_name": "Brightpick",
     "domain": "brightpick.com",
@@ -1568,6 +2811,29 @@
       "https://brightpick.ai",
       "https://www.linkedin.com/in/michalmaly/",
       "https://www.therobotreport.com/rbr50-2024/"
+    ]
+  },
+  {
+    "id": "c450",
+    "company_name": "Daedalus",
+    "domain": "daedalus.ai",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "Karlsruhe",
+    "hq_country": "Germany",
+    "hq_display": "Karlsruhe, Germany",
+    "region": "international",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI-powered autonomous precision-manufacturing factories, ex-OpenAI Robotics",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2024/02/08/daedalus-manufacturing-jonas-schneider-openai-robotics-raises-21-million/"
     ]
   },
   {
@@ -1716,6 +2982,31 @@
     ]
   },
   {
+    "id": "c260",
+    "company_name": "The Robot Learning Company",
+    "domain": "robot-learning.co",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "Germany",
+    "hq_display": "Germany",
+    "region": "international",
+    "tier": 2,
+    "score": 45,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Open-source AI-native robotics dev kit, Germany",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://jobs.ashbyhq.com/robot-learning-co",
+      "https://robot-learning.co/",
+      "https://www.extruct.ai/ycombinator-companies/x25/"
+    ]
+  },
+  {
     "id": "c008",
     "company_name": "UFACTORY",
     "domain": "ufactory.cc",
@@ -1787,6 +3078,30 @@
     ]
   },
   {
+    "id": "c362",
+    "company_name": "Bone AI",
+    "domain": "bone.ai",
+    "vertical": "defense_dual_use",
+    "hq_city": "Seoul",
+    "hq_country": "South Korea",
+    "hq_display": "Seoul, South Korea",
+    "region": "international",
+    "tier": 3,
+    "score": 44,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Defense physical AI for UAV/UGV/USV, Seoul + Palo Alto",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://techcrunch.com/2025/11/17/bone-ai-raises-funding-to-challenge-asias-defense-giants-with-next-gen-ai-powered-robotics/",
+      "https://www.bonerobotics.ai/"
+    ]
+  },
+  {
     "id": "c118",
     "company_name": "Moon Surgical",
     "domain": "moonsurgical.com",
@@ -1811,6 +3126,125 @@
     ]
   },
   {
+    "id": "c394",
+    "company_name": "Sages Intelligence",
+    "domain": "",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "",
+    "hq_country": "China",
+    "hq_display": "China",
+    "region": "international",
+    "tier": 3,
+    "score": 44,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "China embodied AI mobile multi-arm robot maker, profitable",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://eu.36kr.com/en/p/3604613279237380",
+      "https://eu.36kr.com/en/p/3610836423574531"
+    ]
+  },
+  {
+    "id": "c327",
+    "company_name": "XYZ Robotics",
+    "domain": "xyzrobotics.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "Shanghai",
+    "hq_country": "China",
+    "hq_display": "Shanghai, China",
+    "region": "international",
+    "tier": 3,
+    "score": 44,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI mobile manipulation for truck loading and warehouse picking, China/global",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/",
+      "https://www.xyzrobotics.com/"
+    ]
+  },
+  {
+    "id": "c372",
+    "company_name": "Engine AI",
+    "domain": "engineai.com.cn",
+    "vertical": "humanoid_general",
+    "hq_city": "Shenzhen",
+    "hq_country": "CN",
+    "hq_display": "Shenzhen, CN",
+    "region": "international",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Shenzhen humanoid manufacturer shipping 500+ units in 2025",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://english.news.cn/20260109/bab6612656664145bb5becc3781edd59/c.html",
+      "https://theaiinsider.tech/2025/07/21/chinas-engineai-raises-139-million-in-fresh-funding-for-humanoid-robots/"
+    ]
+  },
+  {
+    "id": "c371",
+    "company_name": "Noetix Robotics",
+    "domain": "noetixrobotics.com",
+    "vertical": "humanoid_general",
+    "hq_city": "Beijing",
+    "hq_country": "China",
+    "hq_display": "Beijing, China",
+    "region": "international",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Beijing consumer humanoid, $145M Series B led by CATL fund",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://noetixrobotics.com/en",
+      "https://www.scmp.com/tech/tech-trends/article/3330046/chinese-robotics-start-noetix-debuts-family-friendly-us1400-humanoid"
+    ]
+  },
+  {
+    "id": "c392",
+    "company_name": "Rainbow Robotics",
+    "domain": "rainbow-robotics.com",
+    "vertical": "humanoid_general",
+    "hq_city": "Sejong-si",
+    "hq_country": "South Korea",
+    "hq_display": "Sejong-si, South Korea",
+    "region": "international",
+    "tier": 3,
+    "score": 42,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "a",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Korean cobot/HUBO humanoid maker, Samsung 35% shareholder",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.rainbow-robotics.com"
+    ]
+  },
+  {
     "id": "c069",
     "company_name": "Eastworld Labs",
     "domain": "",
@@ -1832,6 +3266,54 @@
     "source_urls": [
       "https://github.com/Eastworld-Labs",
       "https://www.prnewswire.com/news-releases/virtuals-protocol-launches-eastworld-labs-to-accelerate-real-world-deployment-of-humanoid-robots-302694292.html"
+    ]
+  },
+  {
+    "id": "c267",
+    "company_name": "Servo7",
+    "domain": "servo7.com",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "",
+    "hq_country": "Netherlands",
+    "hq_display": "Netherlands",
+    "region": "international",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC W26 wheeled-humanoid warehouse picker, ex-OpenAI/HF/General Intuition team",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://servo7.com",
+      "https://servo7.com/"
+    ]
+  },
+  {
+    "id": "c348",
+    "company_name": "Sitegeist",
+    "domain": "sitegeist-robotics.com",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "Munich",
+    "hq_country": "Germany",
+    "hq_display": "Munich, Germany",
+    "region": "international",
+    "tier": 3,
+    "score": 40,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "German modular construction robots for concrete renovation, TUM spinout",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://sitegeist-robotics.com",
+      "https://tech.eu/2026/02/16/sitegeist-secures-eur4m-pre-seed-for-ai-modular-robots-in-construction/"
     ]
   },
   {
@@ -1926,6 +3408,194 @@
     "has_dossier": false,
     "source_urls": [
       "https://github.com/westonrobot"
+    ]
+  },
+  {
+    "id": "c384",
+    "company_name": "Ati Motors",
+    "domain": "atimotors.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Bengaluru",
+    "hq_country": "India",
+    "hq_display": "Bengaluru, India",
+    "region": "international",
+    "tier": 3,
+    "score": 37,
+    "vla_classification": "vla_possible",
+    "pain_score": 1,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Indian industrial AMR maker launching humanoid Sherpa Mecha",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://atirobotics.ai/company/careers/"
+    ]
+  },
+  {
+    "id": "c341",
+    "company_name": "Paddington Robotics",
+    "domain": "",
+    "vertical": "mobile_manipulator_warehouse",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "hq_display": "London, United Kingdom",
+    "region": "international",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Embodied-AI data collection in supermarkets, London $2.26M pre-seed",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://newmarketpitch.com/blogs/news/humanoid-robotics-funding-analysis",
+      "https://www.7pc.vc/portfolio/paddington-robotics",
+      "https://www.linkedin.com/posts/zehanwang_we-have-started-paddington-robotics-with-activity-7392501768754155520-txn2"
+    ]
+  },
+  {
+    "id": "c275",
+    "company_name": "Seeing Systems",
+    "domain": "seeing-systems.com",
+    "vertical": "defense_dual_use",
+    "hq_city": "",
+    "hq_country": "United Kingdom",
+    "hq_display": "United Kingdom",
+    "region": "international",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "YC W26 AI defense FPV drone platform",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": []
+  },
+  {
+    "id": "c345",
+    "company_name": "Stateful Robotics",
+    "domain": "",
+    "vertical": "research_only",
+    "hq_city": "Oxford",
+    "hq_country": "United Kingdom",
+    "hq_display": "Oxford, United Kingdom",
+    "region": "international",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Oxford spinout, long-term robot intelligence foundation models, pre-seed",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://tech.eu/2026/03/24/stateful-robotics-secures-48m-to-advance-long-term-robot-intelligence/"
+    ]
+  },
+  {
+    "id": "c436",
+    "company_name": "Zeroth Robotics",
+    "domain": "zeroth0.com",
+    "vertical": "consumer_home",
+    "hq_city": "Suzhou",
+    "hq_country": "China",
+    "hq_display": "Suzhou, China",
+    "region": "international",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "5-robot lineup for home/dev/commercial, embodied AI, ex-stealth 2026",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://theaiinsider.tech/2026/01/05/zeroth-robotics-emerges-from-stealth-enters-u-s-market-debuts-lineup-of-interactive-ai-robots/"
+    ]
+  },
+  {
+    "id": "c370",
+    "company_name": "Booster Robotics",
+    "domain": "booster.tech",
+    "vertical": "humanoid_general",
+    "hq_city": "Beijing",
+    "hq_country": "China",
+    "hq_display": "Beijing, China",
+    "region": "international",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Low-cost humanoid platform for developers Beijing",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://mikekalil.com/blog/booster-noetix-cheap-humanoid-robots/",
+      "https://newmarketpitch.com/blogs/news/humanoid-robotics-funding-analysis",
+      "https://www.booster.tech/",
+      "https://www.caixinglobal.com/2025-07-25/chinas-booster-robotics-lands-new-funding-as-it-hits-a-winning-streak-102344904.html"
+    ]
+  },
+  {
+    "id": "c424",
+    "company_name": "Enchanted Tools",
+    "domain": "enchanted.tools",
+    "vertical": "humanoid_general",
+    "hq_city": "Paris",
+    "hq_country": "FR",
+    "hq_display": "Paris, FR",
+    "region": "international",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Mirokai social humanoid for healthcare and hospitality, Paris",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://enchanted.tools",
+      "https://www.therobotreport.com/ces-2025-recap-noteworthy-robots-at-this-years-show/"
+    ]
+  },
+  {
+    "id": "c369",
+    "company_name": "Kepler Exploration Robot",
+    "domain": "kepler-robot.com",
+    "vertical": "humanoid_industrial",
+    "hq_city": "Shanghai",
+    "hq_country": "China",
+    "hq_display": "Shanghai, China",
+    "region": "international",
+    "tier": 3,
+    "score": 32,
+    "vla_classification": "vla_possible",
+    "pain_score": 0,
+    "spend_tier": "b",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Shanghai humanoid in mass production, hybrid actuator architecture",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://theaiinsider.tech/2025/09/27/kepler-moves-worlds-first-commercially-available-hybrid-architecture-humanoid-robot-into-mass-production/"
     ]
   },
   {
@@ -2072,6 +3742,55 @@
     ]
   },
   {
+    "id": "c258",
+    "company_name": "Zeon Systems",
+    "domain": "zeonsystems.ai",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "",
+    "hq_display": "\u2014",
+    "region": "",
+    "tier": 3,
+    "score": 39,
+    "vla_classification": "vla_likely",
+    "pain_score": 1,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI lab automation translating natural language protocols to robot ops, YC X25",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://www.extruct.ai/ycombinator-companies/x25/",
+      "https://www.zeonsystems.ai/",
+      "https://www.zeonsystems.ai/careers"
+    ]
+  },
+  {
+    "id": "c263",
+    "company_name": "Verne Robotics",
+    "domain": "vernerobotics.com",
+    "vertical": "mobile_manipulator_other",
+    "hq_city": "",
+    "hq_country": "",
+    "hq_display": "\u2014",
+    "region": "",
+    "tier": 3,
+    "score": 34,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "AI-native reconfigurable robots dev platform, YC S25",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://vernerobotics.com/",
+      "https://www.extruct.ai/data-room/ycombinator-companies-s25/"
+    ]
+  },
+  {
     "id": "c063",
     "company_name": "DART Labs",
     "domain": "",
@@ -2092,6 +3811,30 @@
     "has_dossier": false,
     "source_urls": [
       "https://github.com/dart-labs-inc"
+    ]
+  },
+  {
+    "id": "c448",
+    "company_name": "Rigyd",
+    "domain": "app.rigyd.com",
+    "vertical": "research_only",
+    "hq_city": "",
+    "hq_country": "",
+    "hq_display": "\u2014",
+    "region": "",
+    "tier": 3,
+    "score": 29,
+    "vla_classification": "vla_likely",
+    "pain_score": 0,
+    "spend_tier": "c",
+    "buyer_name": "",
+    "buyer_linkedin_url": "",
+    "one_line_description": "Physics-accurate 3D asset generator for robotics simulation",
+    "dossier_url": "",
+    "has_dossier": false,
+    "source_urls": [
+      "https://app.rigyd.com",
+      "https://news.ycombinator.com/item?id=47864502"
     ]
   },
   {
