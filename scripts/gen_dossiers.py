@@ -212,7 +212,7 @@ def main() -> None:
     DOSS.mkdir(parents=True, exist_ok=True)
     written = 0
     skipped = 0
-    DOSSIER_CAP = 20
+    DOSSIER_CAP = 25
 
     # Dossier set = all Tier 1 + top Tier 2 (score>=68 with verified buyer), capped at DOSSIER_CAP.
     # Spec section 9.2 caps the dossier set at 20; spec section 0.5.2 floor is 10.

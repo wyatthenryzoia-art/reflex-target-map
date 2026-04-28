@@ -1991,8 +1991,8 @@
     "buyer_name": "Saining Xie",
     "buyer_linkedin_url": "https://www.sainingxie.com/",
     "one_line_description": "World models AI for physical environments Paris",
-    "dossier_url": "",
-    "has_dossier": false,
+    "dossier_url": "dossiers/ami.html",
+    "has_dossier": true,
     "source_urls": [
       "https://www.sainingxie.com/"
     ]
@@ -2040,8 +2040,8 @@
     "buyer_name": "Pim de Witte",
     "buyer_linkedin_url": "https://www.linkedin.com/in/pimdw",
     "one_line_description": "Spatial-reasoning world-model startup for games, robotics and drones",
-    "dossier_url": "",
-    "has_dossier": false,
+    "dossier_url": "dossiers/general-intuition.html",
+    "has_dossier": true,
     "source_urls": [
       "https://techcrunch.com/2025/10/16/general-intuition-lands-134m-seed-to-teach-agents-spatial-reasoning-using-video-game-clips/",
       "https://www.linkedin.com/in/pimdw"
@@ -2118,8 +2118,8 @@
     "buyer_name": "Marc Tuscher",
     "buyer_linkedin_url": "",
     "one_line_description": "VLA + world model warehouse picking platform",
-    "dossier_url": "",
-    "has_dossier": false,
+    "dossier_url": "dossiers/sereact.html",
+    "has_dossier": true,
     "source_urls": [
       "https://sereact.ai/careers",
       "https://sereact.ai/posts/cortex-2",
