@@ -1,0 +1,243 @@
+#!/usr/bin/env python3
+"""Render docs/index.html, docs/about.html, docs/dossiers/*.html, and docs/assets/data.json
+from data/companies.csv (+ buyers.csv + sources.csv) and dossiers/*.md.
+
+Idempotent: safe to re-run.
+"""
+import csv
+import json
+import re
+from datetime import date
+from pathlib import Path
+
+import markdown as md
+
+REPO = Path(__file__).resolve().parent.parent
+DATA = REPO / "data"
+DOSS_MD = REPO / "dossiers"
+DOCS = REPO / "docs"
+ASSETS = DOCS / "assets"
+DOSS_HTML = DOCS / "dossiers"
+
+LIVE_BASE = "https://wyatthenryzoia-art.github.io/reflex-target-map"
+
+
+def slugify(s: str) -> str:
+    s = re.sub(r"[^a-zA-Z0-9]+", "-", s.lower()).strip("-")
+    return s
+
+
+def read_csv(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    with open(path) as f:
+        return list(csv.DictReader(f))
+
+
+def to_int(x, default=0):
+    try:
+        return int(float(x))
+    except Exception:
+        return default
+
+
+def site_header(active: str, depth: int = 0) -> str:
+    prefix = "../" * depth
+    nav = [
+        ("Map", f"{prefix}index.html", "map"),
+        ("About", f"{prefix}about.html", "about"),
+        ("GitHub", "https://github.com/wyatthenryzoia-art/reflex-target-map", "github"),
+    ]
+    nav_html = " ".join(
+        f'<a href="{u}"{"" if k != active else " style=color:#fff"}>{n}</a>' for n, u, k in nav
+    )
+    return f"""<header class="site">
+  <h1><a href="{prefix}index.html">reflex-target-map</a></h1>
+  <nav>{nav_html}</nav>
+</header>"""
+
+
+def site_footer() -> str:
+    today = date.today().isoformat()
+    return f"""<footer class="site">
+  Built by Wyatt Zoia. Data as of {today}. <a href="about.html">Methodology</a>.
+</footer>"""
+
+
+def render_index(rows: list[dict], total_count: int, tier1_count: int) -> str:
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflex target map</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+{site_header("map")}
+<div class="container">
+  <p class="lead">
+    A ranked list of <strong>{total_count}</strong> robotics companies that look like
+    <a href="https://tryreflex.ai" target="_blank" rel="noopener">Reflex</a> prospects, with
+    one-page dossiers for the top <strong>{tier1_count}</strong>. Every claim is sourced.
+    See <a href="about.html">methodology</a>.
+  </p>
+
+  <div class="controls">
+    <label>Tier
+      <select id="f-tier">
+        <option value="">All</option>
+        <option value="1">Tier 1</option>
+        <option value="2">Tier 2</option>
+        <option value="3">Tier 3</option>
+      </select>
+    </label>
+    <label>Vertical
+      <select id="f-vertical"><option value="">All</option></select>
+    </label>
+    <label>Spend
+      <select id="f-spend">
+        <option value="">All</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+      </select>
+    </label>
+    <label>Search
+      <input type="search" id="f-search" placeholder="company, buyer, vertical">
+    </label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="company_name">Company</th>
+        <th data-key="vertical">Vertical</th>
+        <th data-key="tier">Tier</th>
+        <th data-key="score">Score</th>
+        <th data-key="vla_classification">VLA</th>
+        <th data-key="pain_score">Pain</th>
+        <th data-key="spend_tier">Spend</th>
+        <th data-key="buyer_name">Buyer</th>
+        <th>Sources</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<div class="modal-bg" id="modal-bg"><div class="modal" id="modal-content"></div></div>
+
+{site_footer()}
+<script src="assets/app.js"></script>
+</body>
+</html>"""
+
+
+def render_about(text_md: str) -> str:
+    body = md.markdown(text_md, extensions=["extra"])
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Reflex target map</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+{site_header("about")}
+<div class="prose">
+{body}
+</div>
+{site_footer()}
+</body>
+</html>"""
+
+
+def render_dossier(name: str, body_md: str) -> str:
+    body = md.markdown(body_md, extensions=["extra"])
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{name} — Reflex target map</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+{site_header("map", depth=1)}
+<div class="dossier">
+  <p class="back"><a href="../index.html">← back to map</a></p>
+  {body}
+</div>
+{site_footer()}
+</body>
+</html>"""
+
+
+def main() -> None:
+    companies = read_csv(DATA / "companies.csv")
+    buyers = read_csv(DATA / "buyers.csv")
+    sources = read_csv(DATA / "sources.csv")
+
+    by_co = {c["company_id"]: c for c in companies}
+    buyers_by_co = {b["company_id"]: b for b in buyers}
+    sources_by_co: dict[str, list[str]] = {}
+    for s in sources:
+        sources_by_co.setdefault(s["company_id"], []).append(s["url"])
+
+    DOSS_HTML.mkdir(parents=True, exist_ok=True)
+    ASSETS.mkdir(parents=True, exist_ok=True)
+
+    json_rows = []
+    tier1_count = 0
+    for c in companies:
+        cid = c["company_id"]
+        b = buyers_by_co.get(cid, {})
+        score = to_int(c.get("score"))
+        tier = to_int(c.get("tier"))
+        if tier == 1:
+            tier1_count += 1
+        slug = c.get("slug") or slugify(c["company_name"])
+        dossier_url = f"dossiers/{slug}.html" if (DOSS_MD / f"{slug}.md").exists() else ""
+        urls = sorted(set(filter(None, sources_by_co.get(cid, []))))
+        json_rows.append({
+            "id": cid,
+            "company_name": c["company_name"],
+            "domain": c.get("domain", ""),
+            "vertical": c.get("vertical", ""),
+            "tier": tier,
+            "score": score,
+            "vla_classification": c.get("vla_classification", ""),
+            "pain_score": to_int(c.get("pain_score")),
+            "spend_tier": c.get("spend_tier", ""),
+            "buyer_name": b.get("buyer_name", ""),
+            "buyer_linkedin_url": b.get("buyer_linkedin_url", ""),
+            "one_line_description": c.get("one_line_description", ""),
+            "dossier_url": dossier_url,
+            "source_urls": urls,
+        })
+
+    json_rows.sort(key=lambda r: (-r["score"], r["company_name"]))
+
+    (ASSETS / "data.json").write_text(json.dumps(json_rows, indent=2))
+
+    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), tier1_count))
+
+    about_md_path = REPO / "explainer.md"
+    about_md = about_md_path.read_text() if about_md_path.exists() else "# About\n\nMethodology coming."
+    (DOCS / "about.html").write_text(render_about(about_md))
+
+    for md_file in DOSS_MD.glob("*.md"):
+        slug = md_file.stem
+        body = md_file.read_text()
+        title_match = re.search(r"^#\s+(.+)$", body, re.M)
+        title = title_match.group(1).strip() if title_match else slug
+        (DOSS_HTML / f"{slug}.html").write_text(render_dossier(title, body))
+
+    print(f"rendered {len(companies)} companies, {tier1_count} tier 1, {len(list(DOSS_MD.glob('*.md')))} dossiers")
+
+
+if __name__ == "__main__":
+    main()
