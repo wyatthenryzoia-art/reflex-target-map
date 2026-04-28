@@ -248,7 +248,7 @@ def main() -> None:
         title = title_match.group(1).strip() if title_match else slug
         (DOSS_HTML / f"{slug}.html").write_text(render_dossier(title, body))
 
-    print(f"rendered {len(companies)} companies, {tier1_count} tier 1, {len(list(DOSS_MD.glob('*.md')))} dossiers")
+    print(f"rendered {len(companies)} companies, {dossier_count} dossiers")
 
 
 if __name__ == "__main__":
