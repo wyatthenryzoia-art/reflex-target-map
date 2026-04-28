@@ -57,9 +57,17 @@
   <div class="map-wrap">
     <svg id="map" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid meet">
       <g id="countries"></g>
+      <g id="states"></g>
       <g id="markers"></g>
     </svg>
     <div id="tooltip"></div>
+    <div class="map-controls">
+      <button id="zoom-in" aria-label="zoom in">+</button>
+      <button id="zoom-out" aria-label="zoom out">−</button>
+      <button id="reset-zoom" aria-label="reset">⟲</button>
+      <span id="zoom-indicator">1.0×</span>
+    </div>
+    <div class="map-hint">scroll to zoom · drag to pan</div>
     <div class="legend">
       <span class="lk vla-vla-active"><span class="dot"></span> running VLAs today</span>
       <span class="lk vla-vla-likely"><span class="dot"></span> building toward</span>
