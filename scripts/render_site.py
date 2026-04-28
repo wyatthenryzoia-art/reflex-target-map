@@ -64,22 +64,39 @@ def site_footer() -> str:
 </footer>"""
 
 
-def render_index(rows: list[dict], total_count: int, dossier_count: int) -> str:
+def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics: dict) -> str:
+    metric_block = f"""
+  <div class="metrics">
+    <div class="metric"><div class="v accent">{metrics['total']}</div><div class="k">companies</div></div>
+    <div class="metric"><div class="v">{metrics['dossiers']}</div><div class="k">dossiers</div></div>
+    <div class="metric"><div class="v">{metrics['vla_active']}</div><div class="k">vla active</div></div>
+    <div class="metric"><div class="v">{metrics['buyers']}</div><div class="k">named buyers</div></div>
+    <div class="metric"><div class="v">{metrics['hooks']}</div><div class="k">specific hooks</div></div>
+    <div class="metric"><div class="v">{metrics['urls']}</div><div class="k">verified urls</div></div>
+  </div>"""
     return f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reflex target map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 {site_header("map")}
 <div class="container">
-  <p class="lead">
-    <strong>{total_count}</strong> robotics companies, ranked. <strong>{dossier_count}</strong> have full dossiers.
-    Every claim is sourced — see <a href="about.html">methodology</a>.
-  </p>
+  <div class="hero">
+    <h2>Robotics companies that should be paying Reflex.</h2>
+    <p>
+      A ranked, fully sourced list of robotics startups running or building toward
+      VLA / VLM policies — the workload <a href="https://tryreflex.ai" target="_blank" rel="noopener">Reflex</a> serves.
+      Every row traces to a verified URL. <a href="about.html">methodology →</a>
+    </p>
+  </div>
+{metric_block}
 
   <div class="controls">
     <label>Vertical
@@ -141,6 +158,9 @@ def render_about(text_md: str) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — Reflex target map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -235,7 +255,22 @@ def main() -> None:
 
     (ASSETS / "data.json").write_text(json.dumps(json_rows, indent=2))
 
-    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), dossier_count))
+    # build metrics block from the actual data
+    buyers_list = []
+    if (DATA / "buyers.csv").exists():
+        buyers_list = list(csv.DictReader(open(DATA / "buyers.csv")))
+    sources_list = []
+    if (DATA / "sources.csv").exists():
+        sources_list = list(csv.DictReader(open(DATA / "sources.csv")))
+    metrics = {
+        "total": len(json_rows),
+        "dossiers": dossier_count,
+        "vla_active": sum(1 for r in json_rows if r["vla_classification"] == "vla_active"),
+        "buyers": sum(1 for b in buyers_list if b.get("buyer_linkedin_url")),
+        "hooks": sum(1 for b in buyers_list if b.get("suggested_first_dm_hook") and "no specific hook" not in b.get("suggested_first_dm_hook", "").lower()),
+        "urls": len({s["url"] for s in sources_list}),
+    }
+    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), dossier_count, metrics))
 
     about_md_path = REPO / "explainer.md"
     about_md = about_md_path.read_text() if about_md_path.exists() else "# About\n\nMethodology coming."
