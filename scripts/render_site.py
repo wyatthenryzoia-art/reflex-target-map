@@ -79,22 +79,17 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
 <body>
 {site_header("map")}
 <div class="container">
-  <div class="hero hero-with-bot">
-    <div class="hero-text">
-      <h2>Robotics companies that should be paying Reflex.</h2>
-      <p>
-        Where in the world the VLA / VLM robotics shops are.
-        Click a robot to see who they are, what they're building, and who to talk to.
-        <a href="about.html">methodology →</a>
-      </p>
-      <div class="metrics-mini">
-        <span><b>{metrics['total']}</b> companies</span>
-        <span><b>{metrics['dossiers']}</b> dossiers</span>
-        <span><b>{metrics['vla_active']}</b> running VLAs today</span>
-        <span><b>{metrics['buyers']}</b> named buyers</span>
-      </div>
+  <div class="hero">
+    <h2>Robotics companies that should be paying Reflex.</h2>
+    <p>
+      Where in the world the VLA / VLM robotics shops are. Click a marker for who they are, what they're building, and who to talk to. <a href="about.html">methodology →</a>
+    </p>
+    <div class="metrics-mini">
+      <span><b>{metrics['total']}</b> companies</span>
+      <span><b>{metrics['dossiers']}</b> dossiers</span>
+      <span><b>{metrics['vla_active']}</b> running VLAs today</span>
+      <span><b>{metrics['buyers']}</b> named buyers</span>
     </div>
-    <div class="hero-bot" aria-hidden="true">{ROBOT_HERO_SVG}</div>
   </div>
 
   <div class="controls">
@@ -145,40 +140,6 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
 </html>"""
 
 
-# Simple line-drawn robot, in the spirit of Reflex's hand-drawn sketches.
-# 240x240 viewBox; current-color stroke so it picks up the accent.
-ROBOT_HERO_SVG = """<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- antenna -->
-  <line x1="120" y1="22" x2="120" y2="46"/>
-  <circle cx="120" cy="18" r="4" fill="currentColor"/>
-  <!-- head -->
-  <rect x="68" y="46" width="104" height="76" rx="10"/>
-  <!-- eyes -->
-  <circle cx="98" cy="84" r="6" fill="currentColor"/>
-  <circle cx="142" cy="84" r="6" fill="currentColor"/>
-  <!-- mouth speaker grille -->
-  <line x1="92" y1="106" x2="148" y2="106"/>
-  <line x1="100" y1="112" x2="140" y2="112"/>
-  <!-- neck -->
-  <rect x="108" y="122" width="24" height="10"/>
-  <!-- torso -->
-  <rect x="58" y="132" width="124" height="72" rx="6"/>
-  <!-- chest panel -->
-  <rect x="84" y="150" width="72" height="36" rx="3"/>
-  <line x1="96" y1="160" x2="144" y2="160"/>
-  <line x1="96" y1="170" x2="128" y2="170"/>
-  <line x1="96" y1="180" x2="138" y2="180"/>
-  <!-- shoulders + arms -->
-  <line x1="58" y1="146" x2="36" y2="146"/>
-  <line x1="36" y1="146" x2="36" y2="190"/>
-  <circle cx="36" cy="200" r="8"/>
-  <line x1="182" y1="146" x2="204" y2="146"/>
-  <line x1="204" y1="146" x2="204" y2="190"/>
-  <circle cx="204" cy="200" r="8"/>
-  <!-- legs -->
-  <rect x="78" y="204" width="20" height="28"/>
-  <rect x="142" y="204" width="20" height="28"/>
-</svg>"""
 
 
 def render_about(text_md: str) -> str:
