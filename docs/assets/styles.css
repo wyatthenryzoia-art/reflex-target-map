@@ -48,10 +48,11 @@ header.site {
   backdrop-filter: blur(8px);
 }
 header.site h1 {
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 500;
   margin: 0;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.18em;
+  font-family: var(--mono);
 }
 header.site h1 a { color: var(--fg); }
 header.site nav a {

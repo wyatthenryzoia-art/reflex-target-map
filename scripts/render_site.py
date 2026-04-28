@@ -59,7 +59,7 @@ def site_header(active: str, depth: int = 0) -> str:
         f'<a href="{u}"{"" if k != active else " style=color:#fff"}>{n}</a>' for n, u, k in nav
     )
     return f"""<header class="site">
-  <h1><a href="{prefix}index.html">reflex-target-map</a></h1>
+  <h1><a href="{prefix}index.html">REFLEX TARGETS</a></h1>
   <nav>{nav_html}</nav>
 </header>"""
 
@@ -77,7 +77,7 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reflex target map</title>
+  <title>REFLEX TARGETS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
@@ -156,7 +156,7 @@ def render_about(text_md: str) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About — Reflex target map</title>
+  <title>METHODOLOGY — REFLEX TARGETS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
@@ -179,7 +179,7 @@ def render_dossier(name: str, body_md: str) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{name} — Reflex target map</title>
+  <title>{name} — REFLEX TARGETS</title>
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
 <body>

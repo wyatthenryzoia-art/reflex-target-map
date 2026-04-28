@@ -50,7 +50,7 @@
       zoomControl: true,
       attributionControl: true,
       preferCanvas: false,
-    }).setView([20, 0], 2);
+    }).setView([39, -96], 4);   // open on North America
 
     // CARTO dark basemap. dark_nolabels keeps the map quiet — only landmass + faint borders.
     L.tileLayer(
