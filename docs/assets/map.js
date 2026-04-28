@@ -17,7 +17,13 @@
   };
 
   // World canvas (equirectangular). 1440 x 720 = 2:1 aspect.
+  // Visible band crops out the high Arctic and Antarctic so polar polygons
+  // don't render as ugly horizontal bars across the projection.
   const W = 1440, H = 720;
+  const Y_MIN = 60, Y_MAX = 660;          // visible latitude band: ~75°N → -75°S
+  const VH = Y_MAX - Y_MIN;               // visible height = 600
+  // Names of polygons to skip entirely (id from world-atlas-50m countries):
+  const SKIP_COUNTRY_IDS = new Set(["010"]); // 010 = Antarctica
 
   // Marker base sizes — scaled inversely so they stay readable as we zoom.
   const R = 5, R_ACTIVE = 7;
@@ -42,9 +48,10 @@
   let geoIndex = {};
 
   // --- pan/zoom state (viewBox manipulation) ---
-  const view = { x: 0, y: 0, w: W, h: H };
-  const MIN_ZOOM = 1;       // 1 = whole world (viewBox === W x H)
-  const MAX_ZOOM = 12;      // 12x = city-level
+  // Initial view = visible world band (Antarctica/high Arctic cropped).
+  const view = { x: 0, y: Y_MIN, w: W, h: VH };
+  const MIN_ZOOM = 1;       // 1 = whole visible band
+  const MAX_ZOOM = 16;      // 16x = city-level
   const STATE_VISIBLE_ZOOM = 2.5;  // show US state borders past this
 
   function project(lon, lat) {
@@ -82,7 +89,9 @@
 
   function drawCountries(world) {
     const fc = topojson.feature(world, world.objects.countries);
-    els.countries.innerHTML = fc.features.map((f) => `<path d="${pathFor(f.geometry)}"/>`).join("");
+    els.countries.innerHTML = fc.features
+      .filter((f) => !SKIP_COUNTRY_IDS.has(f.id))
+      .map((f) => `<path d="${pathFor(f.geometry)}"/>`).join("");
   }
   function drawStates(us) {
     // us-atlas uses Albers projection coordinates, NOT lon/lat — we need to use mesh-by-id
@@ -108,9 +117,9 @@
   function bindEvents() {
     [els.vertical, els.region, els.vla].forEach((el) => el && el.addEventListener("change", render));
     if (els.search) els.search.addEventListener("input", render);
-    if (els.reset) els.reset.addEventListener("click", () => setView(0, 0, W, H, true));
-    if (els.zoomIn) els.zoomIn.addEventListener("click", () => zoomBy(0.6, W / 2, H / 2));
-    if (els.zoomOut) els.zoomOut.addEventListener("click", () => zoomBy(1.7, W / 2, H / 2));
+    if (els.reset) els.reset.addEventListener("click", () => setView(0, Y_MIN, W, VH, true));
+    if (els.zoomIn) els.zoomIn.addEventListener("click", () => zoomBy(0.6, W / 2, (Y_MIN + Y_MAX) / 2));
+    if (els.zoomOut) els.zoomOut.addEventListener("click", () => zoomBy(1.7, W / 2, (Y_MIN + Y_MAX) / 2));
 
     // wheel = zoom around cursor
     els.map.addEventListener("wheel", (e) => {
@@ -171,7 +180,7 @@
         const d = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
         const factor = touchState.d / d;
         const nw = Math.max(W / MAX_ZOOM, Math.min(W / MIN_ZOOM, touchState.view.w * factor));
-        const nh = nw * (H / W);
+        const nh = nw * (VH / W);
         const px = ((touchState.cx - rect.left) / rect.width) * touchState.view.w + touchState.view.x;
         const py = ((touchState.cy - rect.top) / rect.height) * touchState.view.h + touchState.view.y;
         const nx = px - ((touchState.cx - rect.left) / rect.width) * nw;
@@ -197,7 +206,7 @@
 
   function zoomBy(factor, px, py) {
     const nw = Math.max(W / MAX_ZOOM, Math.min(W / MIN_ZOOM, view.w * factor));
-    const nh = nw * (H / W);
+    const nh = nw * (VH / W);
     // anchor on (px, py) so the cursor stays stationary in world coords
     const ax = (px - view.x) / view.w;
     const ay = (py - view.y) / view.h;
@@ -207,11 +216,11 @@
   }
 
   function setView(x, y, w, h, animate = false) {
-    // clamp so we can't pan off the map
+    // clamp so we can't pan outside the VISIBLE band (Y_MIN..Y_MAX in world coords).
     const clampedW = Math.max(W / MAX_ZOOM, Math.min(W, w));
-    const clampedH = clampedW * (H / W);
+    const clampedH = clampedW * (VH / W);   // aspect locked to visible band
     const cx = Math.max(0, Math.min(W - clampedW, x));
-    const cy = Math.max(0, Math.min(H - clampedH, y));
+    const cy = Math.max(Y_MIN, Math.min(Y_MAX - clampedH, y));
     if (animate) els.map.classList.add("animate");
     else els.map.classList.remove("animate");
     view.x = cx; view.y = cy; view.w = clampedW; view.h = clampedH;

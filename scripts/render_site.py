@@ -21,6 +21,13 @@ DOSS_HTML = DOCS / "dossiers"
 
 LIVE_BASE = "https://wyatthenryzoia-art.github.io/reflex-target-map"
 
+import subprocess
+import time
+try:
+    CACHEBUST = subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], text=True, cwd=REPO).strip() or str(int(time.time()))
+except Exception:
+    CACHEBUST = str(int(time.time()))
+
 
 def slugify(s: str) -> str:
     s = re.sub(r"[^a-zA-Z0-9]+", "-", s.lower()).strip("-")
@@ -74,7 +81,7 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v={CACHEBUST}">
 </head>
 <body>
 {site_header("map")}
@@ -119,7 +126,7 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
   </div>
 
   <div class="map-wrap">
-    <svg id="map" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid meet">
+    <svg id="map" viewBox="0 60 1440 600" preserveAspectRatio="xMidYMid meet">
       <g id="countries"></g>
       <g id="states"></g>
       <g id="markers"></g>
@@ -143,7 +150,7 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
 
 {site_footer()}
 <script src="assets/vendor/topojson-client.min.js"></script>
-<script src="assets/map.js"></script>
+<script src="assets/map.js?v={CACHEBUST}"></script>
 </body>
 </html>"""
 
