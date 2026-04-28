@@ -81,6 +81,9 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="assets/vendor/markercluster.css">
+  <link rel="stylesheet" href="assets/vendor/markercluster-default.css">
   <link rel="stylesheet" href="assets/styles.css?v={CACHEBUST}">
 </head>
 <body>
@@ -126,30 +129,19 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
   </div>
 
   <div class="map-wrap">
-    <svg id="map" viewBox="0 60 1440 600" preserveAspectRatio="xMidYMid meet">
-      <g id="countries"></g>
-      <g id="states"></g>
-      <g id="markers"></g>
-    </svg>
-    <div id="tooltip"></div>
-    <div class="map-controls">
-      <button id="zoom-in" aria-label="zoom in">+</button>
-      <button id="zoom-out" aria-label="zoom out">−</button>
-      <button id="reset-zoom" aria-label="reset">⟲</button>
-      <span id="zoom-indicator">1.0×</span>
-    </div>
-    <div class="map-hint">scroll to zoom · drag to pan</div>
+    <div id="map"></div>
     <div class="legend">
-      <span class="lk vla-vla-active"><span class="dot"></span> running VLAs today</span>
-      <span class="lk vla-vla-likely"><span class="dot"></span> building toward</span>
-      <span class="lk vla-vla-possible"><span class="dot"></span> adjacent</span>
+      <span class="lk pin-vla-active"><span class="dot"></span> running VLAs today</span>
+      <span class="lk pin-vla-likely"><span class="dot"></span> building toward</span>
+      <span class="lk pin-vla-possible"><span class="dot"></span> adjacent</span>
       <span class="lk priority-key"><span class="dot"></span> has a dossier</span>
     </div>
   </div>
 </div>
 
 {site_footer()}
-<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="assets/vendor/leaflet.js"></script>
+<script src="assets/vendor/markercluster.js"></script>
 <script src="assets/map.js?v={CACHEBUST}"></script>
 </body>
 </html>"""
