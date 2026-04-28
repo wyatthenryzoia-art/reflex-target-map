@@ -4,13 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>REFLEX TARGETS</title>
+  <meta name="description" content="155 robotics companies running or building toward VLA / VLM policies — the workload Reflex serves. 20 cold-DM-ready dossiers. Every claim sourced.">
+  <meta property="og:title" content="REFLEX TARGETS">
+  <meta property="og:description" content="155 robotics companies that should be paying Reflex. 20 dossiers ready for cold outreach.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wyatthenryzoia-art.github.io/reflex-target-map/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23f97316'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23f97316' stroke-opacity='0.4' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="assets/vendor/leaflet.css">
   <link rel="stylesheet" href="assets/vendor/markercluster.css">
   <link rel="stylesheet" href="assets/vendor/markercluster-default.css">
-  <link rel="stylesheet" href="assets/styles.css?v=1a83f88">
+  <link rel="stylesheet" href="assets/styles.css?v=c66ffa7">
 </head>
 <body>
 <header class="site">
@@ -30,6 +37,21 @@
       <span><b>52</b> named buyers</span>
     </div>
   </div>
+
+<div class="leads">
+          <div class="leads-label">START HERE — strongest cold-DM hooks</div>
+          <div class="lead-cards"><a class="lead-card" href="dossiers/periodic-labs.html">
+              <div class="lead-name">Periodic Labs</div>
+              <div class="lead-meta">William (Liam) Fedus · San Francisco, USA</div>
+              <div class="lead-reason">Saw your Periodic launch post — you're hiring an LLM Inference Engineer right now; happy to send Reflex's FDM-1 paper since 91x param compression on VLA workloads is the kind of thing that matters…</div>
+              <div class="lead-cta">view dossier →</div>
+            </a><a class="lead-card" href="dossiers/telexistence.html">
+              <div class="lead-name">Telexistence</div>
+              <div class="lead-meta">Genki Sano · Tokyo, Japan</div>
+              <div class="lead-reason">Your Medium piece on the 50Hz vs 1Hz gap between π0 and RT-2 is exactly the latency wall Reflex was built to break — FDM-1 hit 91x param compression on similar VLAs; would Astra benefit on the path…</div>
+              <div class="lead-cta">view dossier →</div>
+            </a></div>
+        </div>
 
   <div class="controls">
     <label>Vertical
@@ -54,6 +76,7 @@
     <label>Search
       <input type="search" id="f-search" placeholder="company, buyer, vertical">
     </label>
+    <button type="button" class="chip-toggle" id="f-priority" aria-pressed="false">★ Dossiered only</button>
     <span class="count" id="count"></span>
   </div>
 
@@ -73,6 +96,6 @@
 </footer>
 <script src="assets/vendor/leaflet.js"></script>
 <script src="assets/vendor/markercluster.js"></script>
-<script src="assets/map.js?v=1a83f88"></script>
+<script src="assets/map.js?v=c66ffa7"></script>
 </body>
 </html>

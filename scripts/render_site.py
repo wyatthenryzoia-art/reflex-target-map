@@ -71,13 +71,34 @@ def site_footer() -> str:
 </footer>"""
 
 
-def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics: dict) -> str:
+def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics: dict, lead_cards: list = None) -> str:
+    leads_html = ""
+    if lead_cards:
+        cards = "".join(
+            f'''<a class="lead-card" href="{c['url']}">
+              <div class="lead-name">{c['name']}</div>
+              <div class="lead-meta">{c['buyer']} · {c['hq']}</div>
+              <div class="lead-reason">{c['reason']}</div>
+              <div class="lead-cta">view dossier →</div>
+            </a>''' for c in lead_cards
+        )
+        leads_html = f'''<div class="leads">
+          <div class="leads-label">START HERE — strongest cold-DM hooks</div>
+          <div class="lead-cards">{cards}</div>
+        </div>'''
     return f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>REFLEX TARGETS</title>
+  <meta name="description" content="155 robotics companies running or building toward VLA / VLM policies — the workload Reflex serves. 20 cold-DM-ready dossiers. Every claim sourced.">
+  <meta property="og:title" content="REFLEX TARGETS">
+  <meta property="og:description" content="155 robotics companies that should be paying Reflex. 20 dossiers ready for cold outreach.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wyatthenryzoia-art.github.io/reflex-target-map/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23f97316'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23f97316' stroke-opacity='0.4' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
@@ -102,6 +123,8 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
     </div>
   </div>
 
+{leads_html}
+
   <div class="controls">
     <label>Vertical
       <select id="f-vertical"><option value="">All</option></select>
@@ -125,6 +148,7 @@ def render_index(rows: list[dict], total_count: int, dossier_count: int, metrics
     <label>Search
       <input type="search" id="f-search" placeholder="company, buyer, vertical">
     </label>
+    <button type="button" class="chip-toggle" id="f-priority" aria-pressed="false">★ Dossiered only</button>
     <span class="count" id="count"></span>
   </div>
 
@@ -287,7 +311,32 @@ def main() -> None:
         "hooks": sum(1 for b in buyers_list if b.get("suggested_first_dm_hook") and "no specific hook" not in b.get("suggested_first_dm_hook", "").lower()),
         "urls": len({s["url"] for s in sources_list}),
     }
-    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), dossier_count, metrics))
+
+    # Pick top 3 cold-DM-ready leads (hand-tuned: strongest specific hooks).
+    LEAD_SLUGS = ["sereact", "periodic-labs", "telexistence"]
+    buyers_idx = {b["company_id"]: b for b in buyers_list}
+    lead_cards = []
+    for slug in LEAD_SLUGS:
+        c = next((r for r in json_rows if (r.get("dossier_url") or "").endswith(f"{slug}.html")), None)
+        if not c:
+            continue
+        b = buyers_idx.get(c["id"], {})
+        # short, concrete reason — pull from the hook if reasonable, else from desc
+        hook = (b.get("suggested_first_dm_hook") or "").strip()
+        reason = hook if hook and "no specific hook" not in hook.lower() else c.get("one_line_description", "")
+        # trim the reason to ~180 chars
+        if len(reason) > 200:
+            reason = reason[:197].rstrip() + "…"
+        lead_cards.append({
+            "name": c["company_name"],
+            "vertical": c["vertical"],
+            "hq": c["hq_display"],
+            "buyer": b.get("buyer_name", ""),
+            "reason": reason,
+            "url": c["dossier_url"],
+        })
+
+    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), dossier_count, metrics, lead_cards))
 
     about_md_path = REPO / "explainer.md"
     about_md = about_md_path.read_text() if about_md_path.exists() else "# About\n\nMethodology coming."

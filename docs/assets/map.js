@@ -21,8 +21,10 @@
     region: document.getElementById("f-region"),
     vla: document.getElementById("f-vla"),
     search: document.getElementById("f-search"),
+    priority: document.getElementById("f-priority"),
     count: document.getElementById("count"),
   };
+  let priorityOnly = false;
 
   let data = [];
   let geoIndex = {};
@@ -105,6 +107,14 @@
   function bindEvents() {
     [els.vertical, els.region, els.vla].forEach((el) => el && el.addEventListener("change", render));
     if (els.search) els.search.addEventListener("input", debounce(render, 150));
+    if (els.priority) {
+      els.priority.addEventListener("click", () => {
+        priorityOnly = !priorityOnly;
+        els.priority.setAttribute("aria-pressed", priorityOnly ? "true" : "false");
+        els.priority.classList.toggle("active", priorityOnly);
+        render();
+      });
+    }
   }
 
   function debounce(fn, ms) {
@@ -120,6 +130,7 @@
     const vla = els.vla.value;
     const q = (els.search.value || "").trim().toLowerCase();
     const filtered = data.filter((r) => {
+      if (priorityOnly && !r.has_dossier) return false;
       if (vertical && r.vertical !== vertical) return false;
       if (region && r.region !== region) return false;
       if (vla && r.vla_classification !== vla) return false;
