@@ -13,30 +13,28 @@
 </header>
 <div class="container">
   <p class="lead">
-    A ranked list of <strong>84</strong> robotics companies that look like
-    <a href="https://tryreflex.ai" target="_blank" rel="noopener">Reflex</a> prospects, with
-    one-page dossiers for the top <strong>8</strong>. Every claim is sourced.
-    See <a href="about.html">methodology</a>.
+    <strong>84</strong> robotics companies, ranked. <strong>11</strong> have full dossiers.
+    Every claim is sourced — see <a href="about.html">methodology</a>.
   </p>
 
   <div class="controls">
-    <label>Tier
-      <select id="f-tier">
-        <option value="">All</option>
-        <option value="1">Tier 1</option>
-        <option value="2">Tier 2</option>
-        <option value="3">Tier 3</option>
-      </select>
-    </label>
     <label>Vertical
       <select id="f-vertical"><option value="">All</option></select>
+    </label>
+    <label>Region
+      <select id="f-region">
+        <option value="">All</option>
+        <option value="california">California</option>
+        <option value="us_other">US (other)</option>
+        <option value="international">International</option>
+      </select>
     </label>
     <label>Spend
       <select id="f-spend">
         <option value="">All</option>
-        <option value="a">A</option>
-        <option value="b">B</option>
-        <option value="c">C</option>
+        <option value="a">A ($25k+/mo)</option>
+        <option value="b">B ($5-25k/mo)</option>
+        <option value="c">C (&lt;$5k/mo)</option>
       </select>
     </label>
     <label>Search
@@ -50,7 +48,7 @@
       <tr>
         <th data-key="company_name">Company</th>
         <th data-key="vertical">Vertical</th>
-        <th data-key="tier">Tier</th>
+        <th data-key="hq_display">HQ</th>
         <th data-key="score">Score</th>
         <th data-key="vla_classification">VLA</th>
         <th data-key="pain_score">Pain</th>

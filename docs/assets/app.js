@@ -15,9 +15,11 @@
     research_only: "Research only",
   };
 
+  const REGION_RANK = { california: 0, us_other: 1, international: 2, "": 3 };
+
   const els = {
-    tier: document.getElementById("f-tier"),
     vertical: document.getElementById("f-vertical"),
+    region: document.getElementById("f-region"),
     spend: document.getElementById("f-spend"),
     search: document.getElementById("f-search"),
     tbody: document.getElementById("rows"),
@@ -27,8 +29,8 @@
   };
 
   let data = [];
-  let sortKey = "score";
-  let sortDir = -1; // -1 desc, 1 asc
+  let sortKey = "default"; // region-then-score
+  let sortDir = -1;
 
   fetch("./assets/data.json").then((r) => r.json()).then((rows) => {
     data = rows;
@@ -38,17 +40,19 @@
   });
 
   function populateVerticalFilter() {
-    const verticals = Array.from(new Set(data.map((r) => r.vertical).filter(Boolean))).sort();
+    const counts = {};
+    for (const r of data) if (r.vertical) counts[r.vertical] = (counts[r.vertical] || 0) + 1;
+    const verticals = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
     for (const v of verticals) {
       const opt = document.createElement("option");
       opt.value = v;
-      opt.textContent = VERTICAL_LABELS[v] || v;
+      opt.textContent = `${VERTICAL_LABELS[v] || v} (${counts[v]})`;
       els.vertical.appendChild(opt);
     }
   }
 
   function bindEvents() {
-    [els.tier, els.vertical, els.spend].forEach((el) => el.addEventListener("change", render));
+    [els.vertical, els.region, els.spend].forEach((el) => el.addEventListener("change", render));
     els.search.addEventListener("input", render);
     document.querySelectorAll("th[data-key]").forEach((th) => {
       th.addEventListener("click", () => {
@@ -58,37 +62,39 @@
         render();
       });
     });
-    els.modalBg.addEventListener("click", (e) => {
-      if (e.target === els.modalBg) closeModal();
-    });
+    els.modalBg.addEventListener("click", (e) => { if (e.target === els.modalBg) closeModal(); });
   }
 
   function render() {
-    const tier = els.tier.value;
     const vertical = els.vertical.value;
+    const region = els.region.value;
     const spend = els.spend.value;
     const q = els.search.value.trim().toLowerCase();
 
     let filtered = data.filter((r) => {
-      if (tier && String(r.tier) !== tier) return false;
       if (vertical && r.vertical !== vertical) return false;
+      if (region && r.region !== region) return false;
       if (spend && (r.spend_tier || "").toLowerCase() !== spend.toLowerCase()) return false;
       if (q) {
-        const hay = [r.company_name, r.buyer_name, r.vertical, r.one_line_description].filter(Boolean).join(" ").toLowerCase();
+        const hay = [r.company_name, r.buyer_name, r.vertical, r.one_line_description, r.hq_display].filter(Boolean).join(" ").toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
     });
 
-    filtered.sort((a, b) => {
-      let av = a[sortKey] ?? "";
-      let bv = b[sortKey] ?? "";
-      if (typeof av === "number" || typeof bv === "number") {
-        av = Number(av) || 0; bv = Number(bv) || 0;
-        return (av - bv) * sortDir;
-      }
-      return String(av).localeCompare(String(bv)) * sortDir;
-    });
+    if (sortKey === "default") {
+      filtered.sort((a, b) => (REGION_RANK[a.region] ?? 9) - (REGION_RANK[b.region] ?? 9) || b.score - a.score || a.company_name.localeCompare(b.company_name));
+    } else {
+      filtered.sort((a, b) => {
+        let av = a[sortKey] ?? "";
+        let bv = b[sortKey] ?? "";
+        if (typeof av === "number" || typeof bv === "number") {
+          av = Number(av) || 0; bv = Number(bv) || 0;
+          return (av - bv) * sortDir;
+        }
+        return String(av).localeCompare(String(bv)) * sortDir;
+      });
+    }
 
     document.querySelectorAll("th[data-key]").forEach((th) => {
       th.classList.remove("sorted-asc", "sorted-desc");
@@ -107,7 +113,6 @@
   }
 
   function rowHTML(r) {
-    const tierBadge = `<span class="badge badge-tier-${r.tier}">Tier ${r.tier}</span>`;
     const vlaBadge = r.vla_classification ? `<span class="badge badge-${r.vla_classification.replace(/_/g, "-")}">${r.vla_classification.replace("vla_", "")}</span>` : "";
     const company = r.dossier_url
       ? `<a href="${r.dossier_url}">${escape(r.company_name)}</a>`
@@ -115,10 +120,12 @@
     const buyer = r.buyer_linkedin_url
       ? `<a href="${r.buyer_linkedin_url}" target="_blank" rel="noopener">${escape(r.buyer_name || "—")}</a>`
       : escape(r.buyer_name || "—");
-    return `<tr class="tier-${r.tier}">
+    const hqClass = r.region === "california" ? "hq-ca" : (r.region === "us_other" ? "hq-us" : "hq-intl");
+    const rowClass = r.has_dossier ? "row-priority" : "";
+    return `<tr class="${rowClass}">
       <td class="col-company" data-label="Company">${company}<div class="muted" style="font-size:12px">${escape(r.one_line_description || "")}</div></td>
       <td data-label="Vertical">${VERTICAL_LABELS[r.vertical] || escape(r.vertical || "—")}</td>
-      <td data-label="Tier">${tierBadge}</td>
+      <td data-label="HQ" class="${hqClass}">${escape(r.hq_display || "—")}</td>
       <td data-label="Score" class="score">${r.score ?? ""}</td>
       <td data-label="VLA">${vlaBadge}</td>
       <td data-label="Pain"><span class="pain pain-${r.pain_score ?? 0}">${r.pain_score ?? "—"}</span></td>

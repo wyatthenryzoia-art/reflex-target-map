@@ -64,7 +64,7 @@ def site_footer() -> str:
 </footer>"""
 
 
-def render_index(rows: list[dict], total_count: int, tier1_count: int) -> str:
+def render_index(rows: list[dict], total_count: int, dossier_count: int) -> str:
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -77,30 +77,28 @@ def render_index(rows: list[dict], total_count: int, tier1_count: int) -> str:
 {site_header("map")}
 <div class="container">
   <p class="lead">
-    A ranked list of <strong>{total_count}</strong> robotics companies that look like
-    <a href="https://tryreflex.ai" target="_blank" rel="noopener">Reflex</a> prospects, with
-    one-page dossiers for the top <strong>{tier1_count}</strong>. Every claim is sourced.
-    See <a href="about.html">methodology</a>.
+    <strong>{total_count}</strong> robotics companies, ranked. <strong>{dossier_count}</strong> have full dossiers.
+    Every claim is sourced — see <a href="about.html">methodology</a>.
   </p>
 
   <div class="controls">
-    <label>Tier
-      <select id="f-tier">
-        <option value="">All</option>
-        <option value="1">Tier 1</option>
-        <option value="2">Tier 2</option>
-        <option value="3">Tier 3</option>
-      </select>
-    </label>
     <label>Vertical
       <select id="f-vertical"><option value="">All</option></select>
+    </label>
+    <label>Region
+      <select id="f-region">
+        <option value="">All</option>
+        <option value="california">California</option>
+        <option value="us_other">US (other)</option>
+        <option value="international">International</option>
+      </select>
     </label>
     <label>Spend
       <select id="f-spend">
         <option value="">All</option>
-        <option value="a">A</option>
-        <option value="b">B</option>
-        <option value="c">C</option>
+        <option value="a">A ($25k+/mo)</option>
+        <option value="b">B ($5-25k/mo)</option>
+        <option value="c">C (&lt;$5k/mo)</option>
       </select>
     </label>
     <label>Search
@@ -114,7 +112,7 @@ def render_index(rows: list[dict], total_count: int, tier1_count: int) -> str:
       <tr>
         <th data-key="company_name">Company</th>
         <th data-key="vertical">Vertical</th>
-        <th data-key="tier">Tier</th>
+        <th data-key="hq_display">HQ</th>
         <th data-key="score">Score</th>
         <th data-key="vla_classification">VLA</th>
         <th data-key="pain_score">Pain</th>
@@ -191,22 +189,33 @@ def main() -> None:
     ASSETS.mkdir(parents=True, exist_ok=True)
 
     json_rows = []
-    tier1_count = 0
+    dossier_count = 0
     for c in companies:
         cid = c["company_id"]
         b = buyers_by_co.get(cid, {})
         score = to_int(c.get("score"))
         tier = to_int(c.get("tier"))
-        if tier == 1:
-            tier1_count += 1
         slug = c.get("slug") or slugify(c["company_name"])
-        dossier_url = f"dossiers/{slug}.html" if (DOSS_MD / f"{slug}.md").exists() else ""
+        has_dossier = (DOSS_MD / f"{slug}.md").exists()
+        if has_dossier:
+            dossier_count += 1
+        dossier_url = f"dossiers/{slug}.html" if has_dossier else ""
         urls = sorted(set(filter(None, sources_by_co.get(cid, []))))
+        city = (c.get("hq_city") or "").strip()
+        country = (c.get("hq_country") or "").strip()
+        if city and country:
+            hq_display = f"{city}, {country}"
+        else:
+            hq_display = city or country or "—"
         json_rows.append({
             "id": cid,
             "company_name": c["company_name"],
             "domain": c.get("domain", ""),
             "vertical": c.get("vertical", ""),
+            "hq_city": city,
+            "hq_country": country,
+            "hq_display": hq_display,
+            "region": c.get("region", ""),
             "tier": tier,
             "score": score,
             "vla_classification": c.get("vla_classification", ""),
@@ -216,14 +225,17 @@ def main() -> None:
             "buyer_linkedin_url": b.get("buyer_linkedin_url", ""),
             "one_line_description": c.get("one_line_description", ""),
             "dossier_url": dossier_url,
+            "has_dossier": has_dossier,
             "source_urls": urls,
         })
 
-    json_rows.sort(key=lambda r: (-r["score"], r["company_name"]))
+    # Sort: California first, then US-other, then international, then unknown — score-desc within each
+    REGION_RANK = {"california": 0, "us_other": 1, "international": 2, "": 3}
+    json_rows.sort(key=lambda r: (REGION_RANK.get(r["region"], 9), -r["score"], r["company_name"]))
 
     (ASSETS / "data.json").write_text(json.dumps(json_rows, indent=2))
 
-    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), tier1_count))
+    (DOCS / "index.html").write_text(render_index(json_rows, len(json_rows), dossier_count))
 
     about_md_path = REPO / "explainer.md"
     about_md = about_md_path.read_text() if about_md_path.exists() else "# About\n\nMethodology coming."
