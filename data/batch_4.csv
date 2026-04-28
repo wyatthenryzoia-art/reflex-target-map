@@ -1,0 +1,26 @@
+company_id,company_name,domain,origins,source_count,primary_source_type,primary_source_url,primary_source_quote,all_sources,notes
+c056,TII,tii.ae,1a,1,gh_fork,https://github.com/tiiuae/openvla-internal,OpenVLA an open-source vision-language-action model,https://github.com/tiiuae/openvla-internal,Abu Dhabi UAE; openvla fork
+c013,Tommoro Robotics,tommoro.ai,1a,1,gh_fork,https://github.com/Tommoro-AI,NVIDIA Isaac GR00T N1.5 fork - humanoid foundation model,https://github.com/Tommoro-AI,Korea; SNU spinout; HABILIS RFM
+c044,Transistor Robotics,,1a,1,gh_fork,https://github.com/transistor-robotics,Leaders in artificial intelligence solutions for humanoid robotics,https://github.com/transistor-robotics,Japan; openpi fork for Pi VLA training
+c006,Trossen Robotics,trossenrobotics.com,1a,1,gh_fork,https://github.com/TrossenRobotics,Educational research and professional level robotic development platforms,https://github.com/TrossenRobotics,United States; also Interbotix brand
+c073,Tuul AI,tuul.ai,1a,1,gh_fork,https://github.com/tuul-ai,tuul.ai LeRobot fork,https://github.com/tuul-ai,Germany
+c008,UFACTORY,ufactory.cc,1a,1,gh_fork,https://github.com/xArm-Developer,Robotic Arm Manufacturer Collaborative Robots,https://github.com/xArm-Developer,China; xArm; LeRobot integration
+c042,ugo,ugo.plus,1a,1,gh_fork,https://github.com/ugo-plus,ugo Pro integration for LeRobot; imitation learning,https://github.com/ugo-plus,Tokyo; LeRobot fork
+c036,Vassar Robotics,vassarrobotics.com,1a,1,gh_fork,https://github.com/vassar-robotics,Open-source semi-humanoid developer kit for home autonomy,https://github.com/vassar-robotics,United States; YC-backed; LeRobot fork
+c020,Vizuara AI,vizuara.ai,1a,1,hf_model_card,https://huggingface.co/Vizuara/dreamzero-so101-lora,DreamZero LoRA Models robotics-focused fine-tuning,https://huggingface.co/Vizuara/dreamzero-so101-lora,India; SO-101 robot fine-tunes
+c019,VRFAI,,1a,1,hf_model_card,https://huggingface.co/vrfai,Edge AI optimization for VLA; GR00T N1.6 INT8 edge models,https://huggingface.co/vrfai,non-profit; verified HF org with VLA models
+c009,Wandelbots,wandelbots.com,1a,1,gh_fork,https://github.com/wandelbotsgmbh,Wandelbots Everyone can work with robots,https://github.com/wandelbotsgmbh,Germany; NOVA SDK; LeRobot fork
+c053,Waveshare,waveshare.com,1a,1,gh_fork,https://github.com/waveshareteam,Share awesome hardware roarm_m3 LeRobot fork,https://github.com/waveshareteam,China; hardware vendor
+c021,Webstep,webstep.no,1a,1,hf_model_card,https://huggingface.co/webstep/smolvla_single_orange_duplo_pickup,smolvla single orange DUPLO pickup model,https://huggingface.co/webstep/smolvla_single_orange_duplo_pickup,Norway consultancy; multiple smolvla finetunes
+c051,WeGo Robotics,wego-robotics.com,1a,1,gh_fork,https://github.com/WeGo-Robotics,WeGo-Robotics Company LeRobot fork,https://github.com/WeGo-Robotics,Korea
+c052,WestonRobot,westonrobot.com,1a,1,gh_fork,https://github.com/westonrobot,WestonRobot LeRobot fork,https://github.com/westonrobot,Singapore
+c017,Xiaomi Robotics,xiaomi.com,1a,1,hf_org,https://huggingface.co/XiaomiRobotics,Empowering the future of robotics through scalable foundation models,https://huggingface.co/XiaomiRobotics,HF org; Xiaomi-Robotics-0 series 5B params
+c031,Yaak.ai,yaak.ai,1a,1,gh_fork,https://github.com/yaak-ai,Develop spatial intelligence effectively foundation models,https://github.com/yaak-ai,Berlin; LeRobot fork
+c075,ZenBotix,,1a,1,gh_fork,https://github.com/zenbotix,Dex an instantiation of the LeKiwi LeRobot fork,https://github.com/zenbotix,LeRobot fork
+c057,ZeroShot,zeroshotdata.com,1a,1,gh_fork,https://github.com/ZeroShotData,Piper ROS docker Isaac GR00T EgoMimic robot manipulation,https://github.com/ZeroShotData,United States
+c156,Brightpick,brightpick.com,1b,1,rbr50,https://www.therobotreport.com/rbr50-2024/,Autopicker is the first commercially available AMR that can pick,https://www.therobotreport.com/rbr50-2024/,Warehouse picking AMR; 2024 Application of the Year
+c106,Covariant,covariant.ai,1b,1,vc_portfolio,https://a16z.com/portfolio/,Builds universal AI for robotic automation in warehousing,https://a16z.com/portfolio/,a16z portfolio - manipulation foundation models
+c111,Osaro,osaro.com,1b,1,vc_portfolio,https://a16z.com/portfolio/,piece-picking robots for warehouse automation using AI vision,https://a16z.com/portfolio/,a16z portfolio - warehouse manipulation
+c146,Robust.AI,robust.ai,1b,1,rbr50,https://www.therobotreport.com/rbr50-2025/,RBR50 Robotics Innovation Awards 2025 winner,https://www.therobotreport.com/rbr50-2025/,Carter collaborative warehouse robot
+c113,Zipline,flyzipline.com,1b,1,vc_portfolio,https://a16z.com/portfolio/,autonomous drone delivery service for medical supplies,https://a16z.com/portfolio/,a16z portfolio - delivery drones
+c154,Advanced Construction Robotics,constructionrobots.com,1b,1,rbr50,https://www.therobotreport.com/rbr50-2024/,RBR50 Robotics Innovation Awards 2024 winner,https://www.therobotreport.com/rbr50-2024/,Construction rebar robots

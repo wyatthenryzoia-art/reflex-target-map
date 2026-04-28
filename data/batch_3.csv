@@ -1,0 +1,26 @@
+company_id,company_name,domain,origins,source_count,primary_source_type,primary_source_url,primary_source_quote,all_sources,notes
+c074,io-ai.tech,io-ai.tech,1a,1,gh_fork,https://github.com/ioai-tech,IO-AI.tech LeRobot fork,https://github.com/ioai-tech,LeRobot fork
+c024,K-Scale Labs,kscale.dev,1a,1,gh_fork,https://github.com/kscalelabs,EdgeVLA an open-source edge vision-language-action model for robotics,https://github.com/kscalelabs,United States; humanoid/RL focus
+c045,KinesthetIQ,kinesthetiq.com,1a,1,gh_fork,https://github.com/NavIQLabs,Foundation models for robotics; openpi ViNT Isaac GR00T forks,https://github.com/NavIQLabs,India; multiple foundation-model forks
+c028,Lucky Robots,luckyrobots.com,1a,1,gh_fork,https://github.com/luckyrobots,Data Generation For Robotics AI; LuckyEngine simulation,https://github.com/luckyrobots,United States; LeRobot fork
+c049,Menlo Research,menlo.ai,1a,1,gh_fork,https://github.com/menloresearch,Asimov open source humanoid robot platform; thinking machines,https://github.com/menloresearch,Singapore; Isaac-GR00T fork
+c054,ML6,ml6.eu,1a,1,gh_fork,https://github.com/ml6team,LeRobot Worldwide hackathon 2025,https://github.com/ml6team,Belgium; AI consultancy
+c076,NeuroGrip,,1a,1,gh_fork,https://github.com/NeuroGrip,openvla and TinyVLA forks for robotic manipulation,https://github.com/NeuroGrip,VLA forks
+c004,Niryo Robotics,niryo.com,1a,1,gh_fork,https://github.com/NiryoRobotics,LeRobot Making AI for Robotics more accessible with end-to-end learning,https://github.com/NiryoRobotics,France; 6-axis cobots for industrial and education
+c010,Orbbec,orbbec.com,1a,1,gh_fork,https://github.com/orbbec,Orbbec depth-sensing camera SDKs with ROS robotics integration,https://github.com/orbbec,United States; LeRobot fork
+c012,phospho,phospho.ai,1a,1,gh_fork,https://github.com/phospho-app,The AI robotics company,https://github.com/phospho-app,France; openvla & openpi forks; phosphobot for SO-100/SO-101
+c003,Pollen Robotics,pollen-robotics.com,1a,1,gh_fork,https://github.com/pollen-robotics/lerobot,LeRobot End-to-end Learning for Real-World Robotics,https://github.com/pollen-robotics/lerobot,France; Reachy 2 / Mini SDKs
+c039,Positronic Robotics,positronic.ro,1a,1,gh_fork,https://github.com/Positronic-Robotics,Python-native stack for real-life ML robotics,https://github.com/Positronic-Robotics,Isaac-GR00T fork
+c071,Qrafty AI,qrafty-ai.com,1a,1,gh_fork,https://github.com/qrafty-ai,Qrafty AI LeRobot fork,https://github.com/qrafty-ai,United States
+c030,Rerun,rerun.io,1a,1,gh_fork,https://github.com/rerun-io,SDK for visualizing multimodal data for robotics,https://github.com/rerun-io,Sweden; LeRobot fork
+c014,RLWRLD,rlwrld.ai,1a,1,gh_fork,https://github.com/RLWRLD,LeRobot Isaac-GR00T and openpi forks,https://github.com/RLWRLD,Korea; multiple VLA-related forks
+c002,Robotec.ai,robotec.ai,1a,1,gh_fork,https://github.com/RobotecAI/openvla,OpenVLA an open-source vision-language-action model for robotic manipulation,https://github.com/RobotecAI/openvla,Poland; RAI agentic framework for Physical AI
+c007,ROBOTIS,robotis.com,1a,1,gh_fork,https://github.com/ROBOTIS-GIT,ROBOTIS Official GitHub - Dynamixel TurtleBot3 OpenManipulator Cyclo,https://github.com/ROBOTIS-GIT,Korea; Cyclo Physical AI framework
+c037,SatiNav Robotics,satinavrobotics.com,1a,1,gh_fork,https://github.com/satinavrobotics,Modular Robotics and Autonomous Navigation Company,https://github.com/satinavrobotics,Hungary; openpi (satipi) fork
+c070,Servo Develop / Fashion Star,fashionrobo.com,1a,1,gh_fork,https://github.com/servodevelop,Fashion Star LeRobot fork,https://github.com/servodevelop,China; servos vendor
+c047,Solo Tech,getsolo.tech,1a,1,gh_fork,https://github.com/GetSoloTech,Extended robotics framework on top of LeRobot for Solo training,https://github.com/GetSoloTech,United States; LeRobot fork
+c038,Spes Robotics,spes.ai,1a,1,gh_fork,https://github.com/SpesRobotics,R&D firm for autonomous mobile robots and cobots,https://github.com/SpesRobotics,LeRobot fork
+c066,TeamGRIT,teamgrit.kr,1a,1,gh_fork,https://github.com/teamgrit-lab,Quadruped robot challenges and teleop devices LeRobot fork,https://github.com/teamgrit-lab,Seoul Korea
+c068,TechShare,techshare.co.jp,1a,1,gh_fork,https://github.com/TechShare-inc,TechShare LeRobot fork,https://github.com/TechShare-inc,Japan
+c078,TeleAI / TeleHuman,,1a,1,gh_fork,https://github.com/TeleHuman,TeleAI Humanoid Robot Research Team LeRobot fork,https://github.com/TeleHuman,China; TeleAI is China Telecom AI division
+c022,Tencent,tencent.com,1a,1,hf_model_card,https://huggingface.co/tencent/HY-Embodied-0.5-X,HY-Embodied-0.5-X embodied robotics model,https://huggingface.co/tencent/HY-Embodied-0.5-X,Tencent corporate HF org

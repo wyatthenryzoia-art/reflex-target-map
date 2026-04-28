@@ -1,0 +1,26 @@
+company_id,company_name,domain,origins,source_count,primary_source_type,primary_source_url,primary_source_quote,all_sources,notes
+c060,Aurorain,,1a,1,gh_fork,https://github.com/aurorain-ai,Data-centric AI engineering platform; LeRobot fork,https://github.com/aurorain-ai,United States
+c023,BAAI,baai.ac.cn,1a,1,hf_model_card,https://huggingface.co/BAAI/RoboBrain2.0-7B,RoboBrain2.0 series VLA models 3B 7B 32B,https://huggingface.co/BAAI/RoboBrain2.0-7B,Beijing Academy of AI; commercial-adjacent foundation
+c035,Binabik,binabik.ai,1a,1,gh_fork,https://github.com/binabik-ai,Building the foundations of Agentic Physical AI,https://github.com/binabik-ai,Switzerland; Isaac-GR00T fork
+c077,Codeflash,codeflash.ai,1a,1,gh_fork,https://github.com/codeflash-ai,Codeflash LeRobot fork,https://github.com/codeflash-ai,United States
+c034,Cybernetic Physics,cyberneticphysics.com,1a,1,gh_fork,https://github.com/cybernetic-physics,Physical AI development platform Isaac Lab in the cloud,https://github.com/cybernetic-physics,LeRobot fork
+c063,DART Labs,,1a,1,gh_fork,https://github.com/dart-labs-inc,DART-GR00T fork of NVIDIA Isaac GR00T N1.5,https://github.com/dart-labs-inc,Isaac-GR00T fork
+c032,Dustland,dustland.ai,1a,1,gh_fork,https://github.com/dustland,Engineering Embodied Intelligence; imitation learning HRI,https://github.com/dustland,openpi-related work
+c069,Eastworld Labs,,1a,1,gh_fork,https://github.com/Eastworld-Labs,Free your Unitree G1 from cable connection Isaac-GR00T fork,https://github.com/Eastworld-Labs,Isaac-GR00T fork
+c064,Ebots,ebots.com,1a,1,gh_fork,https://github.com/ebots-inc,Foundation models for humanoid robots Isaac GR00T Cosmos,https://github.com/ebots-inc,United States
+c062,EmbodyX,embodyx.io,1a,1,gh_fork,https://github.com/embodyx,Physical AI for the Real World VLA models for manipulation,https://github.com/embodyx,United States; openvla fork
+c065,Enactic,enactic.ai,1a,1,gh_fork,https://github.com/enactic,Enactic LeRobot fork end-to-end robotics learning,https://github.com/enactic,Japan
+c018,Enfuse,enfuse.io,1a,1,hf_model_card,https://huggingface.co/enfuse/edgevla-small-fmb,enfuse edgevla-small-fmb Robotics VLA model,https://huggingface.co/enfuse/edgevla-small-fmb,Edge VLA models for Physical AI
+c043,Extend Robotics,extendrobotics.com,1a,1,gh_fork,https://github.com/Extend-Robotics,Robotic platforms and teleoperation with Vision Pro tracking,https://github.com/Extend-Robotics,UK; openvla fork
+c033,Forerunner.ai,forerunner.ai,1a,1,gh_fork,https://github.com/forerunnerai,Isaac GR00T fork; AI infrastructure and robotics technologies,https://github.com/forerunnerai,United States
+c048,FrodoBots,frodobots.com,1a,1,gh_fork,https://github.com/frodobots-org,Earth rover SDK; teleoperation and AI-powered robotics,https://github.com/frodobots-org,LeRobot fork
+c079,General Intelligence Labs,,1a,1,gh_fork,https://github.com/General-Intelligence-Labs,Building the perception-action stack of embodied intelligence,https://github.com/General-Intelligence-Labs,United States
+c046,General Robotics,generalrobotics.company,1a,1,gh_fork,https://github.com/GenRobo,Isaac GR00T N1.6 fork humanoid foundation model,https://github.com/GenRobo,United States
+c040,Generative Bionics,gbionics.ai,1a,1,gh_fork,https://github.com/gbionics,Robotics dynamics control and robot learning amplifying humans,https://github.com/gbionics,Italy; LeRobot fork
+c027,Genesis AI,genesis-ai.company,1a,1,gh_fork,https://github.com/Genesis-Embodied-AI,Generative world for general-purpose robotics and embodied AI learning,https://github.com/Genesis-Embodied-AI,Genesis simulator; LeRobot fork
+c016,GigaAI,gigaai.cc,1a,1,hf_org,https://huggingface.co/open-gigaai,GigaBrain Vision Language Action models for robotics,https://huggingface.co/open-gigaai,HF org; CVPR 2026 RoboTwin track host
+c055,HCLTech Robotics,hcltech.com,1a,1,gh_fork,https://github.com/hcltech-robotics,HCLTech Robotics LeRobot fork,https://github.com/hcltech-robotics,India; enterprise services arm
+c015,Hebbian Robotics,hebbianrobotics.com,1a,1,hf_model_card,https://huggingface.co/Hebbian-Robotics/pi05_subtask,pi05_subtask Hebbian Robotics fine-tune,https://huggingface.co/Hebbian-Robotics/pi05_subtask,Real-time inference engine for openpi
+c050,Industrialnext,industrialnext.com,1a,1,gh_fork,https://github.com/industrialnext,LeRobot MuJoCo and robotics frameworks for industrial automation,https://github.com/industrialnext,United States; 40 robotics repos
+c059,IntBot,intbot.ai,1a,1,gh_fork,https://github.com/intbotinc,Voice AI agents and physical AI inference for robotics,https://github.com/intbotinc,United States; LeRobot fork
+c041,Intempus,intempus.org,1a,1,gh_fork,https://github.com/Intempus-Inc,pathOS emotional intelligence for machines; building emotional robots,https://github.com/Intempus-Inc,United States; LeRobot fork
