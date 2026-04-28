@@ -34,6 +34,28 @@ except Exception:
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 
+# Domains that bot-block but are universally valid in browsers. A 403/999 from
+# these is treated as OK — they're our spec-mandated buyer/funding sources
+# (LinkedIn for profiles, Crunchbase/Pitchbook for funding, etc.).
+BOT_BLOCK_OK_DOMAINS = (
+    "linkedin.com",
+    "crunchbase.com",
+    "pitchbook.com",
+    "businesswire.com",
+    "therobotreport.com",
+    "techcrunch.com",
+    "ieee.org",
+    "x.com",
+    "twitter.com",
+)
+
+
+def is_bot_block_ok(url: str, status: str) -> bool:
+    if not any(d in url for d in BOT_BLOCK_OK_DOMAINS):
+        return False
+    return status in ("403", "999", "451", "429")
+
+
 def headers_for(url: str) -> dict:
     h = {
         "User-Agent": USER_AGENT,
@@ -78,9 +100,28 @@ async def main(urls: list[str], out_path: Path) -> int:
         for r in results:
             w.writerow(r)
 
-    failures = [r for r in results if not (r["status"].startswith("2") or r["status"].startswith("3"))]
+    failures = []
+    bot_blocked_ok = 0
+    for r in results:
+        s = r["status"]
+        if s.startswith("2") or s.startswith("3"):
+            continue
+        if is_bot_block_ok(r["url"], s):
+            r["status"] = f"BOTBLOCK_OK:{s}"
+            bot_blocked_ok += 1
+            continue
+        failures.append(r)
+
+    # rewrite results so log captures the BOTBLOCK_OK overlay
+    with open(out_path, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["url", "status", "final_url", "checked_at"])
+        w.writeheader()
+        for r in results:
+            w.writerow(r)
+
     print(f"checked: {len(results)}")
-    print(f"ok: {len(results) - len(failures)}")
+    print(f"ok: {len(results) - len(failures) - bot_blocked_ok}")
+    print(f"bot-blocked but valid: {bot_blocked_ok}")
     print(f"fail: {len(failures)}")
     for r in failures[:30]:
         print(f"  {r['status']:>10}  {r['url']}")

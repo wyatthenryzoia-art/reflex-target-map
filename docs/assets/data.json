@@ -9,13 +9,15 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Daniele Pucci",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/daniele-pucci-78428420/",
     "one_line_description": "IIT-spinout humanoid-robotics startup, EUR70M seed",
-    "dossier_url": "",
+    "dossier_url": "dossiers/generative-bionics.html",
     "source_urls": [
       "https://github.com/gbionics",
-      "https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/"
+      "https://opentalk.iit.it/en/born-from-iit-generative-bionics-raises-e70-million-to-build-a-new-generation-of-intelligent-made-in-italy-humanoid-robots/",
+      "https://www.linkedin.com/in/daniele-pucci-78428420/",
+      "https://www.linkedin.com/posts/wmf-we-make-future_daniele-pucci-generative-bionics-the-future-activity-7436031581607251968-9kCY"
     ]
   },
   {
@@ -31,7 +33,7 @@
     "buyer_name": "",
     "buyer_linkedin_url": "",
     "one_line_description": "WALL-A VLA + world model robot foundation models, Shenzhen",
-    "dossier_url": "",
+    "dossier_url": "dossiers/x-square-robot.html",
     "source_urls": [
       "https://www.therobotreport.com/x-square-robot-secures-140m-in-funding-for-ai-foundation-models/"
     ]
@@ -46,12 +48,14 @@
     "vla_classification": "vla_active",
     "pain_score": 3,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "David Hoeller",
+    "buyer_linkedin_url": "https://ch.linkedin.com/in/david-hoeller",
     "one_line_description": "Synthetic-data humanoid autonomy software",
-    "dossier_url": "",
+    "dossier_url": "dossiers/flexion.html",
     "source_urls": [
+      "https://arxiv.org/abs/2509.10771",
       "https://blogs.nvidia.com/blog/nvidia-investments/",
+      "https://ch.linkedin.com/in/david-hoeller",
       "https://flexion.ai/careers"
     ]
   },
@@ -65,15 +69,17 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Zhou Xian",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/zhou-xian-588128150/",
     "one_line_description": "Generalist physical-AI lab with $105M seed, foundation-model focus",
-    "dossier_url": "",
+    "dossier_url": "dossiers/genesis-ai.html",
     "source_urls": [
       "https://genesis-ai.company",
       "https://genesis-ai.company/join-us/",
       "https://github.com/Genesis-Embodied-AI",
-      "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots/"
+      "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots/",
+      "https://www.linkedin.com/in/zhou-xian-588128150/",
+      "https://x.com/zhou_xian_/status/1869511650782658846"
     ]
   },
   {
@@ -105,12 +111,14 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "He Wang",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/he-wang-58543770/",
     "one_line_description": "G1 mobile manipulator with embodied foundation models, Beijing",
-    "dossier_url": "",
+    "dossier_url": "dossiers/galbot.html",
     "source_urls": [
+      "https://hughw19.github.io/",
       "https://www.galbot.com/en",
+      "https://www.linkedin.com/in/he-wang-58543770/",
       "https://www.therobotreport.com/galbot-brings-in-300m-to-scale-mobile-manipulator-deployments/"
     ]
   },
@@ -124,13 +132,15 @@
     "vla_classification": "vla_active",
     "pain_score": 2,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Jung-hee Ryu",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/jung-hee-ryu-5376623/",
     "one_line_description": "Korean industrial robotics foundation model startup",
-    "dossier_url": "",
+    "dossier_url": "dossiers/rlwrld.html",
     "source_urls": [
       "https://github.com/RLWRLD",
       "https://github.com/RLWRLD/launch-list",
+      "https://www.linkedin.com/in/jung-hee-ryu-5376623/",
+      "https://www.linkedin.com/posts/jung-hee-ryu-5376623_rlwrld-defining-the-future-of-physical-ai-activity-7379709270189277185-Nu1l",
       "https://www.therobotreport.com/physical-ai-startup-rlwrld-raises-26m/"
     ]
   },
@@ -165,13 +175,15 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Zheng Xu",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/zheng-xu-344a025/",
     "one_line_description": "Precision-assembly manipulator robotics with foundation-model push, Series A",
-    "dossier_url": "",
+    "dossier_url": "dossiers/ebots.html",
     "source_urls": [
       "https://ebots.com/company/",
-      "https://github.com/ebots-inc"
+      "https://github.com/ebots-inc",
+      "https://www.businesswire.com/news/home/20250204184202/en/eBots-and-Foxconn-Collaboration-Sets-a-New-Record-in-Adaptive-Precision-Manufacturing-Embodied-AI-Robot-Successfully-Passes-Factory-Acceptance-Test-FAT",
+      "https://www.linkedin.com/in/zheng-xu-344a025/"
     ]
   },
   {
@@ -184,14 +196,16 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Ali Agha",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/ali-agha-7aa5212a",
     "one_line_description": "Foundation models for embodied robot autonomy",
-    "dossier_url": "",
+    "dossier_url": "dossiers/fieldai.html",
     "source_urls": [
       "https://fieldai.com/careers",
       "https://techcrunch.com/2025/08/20/fieldai-raises-405m-to-build-universal-robot-brains/",
-      "https://www.khoslaventures.com/portfolio/"
+      "https://www.khoslaventures.com/portfolio/",
+      "https://www.linkedin.com/in/ali-agha-7aa5212a",
+      "https://www.therobotreport.com/fieldai-founder-ceo-discuss-building-risk-aware-ai-models-robobusiness/"
     ]
   },
   {
@@ -204,14 +218,16 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Marek Cygan",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/marek-cygan-b9a316140/",
     "one_line_description": "Warehouse pick-and-place AI robotics",
-    "dossier_url": "",
+    "dossier_url": "dossiers/nomagic.html",
     "source_urls": [
       "https://github.com/nomagiclab",
       "https://github.com/nomagiclab/openvla",
-      "https://www.khoslaventures.com/portfolio/"
+      "https://theaiinsider.tech/2026/02/05/nomagic-closes-e8-51m-series-b-extension-to-scale-ai-driven-warehouse-robotics/",
+      "https://www.khoslaventures.com/portfolio/",
+      "https://www.linkedin.com/in/marek-cygan-b9a316140/"
     ]
   },
   {
@@ -224,14 +240,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Pierre Rouanet",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/pierrerouanet/",
     "one_line_description": "Open-source Reachy humanoid acquired by Hugging Face April 2025",
-    "dossier_url": "",
+    "dossier_url": "dossiers/pollen-robotics.html",
     "source_urls": [
       "https://github.com/pollen-robotics",
       "https://github.com/pollen-robotics/lerobot",
       "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+      "https://www.linkedin.com/in/pierrerouanet/",
       "https://www.pollen-robotics.com/"
     ]
   },
@@ -245,13 +262,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Marc Tuscher",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/marc-tuscher-3b4048149/",
     "one_line_description": "VLA + world model warehouse picking platform",
-    "dossier_url": "",
+    "dossier_url": "dossiers/sereact.html",
     "source_urls": [
       "https://sereact.ai/careers",
+      "https://sereact.ai/posts/cortex-2",
       "https://theaiinsider.tech/2026/04/27/sereact-raises-110m-in-series-b-funding-to-expand-warehouse-robotics-platform/",
+      "https://www.linkedin.com/in/marc-tuscher-3b4048149/",
       "https://www.therobotreport.com/rbr50-2024/"
     ]
   },
@@ -284,15 +303,17 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Ashish Kapoor",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/ashish-kapoor-a2971b6",
     "one_line_description": "GRID unified robot intelligence platform; Accenture-backed",
     "dossier_url": "",
     "source_urls": [
       "https://generalrobotics.company",
       "https://generalrobotics.company/careers",
       "https://github.com/GenRobo",
-      "https://newsroom.accenture.com/news/2026/accenture-invests-in-general-robotics-to-advance-physical-ai-powered-robotics-in-manufacturing-and-logistics"
+      "https://newsroom.accenture.com/news/2026/accenture-invests-in-general-robotics-to-advance-physical-ai-powered-robotics-in-manufacturing-and-logistics",
+      "https://www.generalrobotics.company/post/lessons-from-airsim",
+      "https://www.linkedin.com/in/ashish-kapoor-a2971b6"
     ]
   },
   {
@@ -305,14 +326,15 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Charlie Kemp",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/charlie-kemp-96b0a9159/",
     "one_line_description": "Stretch 3 open-source mobile manipulator for research/home",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/hello-robot/stretch_ai",
       "https://hello-robot.com/careers",
       "https://spectrum.ieee.org/hello-robot-stretch-3",
+      "https://www.linkedin.com/in/charlie-kemp-96b0a9159/",
       "https://www.therobotreport.com/rbr50-2025/"
     ]
   },
@@ -347,15 +369,17 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Pierre-Louis Biojout",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/plbiojout/",
     "one_line_description": "YC robotics SDK + low-cost hardware kits France",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/phospho-app",
       "https://github.com/phospho-app/openpi",
       "https://phospho.ai/",
-      "https://www.ycombinator.com/companies/phospho"
+      "https://www.linkedin.com/in/plbiojout/",
+      "https://www.ycombinator.com/companies/phospho",
+      "https://x.com/plbiojout/status/1901710164853477830"
     ]
   },
   {
@@ -368,13 +392,14 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Adam Dabrowski",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/dabrowskiadam/",
     "one_line_description": "Polish ROS2 simulation and digital-twin services firm",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/RobotecAI",
       "https://github.com/RobotecAI/openvla",
+      "https://www.linkedin.com/in/dabrowskiadam/",
       "https://www.robotec.ai/careers"
     ]
   },
@@ -388,13 +413,14 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Charles Yong",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/charles-zhengqi-yong/",
     "one_line_description": "YC X25 $200 home humanoid arm dev kit",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/vassar-robotics",
       "https://github.com/vassar-robotics/Shoebill-Leader-Follower-Robotic-Arms",
+      "https://www.linkedin.com/in/charles-zhengqi-yong/",
       "https://www.workatastartup.com/companies/30511",
       "https://www.ycombinator.com/companies/vassar-robotics"
     ]
@@ -409,12 +435,13 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Sean Johnson",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/seanbjohnson/",
     "one_line_description": "Warehouse AMRs alongside human pickers, Series F unicorn",
     "dossier_url": "",
     "source_urls": [
       "https://www.iotworldtoday.com/robotics/locus-robotics-latest-funding-round-values-company-at-nearly-2b-",
+      "https://www.linkedin.com/in/seanbjohnson/",
       "https://www.therobotreport.com/rbr50-2025/"
     ]
   },
@@ -428,14 +455,16 @@
     "vla_classification": "vla_likely",
     "pain_score": 2,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Sankaet Pathak",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/sankaet/",
     "one_line_description": "Phantom humanoid + Cortex AI for industrial/defense work, SF",
     "dossier_url": "",
     "source_urls": [
       "https://foundation.bot/",
       "https://sfstandard.com/2025/08/13/humanoid-robots-military-foundation-terminator/",
-      "https://www.foundation.bot/careers"
+      "https://www.foundation.bot/careers",
+      "https://www.humanoidsdaily.com/news/peace-through-strength-foundation-ceo-showcases-phantom-robot-on-fox-business",
+      "https://www.linkedin.com/in/sankaet/"
     ]
   },
   {
@@ -448,14 +477,16 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Saba Khalilnaji",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/saba-khalilnaji/",
     "one_line_description": "Dual-arm manipulation robot for physical AI",
     "dossier_url": "",
     "source_urls": [
       "https://almond.bot",
       "https://github.com/almond-bot",
-      "https://github.com/almond-bot/lerobot"
+      "https://github.com/almond-bot/lerobot",
+      "https://www.linkedin.com/in/saba-khalilnaji/",
+      "https://www.linkedin.com/posts/saba-khalilnaji_shawn-patel-and-i-left-our-comfortable-swe-activity-7369082650441019396-J4j_"
     ]
   },
   {
@@ -468,14 +499,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Lucas Ngoo",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/lucasngoo/",
     "one_line_description": "Egocentric and robot data marketplace for embodied AI",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/cortexairobot",
       "https://github.com/cortexairobot/Isaac-GR00T",
-      "https://huggingface.co/cortexairobot"
+      "https://huggingface.co/cortexairobot",
+      "https://www.linkedin.com/in/lucasngoo/"
     ]
   },
   {
@@ -488,13 +520,14 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Si Chen",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/xsichen/",
     "one_line_description": "Embodied AI humanoid platform with active LeRobot fork",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/ioai-tech",
-      "https://github.com/ioai-tech/lerobot"
+      "https://github.com/ioai-tech/lerobot",
+      "https://www.linkedin.com/in/xsichen/"
     ]
   },
   {
@@ -507,14 +540,15 @@
     "vla_classification": "vla_likely",
     "pain_score": 0,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Lukas Pankau",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/lukas-pankau-16672185561660",
     "one_line_description": "AI-autopilot for factory automation, YC-backed manufacturing",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/industrialnext",
       "https://industrialnext.ai/",
       "https://industrialnext.com",
+      "https://www.linkedin.com/in/lukas-pankau-16672185561660",
       "https://www.ycombinator.com/companies/industrial-next"
     ]
   },
@@ -528,14 +562,16 @@
     "vla_classification": "vla_likely",
     "pain_score": 0,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Marc-Henri Frouin",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/marc-henri-frouin-605131b9/",
     "one_line_description": "Educational and industrial six-axis cobots France",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/NiryoRobotics",
       "https://github.com/NiryoRobotics/lerobot",
-      "https://niryo.com/about-us/"
+      "https://niryo.com/about-us/",
+      "https://niryo.com/nate-robotic-platform-makes-industrial-automation-accessible/",
+      "https://www.linkedin.com/in/marc-henri-frouin-605131b9/"
     ]
   },
   {
@@ -548,13 +584,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Sergey Arkhangelskiy",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/sergeyarkhangelskiy/",
     "one_line_description": "Python-native robotics ML stack with active VLA forks",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/Positronic-Robotics",
-      "https://github.com/Positronic-Robotics/openpi"
+      "https://github.com/Positronic-Robotics/openpi",
+      "https://www.linkedin.com/in/sergeyarkhangelskiy/",
+      "https://www.therobotreport.com/phail-ranks-robotics-foundation-models-real-hardware/"
     ]
   },
   {
@@ -586,13 +624,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "M\u00e1rk Czimber",
+    "buyer_linkedin_url": "https://hu.linkedin.com/in/czm21",
     "one_line_description": "Hungarian outdoor mobile robotics modular stack",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/satinavrobotics",
-      "https://github.com/satinavrobotics/openpi"
+      "https://github.com/satinavrobotics/openpi",
+      "https://hirek.prim.hu/cikk/2025/10/19/autonom_erdeszeti_robotok_szuletnek_sopronban",
+      "https://hu.linkedin.com/in/czm21"
     ]
   },
   {
@@ -624,14 +664,16 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Dhruv Diddi",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/dhruvdiddi",
     "one_line_description": "Privacy-first on-device robot intelligence platform",
     "dossier_url": "",
     "source_urls": [
       "https://getsolo.tech/",
+      "https://getsolotech.substack.com/",
       "https://github.com/GetSoloTech",
-      "https://github.com/GetSoloTech/solo-robotics"
+      "https://github.com/GetSoloTech/solo-robotics",
+      "https://www.linkedin.com/in/dhruvdiddi"
     ]
   },
   {
@@ -644,13 +686,15 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Christian Piechnick",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/christian-piechnick/",
     "one_line_description": "German industrial robot OS NOVA platform",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/wandelbotsgmbh",
-      "https://wandelbots.com"
+      "https://wandelbots.com",
+      "https://www.linkedin.com/in/christian-piechnick/",
+      "https://www.wandelbots.com/news"
     ]
   },
   {
@@ -663,13 +707,14 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "b",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Martin Zielinski",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/martin-zielinski/",
     "one_line_description": "Berlin spatial-intelligence platform for AV/agriculture data",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/yaak-ai",
       "https://github.com/yaak-ai/rmind",
+      "https://www.linkedin.com/in/martin-zielinski/",
       "https://yaak.ai"
     ]
   },
@@ -702,14 +747,16 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Sebastian Peralta",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/sebbyjp",
     "one_line_description": "Embodied AI agents teach industrial robots",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/mbodiai",
       "https://github.com/mbodiai/embodied-agents",
-      "https://www.therobotreport.com/rbr50-2025/"
+      "https://www.linkedin.com/in/sebbyjp",
+      "https://www.therobotreport.com/rbr50-2025/",
+      "https://www.therobotreport.com/rbr50-company-2025/mbody-ai-enables-robots-to-learn-skills-via-natural-language/"
     ]
   },
   {
@@ -740,14 +787,15 @@
     "vla_classification": "vla_likely",
     "pain_score": 0,
     "spend_tier": "a",
-    "buyer_name": "",
+    "buyer_name": "Gautam Prabhu",
     "buyer_linkedin_url": "",
     "one_line_description": "Lab automation liquid handling robots",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/Opentrons",
       "https://github.com/Opentrons/aloha",
-      "https://www.khoslaventures.com/portfolio/"
+      "https://www.khoslaventures.com/portfolio/",
+      "https://www.prnewswire.com/news-releases/opentrons-hires-gautam-prabhu-as-cto-to-accelerate-automated-lab-robotics-engineering-solutions-301878910.html"
     ]
   },
   {
@@ -760,12 +808,13 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Jacque Istok",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/jistok/",
     "one_line_description": "Edge-VLA models for Physical AI, sub-Jetson deployment",
     "dossier_url": "",
     "source_urls": [
-      "https://huggingface.co/enfuse/edgevla-small-fmb"
+      "https://huggingface.co/enfuse/edgevla-small-fmb",
+      "https://www.linkedin.com/in/jistok/"
     ]
   },
   {
@@ -778,14 +827,15 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Jorge Pe\u00f1a Queralta",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/jopequ/",
     "one_line_description": "Swiss agentic OS for humanoid robots, pre-seed",
     "dossier_url": "",
     "source_urls": [
       "https://binabik.ai",
       "https://binabik.ai/open-positions",
       "https://github.com/binabik-ai",
+      "https://www.linkedin.com/in/jopequ/",
       "https://www.venturekick.ch/Binabik-AI-receives-CHF-40000-from-Venture-Kick-to-accelerate-humanoid-deployment-across-industries"
     ]
   },
@@ -836,7 +886,7 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "b",
-    "buyer_name": "",
+    "buyer_name": "Yu Chao",
     "buyer_linkedin_url": "",
     "one_line_description": "Tactile humanoid VLA platform, Shenzhen, ~$28M angel",
     "dossier_url": "",
@@ -857,7 +907,7 @@
     "vla_classification": "vla_likely",
     "pain_score": 0,
     "spend_tier": "a",
-    "buyer_name": "",
+    "buyer_name": "Wu Changzheng",
     "buyer_linkedin_url": "",
     "one_line_description": "China humanoid platform building VLA models, Wuxi, post-Series B",
     "dossier_url": "",
@@ -880,13 +930,15 @@
     "vla_classification": "vla_likely",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Nicole Zhu",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/nicolezhu/",
     "one_line_description": "Open-source humanoid Asimov DIY kit Singapore lab",
     "dossier_url": "",
     "source_urls": [
       "https://github.com/menloresearch",
-      "https://menlo.ai/products/asimov"
+      "https://menlo.ai/products/asimov",
+      "https://www.humanoidsdaily.com/news/menlo-research-open-sources-asimov-v1-releasing-cad-and-simulation-files-for-the-rest-of-us",
+      "https://www.linkedin.com/in/nicolezhu/"
     ]
   },
   {
@@ -899,12 +951,13 @@
     "vla_classification": "vla_active",
     "pain_score": 1,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Byoung-Tak Zhang",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/byoung-tak-zhang-a30a6546/",
     "one_line_description": "Korean humanoid foundation-model spinout from SNU",
     "dossier_url": "",
     "source_urls": [
-      "https://github.com/Tommoro-AI"
+      "https://github.com/Tommoro-AI",
+      "https://www.linkedin.com/in/byoung-tak-zhang-a30a6546/"
     ]
   },
   {
@@ -917,13 +970,15 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Raj Abhijit Dandekar",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/raj-abhijit-dandekar-67a33118a/",
     "one_line_description": "Indian AI consultancy/training shop with SO-101 finetunes",
     "dossier_url": "",
     "source_urls": [
       "https://huggingface.co/Vizuara",
-      "https://huggingface.co/Vizuara/dreamzero-so101-lora"
+      "https://huggingface.co/Vizuara/dreamzero-so101-lora",
+      "https://www.linkedin.com/in/raj-abhijit-dandekar-67a33118a/",
+      "https://www.vizuara.com/team"
     ]
   },
   {
@@ -955,7 +1010,7 @@
     "vla_classification": "vla_active",
     "pain_score": 0,
     "spend_tier": "c",
-    "buyer_name": "",
+    "buyer_name": "Quang Nguyen",
     "buyer_linkedin_url": "",
     "one_line_description": "Edge VLA quantization non-profit",
     "dossier_url": "",
@@ -973,12 +1028,13 @@
     "vla_classification": "vla_possible",
     "pain_score": 1,
     "spend_tier": "a",
-    "buyer_name": "",
-    "buyer_linkedin_url": "",
+    "buyer_name": "Michal Maly",
+    "buyer_linkedin_url": "https://www.linkedin.com/in/michalmaly/",
     "one_line_description": "Slovak warehouse autopicker AMR fleet operator",
     "dossier_url": "",
     "source_urls": [
       "https://brightpick.ai",
+      "https://www.linkedin.com/in/michalmaly/",
       "https://www.therobotreport.com/rbr50-2024/"
     ]
   },

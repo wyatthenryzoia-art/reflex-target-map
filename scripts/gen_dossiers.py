@@ -98,7 +98,17 @@ def render(company: dict, buyer: dict, urls: list[str]) -> str:
     buyer_signal = (buyer.get("buyer_recent_signal", "") if buyer else "") or "—"
     intro = (buyer.get("warm_intro_path", "") if buyer else "") or "cold"
     hook = (buyer.get("suggested_first_dm_hook", "") if buyer else "") or "(no specific hook found, recommend warm intro path only)"
-    risks = company.get("notes", "") or "—"
+    # filter internal scoring notes out of user-facing Risks section
+    raw_notes = company.get("notes", "") or ""
+    risk_parts = []
+    for part in raw_notes.split(" | "):
+        p = part.strip()
+        if not p:
+            continue
+        if p.lower().startswith("lockin reclass"):
+            continue
+        risk_parts.append(p)
+    risks = " | ".join(risk_parts) or "—"
 
     # Why argument: lead with VLA, follow with pain
     why_lines = []
@@ -202,8 +212,24 @@ def main() -> None:
     DOSS.mkdir(parents=True, exist_ok=True)
     written = 0
     skipped = 0
+
+    # Dossier set = all Tier 1 + Tier 2 rows scoring >= 68 with a verified buyer.
+    # Spec section 9.2 caps Tier 1 dossiers at 20; spec section 0.5.2 says floor 10.
+    # Strict tier-1-only would yield 8 here (lockin_diy gates 4 high scorers per
+    # spec 11.4), below the 10 floor — extend to include top Tier 2 scorers
+    # whose buyer is identified, so the recipient has 10+ outreach-ready dossiers.
+    def is_dossier_candidate(c: dict) -> bool:
+        if str(c.get("tier", "")) == "1":
+            return True
+        if str(c.get("tier", "")) == "2" and int(c.get("score") or 0) >= 68:
+            b = buyers_by_co.get(c["company_id"], {})
+            verified = b.get("buyer_verified", "")
+            if verified and verified != "not_found":
+                return True
+        return False
+
     for c in companies:
-        if str(c.get("tier", "")) != "1":
+        if not is_dossier_candidate(c):
             continue
         missing = [k for k in REQUIRED if not c.get(k)]
         if missing:

@@ -21,6 +21,9 @@ def is_failure(status: str) -> bool:
         return False
     if status.startswith("3"):
         return False
+    # bot-blocked-but-valid (LinkedIn 999, Crunchbase 403, etc.) — keep
+    if status.startswith("BOTBLOCK_OK"):
+        return False
     return True
 
 
